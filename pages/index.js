@@ -40,6 +40,13 @@ export default function Home() {
         </Link>
       </li>
       <li>
+        <Link href="/pressoffice">
+          <a>
+           Press office
+          </a>
+        </Link>
+      </li>
+      <li>
         <Link href="/gallery">
           <a>
           Gallery
@@ -64,6 +71,25 @@ export default function Home() {
       </li>
     </ul>
        
+      <div>
+        banner section
+      </div>
+
+      <div>
+        Who we are
+
+      </div>
+      <div>
+        What we do
+
+      </div>
+      <div>
+       Where we come from
+
+      </div>
+      <div>  
+     slider
+      </div>
      
       </main>
 
