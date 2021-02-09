@@ -9,7 +9,23 @@
   },
   "dependencies": {
     "next": "10.0.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "rc-drawer": "^4.3.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.1",
+    "react-stickynode": "^3.0.4",
+    "react-waypoint": "^9.0.3",
+    "theme-ui": "^0.3.5"
+  },
+  "devDependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "prettier": "^2.1.2",
+    "next-sitemap": "^1.2.4"
   }
 }
