@@ -8,6 +8,10 @@ import theme from '../theme'
 import Layout from '../components/layout'
 import Banner from '../sections/home/banner'
 import { StickyProvider } from '../contexts/app/app.provider'
+import Whoweare from '../sections/home/whoweare'
+import Whatwedo from '../sections/home/whatwedo'
+import Wherewecomefrom from '../sections/home/wherewecomefrom'
+import Bottombanner from '../sections/home/bottombanner'
 
 export default function IndexPage() {
   return (
@@ -15,6 +19,10 @@ export default function IndexPage() {
     <StickyProvider>
     <Layout>
     <Banner/>
+    <Whoweare/>
+    <Whatwedo/>
+    <Wherewecomefrom/>
+    <Bottombanner/>
     </Layout>
     </StickyProvider>
   </ThemeProvider>

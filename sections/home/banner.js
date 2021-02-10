@@ -36,7 +36,7 @@ const styles = {
   banner: {
     pt: ['110px', null, null, null, '150px', '200px'],
     pb: ['50px', null, null, null, '60px', null, '0'],
-    backgroundColor: '#F6F8FB',
+    backgroundColor: '#101332',
     overflow: 'hidden',
   },
   container: {
@@ -49,7 +49,7 @@ const styles = {
   },
   content: {
     h3: {
-      color: 'black',
+      color: '#4CA3AD',
       fontWeight: 'bold',
       lineHeight: [1.39],
       letterSpacing: ['-.7px', '-1.5px'],

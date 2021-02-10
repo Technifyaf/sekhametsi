@@ -1,26 +1,30 @@
+import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Header from '../components/header/header'
 
-function InvestmentApproach() {
-    return  (
-        <div>
- <h1 className={styles.title}>
-Investment
-   </h1>
-    <div>
-    Investment philosophy
-    </div>
 
-    <div>
- IPO
+import { ThemeProvider } from 'theme-ui'
+import theme from '../theme'
+import Layout from '../components/layout'
+import Banner from '../sections/home/banner'
+import { StickyProvider } from '../contexts/app/app.provider'
+import Whoweare from '../sections/home/whoweare'
+import Whatwedo from '../sections/home/whatwedo'
+import Wherewecomefrom from '../sections/home/wherewecomefrom'
+import Bottombanner from '../sections/home/bottombanner'
+import Ipo from '../sections/investmentapproach/ipo'
+import Philosophy from '../sections/investmentapproach/philosophy'
 
-    </div>
-   
-    <div>  
-   slider
-    </div>
-    </div>
-    )
-  }
-  
-  export default InvestmentApproach
+export default function IndexPage() {
+  return (
+  <ThemeProvider theme ={theme}>
+    <StickyProvider>
+    <Layout>
+       <Banner/>
+      <Ipo/>
+      <Philosophy/>
+    </Layout>
+    </StickyProvider>
+  </ThemeProvider>
+  )
+}

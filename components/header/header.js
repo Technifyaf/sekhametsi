@@ -20,15 +20,17 @@ export default function Header({ className }) {
 
 					<Flex as='nav' sx={styles.nav}>
 						{menuItems.map(({ path, label }, i) => (
+						<ul>	
 							<Link
 								activeClass='active'
-								sx={styles.nav.navLink}
+								sx = {styles.nav.navLink}
 								href={path}
 							
 								key={i}
 							>
 								{label}
 							</Link>
+							</ul>
 						))}
 					</Flex>
 
@@ -70,7 +72,7 @@ const styles = {
 		},
 	},
 	header: {
-		color: 'text_white',
+		color: '#4CA3AD',
 		fontWeight: 'normal',
 		py: '25px',
 		width: '100%',
@@ -82,7 +84,7 @@ const styles = {
 
 		'&.sticky': {
 			backgroundColor: 'background',
-			color: 'text',
+			color: '#4CA3AD',
 			py: '15px',
 			boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
 		},
@@ -109,10 +111,10 @@ const styles = {
 			mr: '48px',
 			transition: '500ms',
 			':last-child': {
-				mr: '0',
+				mr: '10',
 			},
 			'&:hover, &.active': {
-				color: 'primary',
+				color: 'CFA22B',
 			},
 		},
 	},

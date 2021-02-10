@@ -21,6 +21,10 @@ export default [
       label: 'Press office',
     },
     {
+      path: '/esg',
+      label: 'ESG',
+    },
+    {
       path: '/contact',
       label: 'contact',
     },

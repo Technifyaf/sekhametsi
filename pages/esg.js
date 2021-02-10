@@ -1,28 +1,32 @@
+import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Header from '../components/header/header'
 
-function Esg() {
-    return ( <div> <h1 className={styles.title}>
-   ESG
-   </h1>
-   <div>
-      Environmental
-      </div>
 
-      <div>
- Socio-economic
+import { ThemeProvider } from 'theme-ui'
+import theme from '../theme'
+import Layout from '../components/layout'
+import Banner from '../sections/home/banner'
+import { StickyProvider } from '../contexts/app/app.provider'
+import Whoweare from '../sections/home/whoweare'
+import Whatwedo from '../sections/home/whatwedo'
+import Wherewecomefrom from '../sections/home/wherewecomefrom'
+import Bottombanner from '../sections/home/bottombanner'
+import Environment from '../sections/esg/environmental'
+import Socioeconomic from '../sections/esg/socio-economic'
+import Governance from '../sections/esg/governance'
 
-      </div>
-      <div>
-  Cooperate Governance
-
-      </div>
-      <div>  
-     slider
-      </div>
-   
-   </div>
-    )
-  }
-  
-  export default Esg
+export default function IndexPage() {
+  return (
+  <ThemeProvider theme ={theme}>
+    <StickyProvider>
+    <Layout>
+    <Banner/>
+    <Environment/>
+    <Socioeconomic/>
+    <Governance/>
+    </Layout>
+    </StickyProvider>
+  </ThemeProvider>
+  )
+}
