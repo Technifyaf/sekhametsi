@@ -26,7 +26,7 @@ export default [
     },
     {
       path: '/contact',
-      label: 'contact',
+      label: 'Contact',
     },
  ];
   

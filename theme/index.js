@@ -2,9 +2,9 @@ export default {
   // example colors with dark mode
   breakpoints: ['376px', '576px', '768px', '992px', '1200px', '1600px'],
   colors: {
-    text: '#343D48', // body color and primary color
+    text: '#FFFFFF', // body color and primary color
     text_secondary: '#02073E', // secondary body color
-    heading: '#02073E', // primary heading color
+    heading: '#4CA3AD', // primary heading color
     heading_secondary: '#343D48', // heading color
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color

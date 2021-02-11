@@ -21,8 +21,9 @@ export default function IndexPage() {
     <StickyProvider>
     <Layout>
     <Banner/>
-    <Podcasts/>
     <Articles/>
+    <Podcasts/>
+   
     </Layout>
     </StickyProvider>
   </ThemeProvider>

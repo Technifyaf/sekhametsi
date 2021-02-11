@@ -23,13 +23,13 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} All right reserved - Design &
             Developed Technify
           </Text>
+          
         </Box>
         <Box sx={styles.right}>
           <Link path="/" label="Home" />
-          <a href = "https://web.facebook.com/technifyls"> Facebook</a> 
-          <a href = "https://www.instagram.com/technifyls">Instagram</a> 
-          <a href = "https://twitter.com/TechnifyLS"> Twitter</a> 
-          <a href = "https://www.linkedin.com/company/technifylesotho/"> Linked in</a> 
+          <Link path="/faq" label="FAQs" />
+          <Link path="/financialtools" label="Resources" />
+         
         </Box>
       </Container>
     </footer>

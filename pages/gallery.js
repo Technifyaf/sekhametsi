@@ -14,6 +14,7 @@ import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
 import Events from '../sections/gallery/events'
 import Pictorial from '../sections/gallery/pictorial'
+import Marketing from '../sections/gallery/marketing'
 
 export default function IndexPage() {
   return (
@@ -23,6 +24,8 @@ export default function IndexPage() {
        <Banner/>
        <Pictorial/> 
        <Events/>
+       <Marketing/>
+       
     </Layout>
     </StickyProvider>
   </ThemeProvider>

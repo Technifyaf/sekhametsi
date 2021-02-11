@@ -1,27 +1,45 @@
 import react from 'react'
 import {Box,Flex,Heading,Text,Container} from 'theme-ui'
 
+import {
+	CarouselProvider,
+	Slider,
+	Slide,
+	ButtonBack,
+	ButtonNext,
+} from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
+import bannerImg from '../../assets/agric.jpg';
+
+import Image from '../../components/image';
+
+
 const Bottombanner = () => {
  return (
      <Box sx = {Styles.whoweare}>
 
-         <Container>
-             <Box sx ={Styles.row}>
-                 <Flex sx = {Styles.col}>
-                     <Box sx ={Styles.content}>
-                         <Box sx = {Styles.titleBox} >
-                             <Heading as="h3">
-                                Slider goes here
-                             </Heading>
-                              <Text as="p">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus felis sed urna ultrices ornare. Cras elementum risus sed cursus suscipit. Proin sem velit, blandit at maximus at, consectetur vel tellus. Vestibulum sed iaculis nulla, finibus molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut rhoncus consequat arcu id pharetra. Phasellus vitae odio nec neque laoreet lobortis et non lectus. Duis varius est eu arcu interdum commodo. Quisque pulvinar orci leo, laoreet mattis leo dignissim fringilla. Suspendisse potenti. In eget dapibus mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia odio, eget rutrum ipsum odio id tortor.
-                              </Text>
-                          </Box>
-
-                     </Box>
-
-                 </Flex>
-            </Box>
+         <Container sx ={Styles.container}>
+         <CarouselProvider
+						naturalSlideWidth={100}
+						naturalSlideHeight={30}
+						totalSlides={3}
+					>
+						<Slider>
+							<Slide index={0}>
+								<Image src={bannerImg} alt='' />
+							</Slide>
+							<Slide index={1}>
+								<Image src={bannerImg} alt='' />
+							</Slide>
+							<Slide index={2}>
+								<Image src={bannerImg} alt='' />
+							</Slide>
+						</Slider>
+						<ButtonBack>Back</ButtonBack>
+						<ButtonNext>Next</ButtonNext>
+					</CarouselProvider>
+                    
         </Container>
 
     </Box>   
@@ -38,6 +56,11 @@ const Styles = {
         pt: ['70px', null, null, '80px', '120px', null, '130px'],
         backgroundColor : 'teal'
 
-        }
+        },
+
+        container: {
+            backgroundColor :"Yellow",
+            width: [null, null, null, null, null, null, '390px'],
+        },
 
 }

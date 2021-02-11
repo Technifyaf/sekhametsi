@@ -20,10 +20,10 @@ export default function Header({ className }) {
 
 					<Flex as='nav' sx={styles.nav}>
 						{menuItems.map(({ path, label }, i) => (
-						<ul>	
+						<ul sx ={styles.nav.navLink}>	
 							<Link
 								activeClass='active'
-								sx = {styles.nav.navLink}
+								//sx = {styles.nav.navLink}
 								href={path}
 							
 								key={i}
@@ -72,7 +72,7 @@ const styles = {
 		},
 	},
 	header: {
-		color: '#4CA3AD',
+		color: '#4CA4AD',
 		fontWeight: 'normal',
 		py: '25px',
 		width: '100%',
@@ -104,17 +104,17 @@ const styles = {
 		},
 		navLink: {
 			fontSize: '16px',
-			color: '#02073E',
+			color: '#4CA4AD',
 			fontWeight: '400',
 			cursor: 'pointer',
 			lineHeight: '1.2',
-			mr: '48px',
+			mr: '0px',
 			transition: '500ms',
 			':last-child': {
 				mr: '10',
 			},
 			'&:hover, &.active': {
-				color: 'CFA22B',
+				color: '#CFA22B',
 			},
 		},
 	},

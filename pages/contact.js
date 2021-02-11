@@ -13,6 +13,7 @@ import Whatwedo from '../sections/home/whatwedo'
 import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
 import Details from '../sections/contact/details'
+import Map from '../sections/contact/Map'
 
 export default function IndexPage() {
   return (
@@ -21,6 +22,7 @@ export default function IndexPage() {
     <Layout>
      <Banner/>   
      <Details/>
+     <Map/>
     </Layout>
     </StickyProvider>
   </ThemeProvider>

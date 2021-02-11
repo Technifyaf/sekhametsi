@@ -12,17 +12,16 @@ import Whoweare from '../sections/home/whoweare'
 import Whatwedo from '../sections/home/whatwedo'
 import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
-import Ipo from '../sections/investmentapproach/ipo'
-import Philosophy from '../sections/investmentapproach/philosophy'
+import Details from '../sections/contact/details'
+import Tools from '../sections/financialtools/tools'
 
 export default function IndexPage() {
   return (
   <ThemeProvider theme ={theme}>
     <StickyProvider>
     <Layout>
-       <Banner/>
-       <Philosophy/>
-      <Ipo/>
+     <Banner/> 
+     <Tools/>  
     </Layout>
     </StickyProvider>
   </ThemeProvider>

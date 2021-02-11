@@ -6,7 +6,7 @@ import Image from '../../components/image';
 import img1 from '../../assets/agric.jpg';
 
 
-const Socioeconomic = () => {
+const Marketing = () => {
  return (
     <Box as="section" sx={styles.customerSupport}>
     <Container>
@@ -14,7 +14,7 @@ const Socioeconomic = () => {
         <Box sx={styles.col}>
           <Box sx={styles.content}>
             <Heading as="h3">
-            Pictorial
+           Marketing
             </Heading>
             <Text as="p">
             We are elsactic, agile, and lean.</Text>
@@ -40,7 +40,7 @@ const Socioeconomic = () => {
   
 
 
-export default Socioeconomic;
+export default Marketing;
 
 const styles = {
     customerSupport: {
