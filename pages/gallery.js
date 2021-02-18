@@ -23,9 +23,7 @@ export default function IndexPage() {
     <Layout>
        <Banner/>
        <Pictorial/> 
-       <Events/>
-       <Marketing/>
-       
+     
     </Layout>
     </StickyProvider>
   </ThemeProvider>

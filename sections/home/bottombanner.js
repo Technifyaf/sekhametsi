@@ -10,7 +10,7 @@ import {
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import bannerImg from '../../assets/agric.jpg';
+import bannerImg from '../../assets/banner_b.jpg';
 
 import Image from '../../components/image';
 
@@ -18,30 +18,9 @@ import Image from '../../components/image';
 const Bottombanner = () => {
  return (
      <Box sx = {Styles.whoweare}>
-
-         <Container sx ={Styles.container}>
-         <CarouselProvider
-						naturalSlideWidth={100}
-						naturalSlideHeight={30}
-						totalSlides={3}
-					>
-						<Slider>
-							<Slide index={0}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-							<Slide index={1}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-							<Slide index={2}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-						</Slider>
-						<ButtonBack>Back</ButtonBack>
-						<ButtonNext>Next</ButtonNext>
-					</CarouselProvider>
-                    
-        </Container>
-
+		<Container>
+			<Image src ={bannerImg}></Image>
+		</Container>
     </Box>   
  )
 }
@@ -54,12 +33,12 @@ const Styles = {
 
     whoweare : {
         pt: ['70px', null, null, '80px', '120px', null, '130px'],
-        backgroundColor : 'teal'
+        backgroundColor : '#101332'
 
         },
 
         container: {
-            backgroundColor :"Yellow",
+            backgroundColor :"#101332",
             width: [null, null, null, null, null, null, '390px'],
         },
 

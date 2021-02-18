@@ -43,7 +43,7 @@ const styles = {
     alignItems: 'center',
     p: {
       fontSize: [0, 1],
-      color: 'black',
+      color: 'Primary',
       opacity: 0.6,
       mt: ['10px', null, '0'],
     },
@@ -52,7 +52,7 @@ const styles = {
     display: ['none', null, null, null, 'flex'],
     fontSize: 2,
     alignItems: 'center',
-    color: 'black',
+    color: 'Primary',
     a: {
       transition: '500ms',
       '&:hover': {

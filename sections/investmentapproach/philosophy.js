@@ -12,6 +12,8 @@ const Philosophy = () => {
                              <Heading as="h3">
                                 Investment Philosophy
                              </Heading>
+                             <hr  color ="gold"></hr>
+
                               <Text as="p">
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus felis sed urna ultrices ornare. Cras elementum risus sed cursus suscipit. Proin sem velit, blandit at maximus at, consectetur vel tellus. Vestibulum sed iaculis nulla, finibus molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut rhoncus consequat arcu id pharetra. Phasellus vitae odio nec neque laoreet lobortis et non lectus. Duis varius est eu arcu interdum commodo. Quisque pulvinar orci leo, laoreet mattis leo dignissim fringilla. Suspendisse potenti. In eget dapibus mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia odio, eget rutrum ipsum odio id tortor.
                               </Text>
@@ -34,7 +36,7 @@ const Styles = {
 
     whoweare : {
         pt: ['70px', null, null, '80px', '120px', null, '130px'],
-        backgroundColor : 'yellow'
+        backgroundColor : 'background'
 
         }
 

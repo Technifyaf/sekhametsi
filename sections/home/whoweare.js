@@ -13,7 +13,8 @@ const Whoweare= () => {
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
-								<Heading as='h3'>Where we come from</Heading>
+								<Heading as='h3'>Who we are</Heading>
+								<hr  color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -47,7 +48,7 @@ export default Whoweare;
 const styles = {
 	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'red',
+		backgroundColor: '#101332',
 	},
   row: {
 		mixBlendMode: 'softlight',
@@ -57,7 +58,7 @@ const styles = {
 		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
-		backgroundColor: 'gold',
+		backgroundColor: '#101332',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
   content: {
@@ -70,7 +71,7 @@ const styles = {
   titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
-			color: 'black',
+			color: 'Primary',
 			fontSize: [5, null, null, '21px', '36px', '32px', 8],
 			lineHeight: [1.6, null, null, '1.5'],
 			fontWeight: 'bold',

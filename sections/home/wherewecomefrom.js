@@ -14,6 +14,7 @@ const Wherewecomefrom = () => {
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
 								<Heading as='h3'>Where we come from</Heading>
+								<hr  color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -47,7 +48,7 @@ export default Wherewecomefrom;
 const styles = {
 	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'red',
+		backgroundColor: '#101332',
 	},
   row: {
 		mixBlendMode: 'softlight',
@@ -57,7 +58,7 @@ const styles = {
 		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
-		backgroundColor: 'gold',
+		backgroundColor: '#101332',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
   content: {

@@ -15,6 +15,7 @@ const Whatwedo = () => {
 						<Box sx={Styles.content}>
 							<Box sx={Styles.titleBox}>
 								<Heading as='h3'>What we do</Heading>
+								<hr  color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -30,9 +31,7 @@ const Whatwedo = () => {
 									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
 									odio, eget rutrum ipsum odio id tortor.
 								</Text>
-								<Link path='/' sx={Styles.link}>
-									Learn more
-								</Link>
+								
 							</Box>
 						</Box>
 					</Flex>
@@ -50,7 +49,7 @@ export default Whatwedo;
 const Styles = {
 	whoweare: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'blue',
+		backgroundColor: '#101332',
 	},
 
 	row: {
@@ -61,7 +60,7 @@ const Styles = {
 		flexDirection: ['column', null, null, 'row-reverse'],
 	},
 	col: {
-		backgroundColor: 'teal',
+		backgroundColor: '#101332',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
 	content: {
@@ -75,7 +74,7 @@ const Styles = {
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
-			color: 'black',
+			color: 'Primary',
 			fontSize: [5, null, null, '21px', '36px', '32px', 8],
 			lineHeight: [1.6, null, null, '1.5'],
 			fontWeight: 'bold',
@@ -90,4 +89,9 @@ const Styles = {
 			mt: ['15px'],
 		},
 	},
+	/* Thick red border */
+	hr :{
+	border: '1px solid red'
+ 	 }
+	
 };

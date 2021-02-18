@@ -1,44 +1,230 @@
-import react from 'react'
-import {Box,Container,Flex,Heading,Text} from 'theme-ui'
-
-const Board = () => {
- return (
-     <Box sx = {Styles.whoweare}>
-         <Container>
-             <Box sx ={Styles.row}>
-                 <Flex sx = {Styles.col}>
-                     <Box sx ={Styles.content}>
-                         <Box sx = {Styles.titleBox} >
-                             <Heading as="h3">
-                                Board
-                             </Heading>
-                              <Text as="p">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus felis sed urna ultrices ornare. Cras elementum risus sed cursus suscipit. Proin sem velit, blandit at maximus at, consectetur vel tellus. Vestibulum sed iaculis nulla, finibus molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut rhoncus consequat arcu id pharetra. Phasellus vitae odio nec neque laoreet lobortis et non lectus. Duis varius est eu arcu interdum commodo. Quisque pulvinar orci leo, laoreet mattis leo dignissim fringilla. Suspendisse potenti. In eget dapibus mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia odio, eget rutrum ipsum odio id tortor.
-                              </Text>
-                          </Box>
-
-                     </Box>
-
-                 </Flex>
-            </Box>
-        </Container>
-
-    </Box>   
- )
-}
-  
+import react from 'react';
+import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
+import { Link } from '../../components/link';
+import TeamCard from '../../components/cards/team-card';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import SectionHeader from '../../components/sectionheading';
 
 
-export default Board;
+import Member1 from '../../assets/team/member-1.png';
+import Member2 from '../../assets/team/member-2.png';
+import Member3 from '../../assets/team/member-3.png';
+import Member4 from '../../assets/team/member-4.png';
+import Member5 from '../../assets/team/member-5.png';
+import Member6 from '../../assets/team/member-6.png';
 
-const Styles = {
-
-    whoweare : {
-        pt: ['70px', null, null, '80px', '120px', null, '130px'],
-        backgroundColor : 'blue'
-
+const data = [
+    {
+      id: 1,
+      imgSrc: Member1,
+      altText: 'Saimon Harmer',
+      title: 'Saimon Harmer',
+      designation: 'CEO and Founder',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
         },
-        
-          
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 2,
+      imgSrc: Member2,
+      altText: 'Aaron Nunez',
+      title: 'Aaron Nunez',
+      designation: 'Founder',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 3,
+      imgSrc: Member3,
+      altText: 'Aaron Nunez',
+      title: 'Aaron Nunez',
+      designation: 'Web Designer',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 4,
+      imgSrc: Member4,
+      altText: 'Lina Jutila',
+      title: 'Lina Jutila',
+      designation: 'Web Developer',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 5,
+      imgSrc: Member5,
+      altText: 'Saimon Harmer',
+      title: 'Saimon Harmer',
+      designation: 'CEO and Founder',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 6,
+      imgSrc: Member6,
+      altText: 'Aaron Nunez',
+      title: 'Aaron Nunez',
+      designation: 'Web Designer',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+  ];
 
-}
+const Story = () => {
+	return (
+
+    <Container sx = {styles.wrapper}>
+           <SectionHeader
+          slogan="The Board"
+          title="The most qualified and talented individuals"
+          
+        />
+
+      
+                <Grid sx={styles.grid}>
+          {data.map((item) => (
+            <TeamCard
+              key={`team--key${item.id}`}
+              src={item.imgSrc}
+              altText={item.altText}
+              title={item.title}
+              designation={item.designation}
+              social={item.socialProfile}
+            />
+          ))}
+        </Grid>
+            
+	</Container>
+	);
+};
+
+export default Story;
+
+const styles = {
+  wrapper: {
+		pt: ['70px', null, null, '80px', '120px', null, '130px'],
+		backgroundColor: 'background',
+	},
+	
+    grid: {
+   
+
+        mt: [0, null, -6, null, -4],
+        gridGap: ['35px 0px', null, 0, null, null, '30px 35px'],
+        gridTemplateColumns: [
+          'repeat(2,1fr)',
+          null,
+          'repeat(2,1fr)',
+          null,
+          'repeat(3,1fr)',
+        ],
+      },
+};

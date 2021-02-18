@@ -6,7 +6,7 @@ export default {
     text_secondary: '#02073E', // secondary body color
     heading: '#4CA3AD', // primary heading color
     heading_secondary: '#343D48', // heading color
-    background: '#FFFFFF', // body background color
+    background: '#101332', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
     primary: '#4CA3AD', // primary button and link color
@@ -215,4 +215,26 @@ export default {
       whiteSpace: 'nowrap !important',
     },
   },
+
+  sectionHeader: {
+    width: ['100%', null, '540px'],
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    mt: ['-3px', null, -1],
+    marginBottom: ['50px', null, '60px', null, null, '65px', null, '80px'],
+    mx: 'auto',
+    title: {
+      fontSize: ['24px', null, '28px', null, null, '32px', null, '36px'],
+      color: 'heading',
+      lineHeight: [1.3, null, null, 1.25],
+      textAlign: 'center',
+      fontWeight: '700',
+      letterSpacing: '-.5px',
+    },
+  },
+  space: [0, 5, 10, 15, 20, 25, 30, 50, 80, 100, 120, 150],
+
+  
+  
 };

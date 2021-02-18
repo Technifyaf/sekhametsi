@@ -69,6 +69,7 @@ const styles = {
 		'&:hover': {
 			color: 'white',
 			backgroundColor: 'black',
+			borderColor:'gold',
 		},
 	},
 	header: {
