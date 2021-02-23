@@ -22,7 +22,7 @@ export default [
     },
     {
       path: '/esg',
-      label: 'ES',
+      label: 'ESG',
     },
     {
       path: '/contact',

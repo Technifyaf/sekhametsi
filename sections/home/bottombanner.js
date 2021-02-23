@@ -12,9 +12,9 @@ import {
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import slide_1 from '../../assets/sekhametsi.jpg';
-import slide_2 from '../../assets/sekhametsi_2.jpg';
-import slide_3 from '../../assets/sekhametsi_3.jpg';
-import slide_4 from '../../assets/sekhametsi_4.jpg';
+import slide_2 from '../../assets/sekhametsi2.jpg';
+import slide_3 from '../../assets/sekhametsi3.jpg';
+import slide_4 from '../../assets/sekhametsi4.jpg';
 
 import Image from '../../components/image';
 
