@@ -23,7 +23,7 @@ export default function IndexPage() {
     <Banner/>
     <Environment/>
     <Socioeconomic/>
-    <Bottombanner/>
+   
 
     </Layout>
     </StickyProvider>

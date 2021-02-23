@@ -19,10 +19,7 @@ export default function IndexPage() {
     <StickyProvider>
     <Layout>
     <Banner/>
-    <Whoweare/>
-    <Whatwedo/>
-    <Wherewecomefrom/>
-    <Bottombanner/>
+    
     </Layout>
     </StickyProvider>
   </ThemeProvider>

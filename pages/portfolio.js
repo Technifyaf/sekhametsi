@@ -27,7 +27,7 @@ export default function IndexPage() {
     <FinancialServices/>
     <Textiles/>
     <Telecomms/>
-    <Bottombanner/>
+   
     </Layout>
     </StickyProvider>
   </ThemeProvider>
