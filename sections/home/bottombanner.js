@@ -11,10 +11,6 @@ import {
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-import slide_1 from '../../assets/sekhametsi.jpg';
-import slide_2 from '../../assets/sekhametsi2.jpg';
-import slide_3 from '../../assets/sekhametsi3.jpg';
-import slide_4 from '../../assets/sekhametsi4.jpg';
 
 import Image from '../../components/image';
 
@@ -31,18 +27,7 @@ const Bottombanner = () => {
                 isPlaying
             >
                 <Slider>
-                    <Slide index={0}>
-                        <Image src={slide_1} alt='' />
-                    </Slide>
-                    <Slide index={1}>
-                        <Image src={slide_2} alt='' />
-                    </Slide>
-                    <Slide index={2}>
-                        <Image src={slide_3} alt='' />
-                    </Slide>
-                    <Slide index={3}>
-                        <Image src={slide_4} alt='' />
-                    </Slide>
+                  
                   
                 </Slider>
                 <DotGroup />
