@@ -14,7 +14,6 @@ import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
 import Environment from '../sections/esg/environmental'
 import Socioeconomic from '../sections/esg/socio-economic'
-import Governance from '../sections/esg/governance'
 
 export default function IndexPage() {
   return (
@@ -24,7 +23,8 @@ export default function IndexPage() {
     <Banner/>
     <Environment/>
     <Socioeconomic/>
-    <Governance/>
+    <Bottombanner/>
+
     </Layout>
     </StickyProvider>
   </ThemeProvider>

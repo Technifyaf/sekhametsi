@@ -1,20 +1,22 @@
 import react from 'react';
-import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
+import { Box, Container, Flex, Heading, Text } from 'theme-ui';
 import { Link } from '../../components/link';
+
 import Image from '../../components/image';
 
 import img1 from '../../assets/agric.jpg';
 
-const Story = () => {
+const Governance = () => {
 	return (
-		<Box as='section' sx={styles.wrapper}>
+		
 			<Container>
-				<Box sx={styles.row}>
-					<Flex sx={styles.col}>
-							<Box sx={styles.content}>
-              <Box sx ={styles.titleBox}>
+				<Box sx={Styles.row}>
+					<Flex sx={Styles.col}>
+						<Box sx={Styles.content}>
+							<Box sx={Styles.titleBox}>
 								<Heading as='h3'>Governance</Heading>
                 <hr  color ="gold"></hr>
+
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -30,48 +32,50 @@ const Story = () => {
 									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
 									odio, eget rutrum ipsum odio id tortor.
 								</Text>
+								
 							</Box>
-              </Box>
-	
+						</Box>
 					</Flex>
-					<Flex sx={styles.col}>
+					<Flex sx={Styles.col}>
 						<Image src={img1} alt='' />
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+		
 	);
 };
 
-export default Story;
+export default Governance;
 
-const styles = {
-	wrapper: {
+const Styles = {
+	whoweare: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'bacground',
+		backgroundColor: 'background]',
 	},
-  row: {
+
+	row: {
 		mixBlendMode: 'softlight',
 		backgroundColor: 'black',
 		display: 'flex',
 		flexWrap: 'wrap',
-		flexDirection: ['column', null, null, 'row'],
+		flexDirection: ['column', null, null, 'row-reverse'],
 	},
 	col: {
 		backgroundColor: 'background',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
-  content: {
+	content: {
 		width: '100%',
-		textAlign: ['left', null, 'justify', null, 'left'],
+		textAlign: ['left', null, null, null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
+
 	},
-  titleBox: {
+	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
-			color: 'primary',
+			color: 'Primary',
 			fontSize: [5, null, null, '21px', '36px', '32px', 8],
 			lineHeight: [1.6, null, null, '1.5'],
 			fontWeight: 'bold',

@@ -14,13 +14,13 @@ export default {
     black: '#0F2137', // black color
     gray: '#F8FAFC',
     muted: '#7B8188', // muted color
-    accent: '#609', // a contrast color for emphasizing UI
+    accent: 'gold', // a contrast color for emphasizing UI
   },
   fonts: {
-    body: 'DM Sans',
-    // body:
-    //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'DM Sans',
+ //   body: 'DM Sans',
+   body:
+    'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    heading: 'sans-serif',
     special: 'Playfair Display',
     // heading: 'Bree Serif',
     monospace: 'Menlo, monospace',

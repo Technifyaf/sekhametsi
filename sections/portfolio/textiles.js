@@ -7,14 +7,15 @@ import img1 from '../../assets/agric.jpg';
 
 const Story = () => {
 	return (
-		<Box as='section' sx={styles.wrapper}>
+		
 			<Container>
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
 								<Heading as='h3'>Textiles</Heading>
-                <hr  color ="gold"></hr>
+								<hr  align = "left" width ="150px "color ="gold"></hr>
+
 
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -40,7 +41,7 @@ const Story = () => {
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+		
 	);
 };
 
@@ -66,7 +67,7 @@ const styles = {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 	},
   titleBox: {

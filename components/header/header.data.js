@@ -2,11 +2,11 @@ export default [
 
     {
       path: '/whoweare',
-      label: 'Who we are',
+      label: 'Our story',
     },
     {
       path: '/investmentapproach',
-      label: 'Investment Approach',
+      label: 'Investment approach',
     },
     {
       path: '/portfolio',
@@ -22,7 +22,7 @@ export default [
     },
     {
       path: '/esg',
-      label: 'ESG',
+      label: 'ES',
     },
     {
       path: '/contact',

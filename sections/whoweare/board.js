@@ -178,7 +178,7 @@ const data = [
     },
   ];
 
-const Story = () => {
+const Board = () => {
 	return (
 
     <Container sx = {styles.wrapper}>
@@ -206,7 +206,7 @@ const Story = () => {
 	);
 };
 
-export default Story;
+export default Board;
 
 const styles = {
   wrapper: {

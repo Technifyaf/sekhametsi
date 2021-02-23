@@ -6,16 +6,19 @@ import Image from '../../components/image';
 
 import img1 from '../../assets/agric.jpg';
 
+
+
 const Whatwedo = () => {
 	return (
-		<Box sx={Styles.whoweare}>
+	
 			<Container>
+			
 				<Box sx={Styles.row}>
 					<Flex sx={Styles.col}>
 						<Box sx={Styles.content}>
 							<Box sx={Styles.titleBox}>
 								<Heading as='h3'>What we do</Heading>
-								<hr  color ="gold"></hr>
+								<hr  align = "left" width ="200px "color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -40,7 +43,7 @@ const Whatwedo = () => {
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+	
 	);
 };
 
@@ -49,7 +52,7 @@ export default Whatwedo;
 const Styles = {
 	whoweare: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: '#101332',
+		backgroundColor: 'yellow',
 	},
 
 	row: {
@@ -66,8 +69,10 @@ const Styles = {
 	content: {
 		width: '100%',
 		textAlign: ['left', null, null, null, 'left'],
+	
 		pt: [null, null, null, null, null, '100px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 
 	},

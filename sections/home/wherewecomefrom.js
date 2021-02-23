@@ -7,14 +7,14 @@ import img1 from '../../assets/agric.jpg';
 
 const Wherewecomefrom = () => {
 	return (
-		<Box as='section' sx={styles.wrapper}>
+		
 			<Container>
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
-								<Heading as='h3'>Where we come from</Heading>
-								<hr  color ="gold"></hr>
+								<Heading as='h3'>Financial tools</Heading>
+								<hr  align = "left" width ="250px "color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -39,7 +39,7 @@ const Wherewecomefrom = () => {
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+
 	);
 };
 
@@ -65,7 +65,7 @@ const styles = {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 	},
   titleBox: {

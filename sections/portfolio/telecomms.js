@@ -8,14 +8,15 @@ import img1 from '../../assets/agric.jpg';
 
 const Telecomms = () => {
 	return (
-		<Box sx={Styles.whoweare}>
+	
 			<Container>
 				<Box sx={Styles.row}>
 					<Flex sx={Styles.col}>
 						<Box sx={Styles.content}>
 							<Box sx={Styles.titleBox}>
 								<Heading as='h3'>Telecommunication</Heading>
-                <hr  color ="gold"></hr>
+								<hr  align = "left" width ="300px "color ="gold"></hr>
+
 
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -43,7 +44,7 @@ const Telecomms = () => {
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+		
 	);
 };
 

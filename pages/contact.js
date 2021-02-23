@@ -22,7 +22,7 @@ export default function IndexPage() {
     <Layout>
      <Banner/>   
      <Details/>
-     <Map/>
+     <Bottombanner/>
     </Layout>
     </StickyProvider>
   </ThemeProvider>

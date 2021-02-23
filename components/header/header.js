@@ -35,7 +35,7 @@ export default function Header({ className }) {
 					</Flex>
 
 					<a
-						href='#'
+						href='/faq'
 						ml={2}
 						label='Get Technified'
 						sx={styles.headerBtn}

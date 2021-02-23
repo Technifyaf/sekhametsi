@@ -2,6 +2,8 @@ import react from 'react';
 import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
 import { Link } from '../../components/link';
 import Image from '../../components/image';
+import BlockTitle from '../../components/block-title';
+
 
 
 import {
@@ -10,6 +12,7 @@ import {
 	Slide,
 	ButtonBack,
 	ButtonNext,
+	DotGroup
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
@@ -20,10 +23,15 @@ const Pictorial = () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
+			<BlockTitle
+          title="If you want to fast go alone, if you want to far go together"
+          text="The story of sekahmetsi"
+        />
 			<CarouselProvider
 						naturalSlideWidth={100}
 						naturalSlideHeight={50}
 						totalSlides={3}
+						isPlaying
 					>
 						<Slider>
 							<Slide index={0}>
@@ -36,8 +44,7 @@ const Pictorial = () => {
 								<Image src={bannerImg} alt='' />
 							</Slide>
 						</Slider>
-						<ButtonBack>Back</ButtonBack>
-						<ButtonNext>Next</ButtonNext>
+						<DotGroup/>
 					</CarouselProvider>
 			</Container>
 		</Box>

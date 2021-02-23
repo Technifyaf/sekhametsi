@@ -11,19 +11,22 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import Image from '../../components/image';
 
-import bannerImg from '../../assets/banner_b.jpg';
+import bannerImg from '../../assets/slide.jpg';
+
+
 
 const Banner = () => {
 	return (
 		<Box sx={styles.banner} id='banner'>
-			<Container>
-			
+		
+		
 					<CarouselProvider
 						naturalSlideWidth={100}
 						naturalSlideHeight={50}
 						totalSlides={3}
 					>
 						<Slider>
+							
 							<Slide index={0}>
 								<Image src={bannerImg} alt='' />
 							</Slide>
@@ -36,7 +39,7 @@ const Banner = () => {
 						</Slider>
 						
 					</CarouselProvider>
-			</Container>
+			
 			
 		</Box>
 	);
@@ -48,10 +51,13 @@ const styles = {
 	banner: {
 		pt: ['110px', null, null, null, '150px', '100px'],
 		pb: ['50px', null, null, null, '0', null, '0'],
-		backgroundColor: '#101332',
+		backgroundColor: 'background',
 		overflow: 'hidden',
+	
+		//backgroundSize: ['100%', null, null, null, 'cover'],
 	},
 	container: {
+		backgroundColor: 'green',
 		width: [null, null, null, null, null, null, '1390px'],
 	},
 	grid: {

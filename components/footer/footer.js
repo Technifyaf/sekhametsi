@@ -21,7 +21,7 @@ export default function Footer() {
         
           <Text as="p">
             &copy; {new Date().getFullYear()} All right reserved - Design &
-            Developed Technify
+            Developed by Creativ lab
           </Text>
           
         </Box>

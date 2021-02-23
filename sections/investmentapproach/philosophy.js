@@ -1,10 +1,16 @@
 import react from 'react'
 import {Box,Container,Flex,Heading,Text} from 'theme-ui'
+import BlockTitle from '../../components/block-title';
+
 
 const Philosophy = () => {
  return (
      <Box sx = {Styles.whoweare}>
          <Container>
+         <BlockTitle
+          title="If you want to fast go alone, if you want to far go together"
+          text="The story of sekahmetsi"
+        />
              <Box sx ={Styles.row}>
                  <Flex sx = {Styles.col}>
                      <Box sx ={Styles.content}>

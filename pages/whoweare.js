@@ -16,6 +16,7 @@ import Story from '../sections/whoweare/story'
 import Future from '../sections/whoweare/future'
 import Board from '../sections/whoweare/board'
 import History from '../sections/whoweare/history'
+import Governance from '../sections/whoweare/governance'
 
 export default function IndexPage() {
   return (
@@ -26,8 +27,10 @@ export default function IndexPage() {
       <Story/>
       <History/>
       <Future/>
+      <Governance/>
       <Board/>
-   
+      <Bottombanner/>
+
     </Layout>
     </StickyProvider>
   </ThemeProvider>

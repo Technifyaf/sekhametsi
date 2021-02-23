@@ -4,17 +4,25 @@ import { Link } from '../../components/link';
 import Image from '../../components/image';
 
 import img1 from '../../assets/agric.jpg';
+import {Loader, LoaderOptions} from 'google-maps';
+import BlockTitle from '../../components/block-title';
+
 
 const Whoweare= () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
+			
 			<Container>
+			<BlockTitle
+          title="If you want to fast go alone, if you want to far go together"
+          text="The story of sekahmetsi"
+        />
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
 								<Heading as='h3'>Who we are</Heading>
-								<hr  color ="gold"></hr>
+								<hr  align = "left" width ="200px "color ="gold"></hr>
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -35,7 +43,9 @@ const Whoweare= () => {
 	
 					</Flex>
 					<Flex sx={styles.col}>
+				
 						<Image src={img1} alt='' />
+					
 					</Flex>
 				</Box>
 			</Container>
@@ -48,7 +58,7 @@ export default Whoweare;
 const styles = {
 	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: '#101332',
+		backgroundColor: 'background',
 	},
   row: {
 		mixBlendMode: 'softlight',
@@ -58,15 +68,16 @@ const styles = {
 		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
-		backgroundColor: '#101332',
+	//	height : '100px',
+		backgroundColor: 'background',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
   content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
+   		pr: [null, null, null, null, null, '60px', '140px'],
 	},
   titleBox: {
 		textAlign: ['center', null, null, 'left'],

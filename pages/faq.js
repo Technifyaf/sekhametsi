@@ -22,6 +22,8 @@ export default function IndexPage() {
     <Layout>
      <Banner/>   
      <Questions/>
+     <Bottombanner/>
+
     </Layout>
     </StickyProvider>
   </ThemeProvider>

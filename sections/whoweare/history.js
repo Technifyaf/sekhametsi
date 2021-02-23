@@ -8,7 +8,7 @@ import img1 from '../../assets/agric.jpg';
 
 const Whatwedo = () => {
 	return (
-		<Box sx={Styles.whoweare}>
+	
 			<Container>
 				<Box sx={Styles.row}>
 					<Flex sx={Styles.col}>
@@ -32,9 +32,7 @@ const Whatwedo = () => {
 									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
 									odio, eget rutrum ipsum odio id tortor.
 								</Text>
-								<Link path='/' sx={Styles.link}>
-									Learn more
-								</Link>
+								
 							</Box>
 						</Box>
 					</Flex>
@@ -43,7 +41,7 @@ const Whatwedo = () => {
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+		
 	);
 };
 
@@ -71,6 +69,7 @@ const Styles = {
 		textAlign: ['left', null, null, null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 
 	},

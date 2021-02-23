@@ -4,18 +4,29 @@ import { Link } from '../../components/link';
 
 import Image from '../../components/image';
 
-import img1 from '../../assets/agric.jpg';
+import img1 from '../../assets/banner_b.jpg';
+
+import {
+	CarouselProvider,
+	Slider,
+	Slide,
+	ButtonBack,
+	ButtonNext,
+	DotGroup
+} from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const Financialservices = () => {
 	return (
-		<Box sx={Styles.whoweare}>
+	
 			<Container>
 				<Box sx={Styles.row}>
 					<Flex sx={Styles.col}>
 						<Box sx={Styles.content}>
 							<Box sx={Styles.titleBox}>
 								<Heading as='h3'>Financial Services</Heading>
-                <hr  color ="gold"></hr>
+								<hr  align = "left" width ="300px "color ="gold"></hr>
+
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 									dapibus felis sed urna ultrices ornare. Cras elementum risus
@@ -31,18 +42,38 @@ const Financialservices = () => {
 									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
 									odio, eget rutrum ipsum odio id tortor.
 								</Text>
-								<Link path='/' sx={Styles.link}>
-									Learn more
-								</Link>
+								
 							</Box>
 						</Box>
 					</Flex>
 					<Flex sx={Styles.col}>
-						<Image src={img1} alt='' />
+							<Container sx={Styles.slider}>
+			<CarouselProvider
+						naturalSlideWidth={90}
+						naturalSlideHeight={100}
+						totalSlides={3}
+						isPlaying
+					>
+						<Slider>
+							<Slide index={0}>
+							<Image src={img1} alt='' />
+							</Slide>
+							<Slide index={1}>
+							<Image src={img1} alt='' />
+							</Slide>
+							<Slide index={2}>
+							<Image src={img1} alt='' />
+							</Slide>
+						</Slider>
+						<DotGroup/>
+						
+					</CarouselProvider>
+			</Container>
+					
 					</Flex>
 				</Box>
 			</Container>
-		</Box>
+	
 	);
 };
 
@@ -72,6 +103,11 @@ const Styles = {
 		pl: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 
+	},
+	slider :{
+
+		pl: [null, null, null, null, null, '0px', '10px'],
+		pr: [null, null, null, null, null, '0px', '10px']
 	},
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],

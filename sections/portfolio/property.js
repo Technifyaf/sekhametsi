@@ -3,18 +3,37 @@ import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
 import { Link } from '../../components/link';
 import Image from '../../components/image';
 
-import img1 from '../../assets/agric.jpg';
+import img1 from '../../assets/banner_b.jpg';
+import BlockTitle from '../../components/block-title';
+
+
+import {
+	CarouselProvider,
+	Slider,
+	Slide,
+	DotGroup,
+	ButtonBack,
+	ButtonNext,
+} from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 
 const Property = () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
+			<BlockTitle
+          title="If you want to fast go alone, if you want to far go together"
+          text="The story of sekahmetsi"
+        />
+		
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
               <Box sx ={styles.titleBox}>
 								<Heading as='h3'>Property</Heading>
-                <hr  color ="gold"></hr>
+								<hr  align = "left" width ="150px "color ="gold"></hr>
+
 
 								<Text as='p'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
@@ -36,7 +55,29 @@ const Property = () => {
 	
 					</Flex>
 					<Flex sx={styles.col}>
-						<Image src={img1} alt='' />
+					<Container sx={styles.slider}>
+			<CarouselProvider
+						naturalSlideWidth={90}
+						naturalSlideHeight={100}
+						totalSlides={3}
+						isPlaying
+					>
+						<Slider>
+							<Slide index={0}>
+							<Image src={img1} alt='' />
+							</Slide>
+							<Slide index={1}>
+							<Image src={img1} alt='' />
+							</Slide>
+							<Slide index={2}>
+							<Image src={img1} alt='' />
+							</Slide>
+						</Slider>
+						<DotGroup/>
+						
+					</CarouselProvider>
+			</Container>
+					
 					</Flex>
 				</Box>
 			</Container>
@@ -59,15 +100,20 @@ const styles = {
 		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
-		backgroundColor: 'blav',
+		backgroundColor: 'background',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
   content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
+   		pr: [null, null, null, null, null, '60px', '140px'],
+	},
+	slider :{
+
+		pr: [null, null, null, null, null, '0px', '10px'],
+		pl: [null, null, null, null, null, '0px', '10px'],
 	},
   titleBox: {
 		textAlign: ['center', null, null, 'left'],

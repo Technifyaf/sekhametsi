@@ -23,6 +23,8 @@ export default function IndexPage() {
        <Banner/>
        <Philosophy/>
       <Ipo/>
+      <Bottombanner/>
+
     </Layout>
     </StickyProvider>
   </ThemeProvider>

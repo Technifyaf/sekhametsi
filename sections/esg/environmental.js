@@ -2,6 +2,8 @@ import react from 'react';
 import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
 import { Link } from '../../components/link';
 import Image from '../../components/image';
+import BlockTitle from '../../components/block-title';
+
 
 import img1 from '../../assets/agric.jpg';
 
@@ -9,6 +11,10 @@ const Story = () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
+			<BlockTitle
+          title="If you want to fast go alone, if you want to far go together"
+          text="The story of sekahmetsi"
+        />
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 							<Box sx={styles.content}>
@@ -65,7 +71,7 @@ const styles = {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 	},
   titleBox: {
