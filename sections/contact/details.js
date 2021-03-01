@@ -14,7 +14,7 @@ const Philosophy = () => {
                              </Heading>
                              <hr  color ="gold"></hr>
 
-                             <ul>
+                             <ul sx={Styles.listitem}>
 								 <li> Phone : +266 53094658</li>
 								 <li> Email : + info@gmail.com</li>
 								 <li> Address : Industrial Area</li>
@@ -41,6 +41,9 @@ const Styles = {
         pt: ['70px', null, null, '80px', '120px', null, '130px'],
         backgroundColor : 'background'
 
-        }
+        },
+         listitem:{
+         listStyle:'none'
+     }
 
 }

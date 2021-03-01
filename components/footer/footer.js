@@ -20,8 +20,8 @@ export default function Footer() {
         <Box sx={styles.left}>
         
           <Text as="p">
-            &copy; {new Date().getFullYear()} All right reserved - Design &
-            Developed by Creativ lab
+            &copy; {new Date().getFullYear()} All right reserved - Designed &
+            Developed by Creative lab
           </Text>
           
         </Box>

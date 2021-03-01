@@ -1,66 +1,96 @@
+/** @jsxRuntime classic */
+
+/** @jsx jsx */
+
 import React from 'react';
-import { Box, Container, Grid, Button, Input, Heading, Text } from 'theme-ui';
+import {
+	Box,
+	Container,
+	Grid,
+	Button,
+	Input,
+	Heading,
+	Text,
+	Flex,
+	jsx,
+} from 'theme-ui';
 
 import Image from '../../components/image';
 
 import bannerImg from '../../assets/slide.jpg';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/captioned.css';
+
+
 
 const slides = [
-	
-		{
-			title: 'Who we are',
-			description:
-				'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
-			button: 'Read More',
-			image: bannerImg,
-			user: 'Daniel',
-			userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		},
-		{
-			title: 'What we do',
-			description:
-				'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.',
-			button: 'Discover',
-			image: 'https://i.imgur.com/DCdBXcq.jpg',
-			user: 'Samantha',
-			userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
-		},
-		{
-			title: 'Our gift section',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
-			button: 'Buy now',
-			image: 'https://i.imgur.com/DvmN8Hx.jpg',
-			user: 'Michael',
-			userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
-		},
-		
-		
-	
+	{
+		title: 'Who we are',
+		description:
+			'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
+		button: 'Read More',
+		image: bannerImg,
+		user: 'Daniel',
+		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+	},
+	{
+		title: 'What we do',
+		description:
+			'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.',
+		button: 'Discover',
+		image: 'https://i.imgur.com/DCdBXcq.jpg',
+		user: 'Samantha',
+		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
+	},
+	{
+		title: 'Our gift section',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+		button: 'Discover',
+		image: 'https://i.imgur.com/DvmN8Hx.jpg',
+		user: 'Michael',
+		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
+	},
 ];
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 const Banner = () => {
 	return (
-		<Box sx={styles.banner} id='banner'>
-			
-			<Slider autoplay={1000}>
+		<Box sx={styles.banner}>
+		<Box sx ={styles.content}>
+			<AutoplaySlider sx ={styles.slider}
+			play={true}
+			cancelOnInteraction={false} // should stop playing on user interaction
+			interval={2000}
+		
+
+			>
 				{slides.map((item, index) => (
-					<Box sx = {styles.container}
+					<Box
+					
 						key={index}
 						style={{
-							background: `url('${item.image}') no-repeat center center`,
+						//	background: 
+							background : `url('${item.image}') top `,
+						//	backgroundSize : '50%'
+							
 						}}
 					>
 						<Box sx ={styles.slide}>
-							<h1>{item.title}</h1>
-							<p>{item.description}</p>
-							<Button>{item.button}</Button>
-						</Box>
+						 <h1>{item.title}</h1>
+            <p>{item.description}</p>
+            <Button>{item.button}</Button>
+			</Box>
+				
 					</Box>
 				))}
-			</Slider>
-		
+			</AutoplaySlider>
+			</Box>
 			</Box>
 		
 	);
@@ -71,14 +101,18 @@ export default Banner;
 const styles = {
 	banner: {
 		pt: ['110px', null, null, null, '150px', '100px'],
-		pb: ['50px', null, null, null, '0', null, '0'],
+		pb: ['100px', null, null, null, '0', null, '0'],
+	//	height: '100px',
+
+		//	marginTop : '200px',
 		backgroundColor: 'background',
-		overflow: 'hidden',
-		backgroundSize: ['100%', null, null, null, 'cover'],
+		//overflow: 'hidden',
+		//backgroundSize: ['100%', 'cover', 'cover', null, 'cover'],
+		//backgroundSize: '600px',
 	},
 	container: {
 		backgroundColor: 'green',
-		width: [null, null, null, null, null, null, '1390px'],
+		//width: [null, null, null, null, null, null, '490px'],
 	},
 	grid: {
 		backgroundColor: 'gold',
@@ -164,11 +198,15 @@ const styles = {
 		},
 	},
 
-	slide:{
-		display :'flex',
-		flexDirection :'column',
-		alignItems : 'center',
-		marginTop : '100px'
-
-	}
+	slide: {
+		display: 'flex',
+		flexDirection: 'column',
+	//	alignItems: 'center',
+		//marginTop: '100px',
+	},
+	slider: {
+		backgroundColor :"gold",
+		display : 'in-line block',
+		height: '600px',
+	},
 };

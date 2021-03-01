@@ -41,8 +41,7 @@ export default function Header({ className }) {
 						sx={styles.headerBtn}
 						variant='buttons.primary'
 					>
-					Ask a question
-					</a>
+FAQ					</a>
 					
 
 					<MobileDrawer />
@@ -68,8 +67,8 @@ const styles = {
 		mr: ['0', null, null, '20px', '0'],
 		'&:hover': {
 			color: 'white',
-			backgroundColor: 'black',
-			borderColor:'gold',
+			backgroundColor: 'secondary',
+			borderColor:'secondary',
 		},
 	},
 	header: {

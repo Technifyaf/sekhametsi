@@ -13,7 +13,11 @@ class CustomDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
             rel="stylesheet"
+
+            
           />
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
         </Head>
         <body>
           <Main />

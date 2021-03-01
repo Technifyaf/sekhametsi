@@ -14,6 +14,7 @@ import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
 import Podcasts from '../sections/pressoffice/podcast'
 import Articles from '../sections/pressoffice/articles'
+import BlogSection from '../sections/pressoffice/blog-section'
 
 export default function IndexPage() {
   return (
@@ -21,10 +22,8 @@ export default function IndexPage() {
     <StickyProvider>
     <Layout>
     <Banner/>
-    <Articles/>
     <Podcasts/>
-    
-
+    <Articles/>
     </Layout>
     </StickyProvider>
   </ThemeProvider>

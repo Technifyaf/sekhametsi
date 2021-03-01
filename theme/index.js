@@ -10,11 +10,11 @@ export default {
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E9EDF5', // border color
     primary: '#4CA3AD', // primary button and link color
-    secondary: '#793677', // secondary color - can be used for hover states
+    secondary: '#CFA22B', // secondary color - can be used for hover states
     black: '#0F2137', // black color
     gray: '#F8FAFC',
     muted: '#7B8188', // muted color
-    accent: 'gold', // a contrast color for emphasizing UI
+    accent: '#CFA22B', // a contrast color for emphasizing UI
   },
   fonts: {
  //   body: 'DM Sans',
