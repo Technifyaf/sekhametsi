@@ -11,6 +11,7 @@ const PopularCard = (props) => {
   const [status, setStatus] = useState(props.expanded);
   const handleClick = () => {
     setStatus(!status);
+    console.log('Clicked')
   };
   return (
     <Box

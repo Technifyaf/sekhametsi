@@ -4,7 +4,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from '../drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
-import { Link } from '../link';
+import Link from 'next/link'
 import { Facebook, Twitter, Github, Dribbble } from '../customIcon';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import menuItems from './header.data';
@@ -59,17 +59,17 @@ const MobileDrawer = () => {
           <Logo src={LogoDark} />
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
-              <ScrollLink
-                activeClass="active"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={10}
-                duration={500}
-                key={i}
-              >
-                {label}
-              </ScrollLink>
+             <ul sx={styles.nav.navLink}>	
+             <Link
+               activeClass='active'
+               //sx = {styles.nav.navLink}
+               href={path}
+             
+               key={i}
+             >
+               {label}
+             </Link>
+             </ul>
             ))}
           </Box>
 
@@ -96,6 +96,27 @@ const styles = {
       display: 'none',
     },
   },
+  nav: {
+		mx: 'auto',
+		'@media screen and (max-width: 960px)': {
+			display: 'none',
+		},
+		navLink: {
+			fontSize: '16px',
+			color: '#4CA4AD',
+			fontWeight: '400',
+			cursor: 'pointer',
+			lineHeight: '1.2',
+			mr: '0px',
+			transition: '500ms',
+			':last-child': {
+				mr: '10',
+			},
+			'&:hover, &.active': {
+				color: '#CFA22B',
+			},
+		},
+	},
 
   drawer: {
     width: '100%',

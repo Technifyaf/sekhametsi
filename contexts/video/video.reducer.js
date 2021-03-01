@@ -2,7 +2,7 @@ export const initialState = {
   isOpen: false,
   url: '',
 };
-
+const print = console.log('inside reducer');
 export function reducer(state, { type, url }) {
   switch (type) {
     case 'SET_OPEN':
@@ -10,6 +10,7 @@ export function reducer(state, { type, url }) {
         ...state,
         isOpen: true,
         url,
+        print
       };
     case 'SET_CLOSE':
       return {
