@@ -83,7 +83,7 @@ const FAQ = () => {
       <Container>
         <BlockTitle
           title="Frequently asked questions"
-          text="Ask your question and meet"
+          text="Ask your question and get a response a"
         />
         <Flex sx={styles.flex}>
           <Box sx={styles.faqWrapper}>
@@ -97,7 +97,8 @@ const FAQ = () => {
               If your question is not list here, please feel free to make a
               manual support.
             </Text>
-            <Link sx={styles.askButton} path="#">
+            <Link sx={styles.askButton} path="/question">
+              
               Ask your Question
             </Link>
           </Box>

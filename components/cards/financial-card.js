@@ -1,11 +1,12 @@
-import { Box, Image, Heading, Text } from 'theme-ui';
+import { Box, Image, Heading, Text, Button } from 'theme-ui';
 import React from 'react';
 import { Link } from '../link';
 import VideoBtn from '../../components/video-btn';
 import { FaStar } from 'react-icons/fa';
 import eyeIcon from '../../assets/icons/eye-2.svg';
 
-const FavoriteCard = (props) => {
+
+const FinancialCard = (props) => {
   return (
     <Box sx={styles.fevCard}>
       <Box sx={styles.fevCard.image}>
@@ -17,22 +18,35 @@ const FavoriteCard = (props) => {
           sx={styles.fevCard.stars}
           className={`starCount-${props.starCount}`}
         >
-          
+         
         </Box>
+        <Box sx={styles.row}>
         <Heading as="h3">
-          <Link path="/" label={props.title} />
+          <Text > {props.title}</Text>
         </Heading>
         <Text as="p">
           <Image src={eyeIcon} alt="" /> {props.watchCount}
         </Text>
+        </Box>
+        <Box>
+         <a href ={props.videoLink}>
+        <Button sx={styles.button}> Download</Button>
+        </a> 
+        </Box>
       </Box>
     </Box>
   );
 };
 
-export default FavoriteCard;
+export default FinancialCard;
 
 const styles = {
+    row :{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+
+    },
   fevCard: {
     backgroundColor: '#fff',
     transition: '500ms',
@@ -92,6 +106,11 @@ const styles = {
           marginRight: '15px',
         },
       },
+    },
+    button :{
+        
+        marginTop : 2,
+        alignItems: 'center',
     },
     stars: {
       display: 'flex',

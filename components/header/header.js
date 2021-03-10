@@ -20,13 +20,14 @@ export default function Header({ className }) {
 
 					<Flex as='nav' sx={styles.nav}>
 						{menuItems.map(({ path, label }, i) => (
-						<ul sx ={styles.nav.navLink}>	
+						<ul sx ={styles.nav.navLink}
+						>	
 							<Link
 								activeClass='active'
 								//sx = {styles.nav.navLink}
 								href={path}
-							
 								key={i}
+							
 							>
 								{label}
 							</Link>

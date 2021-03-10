@@ -10,8 +10,8 @@ import playbutton from '../../assets/icons/play-circle-solid.svg'
 const PopularCard = (props) => {
   const [status, setStatus] = useState(props.expanded);
   const handleClick = () => {
-    setStatus(!status);
-    console.log('Clicked')
+    setStatus(!status)
+    
   };
   return (
     <Box

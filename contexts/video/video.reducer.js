@@ -3,6 +3,7 @@ export const initialState = {
   url: '',
 };
 const print = console.log('inside reducer');
+
 export function reducer(state, { type, url }) {
   switch (type) {
     case 'SET_OPEN':

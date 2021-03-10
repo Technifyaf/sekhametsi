@@ -24,6 +24,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/captioned.css';
+import { Link } from 'react-scroll';
 
 
 
@@ -36,6 +37,7 @@ const slides = [
 		image: bannerImg,
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		link : '/whoweare'
 	},
 	{
 		title: 'What we do',
@@ -45,6 +47,8 @@ const slides = [
 		image: 'https://i.imgur.com/DCdBXcq.jpg',
 		user: 'Samantha',
 		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
+		link : '/whoweare'
+
 	},
 	{
 		title: 'Our gift section',
@@ -54,6 +58,8 @@ const slides = [
 		image: 'https://i.imgur.com/DvmN8Hx.jpg',
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
+		link : '/whoweare'
+
 	},
 ];
 
@@ -84,7 +90,9 @@ const Banner = () => {
 						<Box sx ={styles.slide}>
 						 <h1>{item.title}</h1>
             <p>{item.description}</p>
+			
             <Button>{item.button}</Button>
+		
 			</Box>
 				
 					</Box>
@@ -115,14 +123,14 @@ const styles = {
 		//width: [null, null, null, null, null, null, '490px'],
 	},
 	grid: {
-		backgroundColor: 'gold',
+	//	backgroundColor: 'gold',
 		display: 'grid',
 		gridTemplateColumns: ['1fr', null, null, '1fr 1fr'],
 		gridGap: '0',
 	},
 	content: {
 		h3: {
-			color: '#4CA3AD',
+		//	color: '#4CA3AD',
 			fontWeight: 'bold',
 			lineHeight: [1.39],
 			letterSpacing: ['-.7px', '-1.5px'],

@@ -4,6 +4,7 @@ export function useCreateContext(defaultValue, reducer) {
   const defaultDispatch = () => defaultValue;
   const stateCtx = createContext(defaultValue);
   const dispatchCtx = createContext(defaultDispatch);
+  console.log('create context')
 
   function useStateCtx(property) {
     const state = useContext(stateCtx);

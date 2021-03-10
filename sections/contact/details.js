@@ -1,30 +1,29 @@
 import react from 'react'
 import {Box,Container,Flex,Heading,Text} from 'theme-ui'
+import BlockTitle from '../../components/block-title';
+
+
 
 const Philosophy = () => {
  return (
      <Box sx = {Styles.whoweare}>
+            <BlockTitle
+					title='Contact '
+					text='Details'
+				/>
          <Container>
              <Box sx ={Styles.row}>
-                 <Flex sx = {Styles.col}>
-                     <Box sx ={Styles.content}>
                          <Box sx = {Styles.titleBox} >
-                             <Heading as="h3">
-                                Contact
-                             </Heading>
-                             <hr  color ="gold"></hr>
+                      
+                             <hr  width ='500' color ="gold"></hr>
 
                              <ul sx={Styles.listitem}>
-								 <li> Phone : +266 53094658</li>
-								 <li> Email : + info@gmail.com</li>
-								 <li> Address : Industrial Area</li>
+								 Phone : +266 53094658 <br/>
+								  Email : + info@gmail.com <br/>
+								 Address : Industrial Area
 							 </ul>
 							 
                           </Box>
-
-                     </Box>
-
-                 </Flex>
             </Box>
         </Container>
     </Box>   
@@ -43,7 +42,10 @@ const Styles = {
 
         },
          listitem:{
-         listStyle:'none'
+         listStyleType:'none'
+     },
+     titleBox : {
+        textAlign: 'center',
      }
 
 }

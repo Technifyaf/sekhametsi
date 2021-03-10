@@ -1,5 +1,6 @@
 import React from 'react';
 import ModalVideo from 'react-modal-video';
+
 import { useVideoState, useVideoDispatch } from '../contexts/video/video.provider';
 
 function Modal() {
@@ -19,6 +20,7 @@ function Modal() {
       onClose={handleVideoClose}
     />
   
+
   );
 }
 

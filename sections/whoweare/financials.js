@@ -7,33 +7,34 @@ import fevCardImageTwo from '../../assets/slide.jpg';
 import fevCardImageThree from '../../assets/slide.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import FinancialCard from '../../components/cards/financial-card';
 
 
 
 const favoriteCourseData = [
   {
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'Year 2016',
     image: fevCardImageOne,
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '2,538 reads',
-    videoLink: 'g9avOpUOREM',
+    watchCount: '2,538 downloads',
+    videoLink: 'https://drive.google.com/file/d/13Mdv7-fA0ZBNv-kO3H-VSgsr9bplR8yf/view',
     starCount: 5,
   },
   {
     title:
-      'Create multiple artboard by using figma prototyping tools development',
+    'Year 2017',
     image: fevCardImageTwo,
     reviewCount: '4.5 (524 reviews)',
-    watchCount: '3,532 reads',
+    watchCount: '3,532 downloads',
     videoLink: 'L9jU-IIN0ng',
     starCount: 4,
   },
   {
     title:
-      'Convert your web layout theming easily with sketch zeplin extension',
+    'Year 2018',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 reads',
+    watchCount: '1,037 downloads',
     videoLink: 'L9jU-IIN0ng',
     starCount: 5,
   },
@@ -74,8 +75,8 @@ const FavoriteCourse = () => {
     <Box as="section" sx={styles.whoweare}>
    
       <BlockTitle
-					title='News'
-					text='Articles'
+					title='Financial'
+					text='reports'
 				/>
      
    
@@ -91,7 +92,7 @@ const FavoriteCourse = () => {
             >
          
  
-              <FavoriteCard
+              <FinancialCard
                 starCount={course.starCount}
                 title={course.title}
                 image={course.image}
