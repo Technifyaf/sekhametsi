@@ -15,99 +15,22 @@ import {
   Button
 } from 'theme-ui';
 
-const accordionData = [
-	{
-		isExpanded: false,
-		title: 'How much does it cost to be a credit card merchant?',
-		contents: (
-			<div>
-				For our recent trip to S.A. I booked several accommodation thru SA
-				Places. I just wanted to tell you that everything worked out perfectly
-				with all the bookings and also your booking was very quick and
-				professional. I hope I have the opportunity to re-visit South Africa
-				soon, I will then make my bookings with your company again. I will also
-				recommend
-			</div>
-		),
-	},
-	{
-		isExpanded: true,
-		title: 'How can I open a merchant account?',
-		contents: (
-			<div>
-				For our recent trip to S.A. I booked several accommodation thru SA
-				Places. I just wanted to tell you that everything worked out perfectly
-				with all the bookings and also your booking was very quick and
-				professional. I hope I have the opportunity to re-visit South Africa
-				soon, I will then make my bookings with your company again. I will also
-				recommend
-			</div>
-		),
-	},
-	{
-		isExpanded: false,
-		title: 'How long does the application take?',
-		contents: (
-			<div>
-				For our recent trip to S.A. I booked several accommodation thru SA
-				Places. I just wanted to tell you that everything worked out perfectly
-				with all the bookings and also your booking was very quick and
-				professional. I hope I have the opportunity to re-visit South Africa
-				soon, I will then make my bookings with your company again. I will also
-				recommend
-			</div>
-		),
-	},
-	{
-		isExpanded: false,
-		title: 'Can I make payment outside of Hong Kong?',
-		contents: (
-			<div>
-				For our recent trip to S.A. I booked several accommodation thru SA
-				Places. I just wanted to tell you that everything worked out perfectly
-				with all the bookings and also your booking was very quick and
-				professional. I hope I have the opportunity to re-visit South Africa
-				soon, I will then make my bookings with your company again. I will also
-				recommend
-			</div>
-		),
-	},
-	{
-		isExpanded: false,
-		title: 'How do I get the payment complete?',
-		contents: (
-			<div>
-				For our recent trip to S.A. I booked several accommodation thru SA
-				Places. I just wanted to tell you that everything worked out perfectly
-				with all the bookings and also your booking was very quick and
-				professional. I hope I have the opportunity to re-visit South Africa
-				soon, I will then make my bookings with your company again. I will also
-				recommend
-			</div>
-		),
-	},
-];
+
 
 const QuestionForm = () => {
 	return (
 		<Box sx={styles.wrapper} as='section' id='faq'>
-			<Container>
+			<Container >
 				<BlockTitle
 					title='Frequently asked questions'
 					text='Ask your question and get a response a'
 				/>
-				<Box as='form' onSubmit={(e) => e.preventDefault()}>
-					<Label htmlFor='name'>Name</Label>
-					<Input name='name' mb={3} />
-					<Label htmlFor='password'>Email</Label>
-					<Input type='email' name='Email' mb={3} />
+				<Box sx = {styles.container}>
 				
 				
-					<Label htmlFor='comment'>Question</Label>
-					<Textarea name='comment' rows='6' mb={3} />
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5WipsC2g05Bk9zkLFum5uopUh6lXEyJJA1Ji9dGNFzISRDQ/viewform?embedded=true" width="640" height="945" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 				
-			
-					<Button>Submit</Button>
+				
 				</Box>
 			</Container>
 		</Box>
@@ -170,4 +93,11 @@ const styles = {
 	faqWrapper: {
 		flex: ['0 0 100%', null, null, null, '0 0 66.666%'],
 	},
+
+	container : {
+		backgroundColor : 'red',
+		display : 'block',
+		alignItems : 'center',
+		justifyContent :'center'
+	}
 };

@@ -119,7 +119,7 @@ const styles = {
 		//backgroundSize: '600px',
 	},
 	container: {
-		backgroundColor: 'green',
+	//	backgroundColor: 'green',
 		//width: [null, null, null, null, null, null, '490px'],
 	},
 	grid: {
@@ -213,7 +213,7 @@ const styles = {
 		//marginTop: '100px',
 	},
 	slider: {
-		backgroundColor :"gold",
+	//	backgroundColor :"gold",
 		display : 'in-line block',
 		height: '600px',
 	},
