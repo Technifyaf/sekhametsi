@@ -20,16 +20,17 @@ import {
 const QuestionForm = () => {
 	return (
 		<Box sx={styles.wrapper} as='section' id='faq'>
-			<Container >
+			
 				<BlockTitle
 					title='Frequently asked questions'
 					text='Ask your question and get a response a'
 				/>
-				<Box sx = {styles.container}>
+				<Container sx = {styles.container} >
+				<Box>
 				
-				
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5WipsC2g05Bk9zkLFum5uopUh6lXEyJJA1Ji9dGNFzISRDQ/viewform?embedded=true" width="640" height="945" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-				
+				<Box  >
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5WipsC2g05Bk9zkLFum5uopUh6lXEyJJA1Ji9dGNFzISRDQ/viewform?embedded=true" width="640" height="945" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+				</Box>
 				
 				</Box>
 			</Container>
@@ -42,7 +43,7 @@ export default QuestionForm;
 const styles = {
 	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'background',
+		backgroundColor: 'white',
 	},
 	flex: {
 		flexWrap: 'wrap',
@@ -95,9 +96,12 @@ const styles = {
 	},
 
 	container : {
-		backgroundColor : 'red',
-		display : 'block',
-		alignItems : 'center',
-		justifyContent :'center'
+		width: '700px', /* Can be in percentage also. */
+
+		backgroundColor : 'white',
+	//	display : 'block',
+		//alignItems : 'center',
+		//justifyContent :'center',
+		//position: 'relative'
 	}
 };

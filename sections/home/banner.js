@@ -5,26 +5,19 @@
 import React from 'react';
 import {
 	Box,
-	Container,
-	Grid,
 	Button,
-	Input,
-	Heading,
-	Text,
-	Flex,
 	jsx,
+	Link
 } from 'theme-ui';
 
-import Image from '../../components/image';
 
 import bannerImg from '../../assets/slide.jpg';
-import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/captioned.css';
-import { Link } from 'react-scroll';
+
 
 
 
@@ -51,7 +44,7 @@ const slides = [
 
 	},
 	{
-		title: 'Our gift section',
+		title: 'Where we come from',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
 		button: 'Discover',
@@ -90,8 +83,9 @@ const Banner = () => {
 						<Box sx ={styles.slide}>
 						 <h1>{item.title}</h1>
             <p>{item.description}</p>
-			
+			<Link href= {item.link}>
             <Button>{item.button}</Button>
+			</Link>
 		
 			</Box>
 				

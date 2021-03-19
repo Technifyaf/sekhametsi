@@ -22,8 +22,6 @@ export default function IndexPage() {
     <Layout>
      <Banner/> 
      <Tools/>  
-    
-
     </Layout>
     </StickyProvider>
   </ThemeProvider>
