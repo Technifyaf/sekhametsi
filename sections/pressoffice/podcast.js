@@ -6,10 +6,10 @@ import PopularCard from '../../components/cards/popular-card';
 const popularCourseData = [
   {
     title:
-      'The sekhametsi story',
+      'The sekhametsi development trust',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 plays',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: 'd1igVwUD6ug',
     starCount: 5,
     expanded: true,
     list: [
@@ -31,7 +31,7 @@ const popularCourseData = [
     title: 'Tips for young cooperatives',
     reviewCount: '4.5 (524 reviews)',
     watchCount: '3,532 plays',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: '435702827855641',
     starCount: 4,
     expanded: false,
     list: [

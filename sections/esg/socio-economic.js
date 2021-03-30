@@ -8,40 +8,30 @@ import img1 from '../../assets/agric.jpg';
 
 const Whatwedo = () => {
 	return (
+		<Container>
+			<Box sx={Styles.row}>
+				<Flex sx={Styles.col}>
+					<Box sx={Styles.content}>
+						<Box sx={Styles.titleBox}>
+							<Heading as='h3'>Socio-economic</Heading>
+							<hr color='gold'></hr>
 
-			<Container>
-				<Box sx={Styles.row}>
-					<Flex sx={Styles.col}>
-						<Box sx={Styles.content}>
-							<Box sx={Styles.titleBox}>
-								<Heading as='h3'>Socio-economic</Heading>
-                <hr  color ="gold"></hr>
-
-								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
-								</Text>
-							
-							</Box>
+							<Text as='p'>
+								Sekhametsi Development Trust (SDT) is a Trust established
+								through a Deed of Trust in accordance to the Deed Registry Act
+								of 1967 on behalf of SEKHAMETSI INVESTMENT CONSORTIUM LIMITED
+								hereinafter referred to as “SMIC”. The objective of the SDT is
+								to carry out a Corporate Social Investment (CSI) Programme on
+								behalf of SMIC.
+							</Text>
 						</Box>
-					</Flex>
-					<Flex sx={Styles.col}>
-						<Image src={img1} alt='' />
-					</Flex>
-				</Box>
-			</Container>
-	
+					</Box>
+				</Flex>
+				<Flex sx={Styles.col}>
+					<Image src={img1} alt='' />
+				</Flex>
+			</Box>
+		</Container>
 	);
 };
 
@@ -69,8 +59,7 @@ const Styles = {
 		textAlign: ['left', null, null, null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
-
+		pr: [null, null, null, null, null, '60px', '140px'],
 	},
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],

@@ -2,99 +2,91 @@
 
 /** @jsx jsx */
 
-import React from 'react';
-import {
-	Box,
-	Button,
-	jsx,
-	Link
-} from 'theme-ui';
+//import React from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
+import {useSpring, animated} from 'react-spring'
 
+import { Box, Button, jsx, Link } from 'theme-ui';
 
 import bannerImg from '../../assets/slide.jpg';
+import bannerImg2 from '../../assets/whoweare.jpg';
+
 import 'react-animated-slider/build/horizontal.css';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/captioned.css';
 
-
-
-
 const slides = [
 	{
 		title: 'Who we are',
 		description:
-			'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
+			'Sekhametsi Investment Consortium (SMIC) is a 100% Basotho owned (non partisan) broad based public investment company established in 1999. The company has a diversified investment portfolio in telecommunications, financial sector, real estate and textile industry. ',
 		button: 'Read More',
 		image: bannerImg,
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link : '/whoweare'
+		link: '/whoweare',
 	},
 	{
 		title: 'What we do',
 		description:
-			'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.',
-		button: 'Discover',
-		image: 'https://i.imgur.com/DCdBXcq.jpg',
+			'Create value for its shareholders and to empower Basotho nationals to engage in viable and sustainable investment for generation of decent jobs, inclusive growth and creating generational wealth.',
+		button: 'Read more',
+		image: bannerImg2,
 		user: 'Samantha',
 		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
-		link : '/whoweare'
-
+		link: '/whoweare',
 	},
 	{
-		title: 'Where we come from',
+		title: 'Financial tools',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
-		button: 'Discover',
-		image: 'https://i.imgur.com/DvmN8Hx.jpg',
+		button: 'Read more',
+		image: bannerImg,
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
-		link : '/whoweare'
-
+		link: '/financialtools',
 	},
 ];
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
+
+
 const Banner = () => {
+	
 	return (
 		<Box sx={styles.banner}>
-		<Box sx ={styles.content}>
-			<AutoplaySlider sx ={styles.slider}
-			play={true}
-			cancelOnInteraction={false} // should stop playing on user interaction
-			interval={2000}
-		
-
-			>
-				{slides.map((item, index) => (
-					<Box
-					
-						key={index}
-						style={{
-						//	background: 
-							background : `url('${item.image}') top `,
-						//	backgroundSize : '50%'
+			<Box sx={styles.content}>
+				<AutoplaySlider
+					sx={styles.slider}
+					play={true}
+					cancelOnInteraction={false} // should stop playing on user interaction
+					interval={2000}
+				>
+					{slides.map((item, index) => (
+						<Box
+							key={index}
+							style={{
+								//	background:
+								background: `url('${item.image}') no-repeat `,
+								//	backgroundSize : '50%'
+							}}
+						>
+							<Box sx={styles.slide}>
+								<h1>{item.title}</h1>
+								<p>{item.description}</p>
+								<Link href={item.link}>
+									<Button>{item.button}</Button>
+								</Link>
 							
-						}}
-					>
-						<Box sx ={styles.slide}>
-						 <h1>{item.title}</h1>
-            <p>{item.description}</p>
-			<Link href= {item.link}>
-            <Button>{item.button}</Button>
-			</Link>
-		
+							</Box>
+						</Box>
+					))}
+				</AutoplaySlider>
 			</Box>
-				
-					</Box>
-				))}
-			</AutoplaySlider>
-			</Box>
-			</Box>
-		
+		</Box>
 	);
 };
 
@@ -104,7 +96,7 @@ const styles = {
 	banner: {
 		pt: ['110px', null, null, null, '150px', '100px'],
 		pb: ['100px', null, null, null, '0', null, '0'],
-	//	height: '100px',
+		//	height: '100px',
 
 		//	marginTop : '200px',
 		backgroundColor: 'background',
@@ -113,18 +105,18 @@ const styles = {
 		//backgroundSize: '600px',
 	},
 	container: {
-	//	backgroundColor: 'green',
+		//	backgroundColor: 'green',
 		//width: [null, null, null, null, null, null, '490px'],
 	},
 	grid: {
-	//	backgroundColor: 'gold',
+		//	backgroundColor: 'gold',
 		display: 'grid',
 		gridTemplateColumns: ['1fr', null, null, '1fr 1fr'],
 		gridGap: '0',
 	},
 	content: {
 		h3: {
-		//	color: '#4CA3AD',
+			//	color: '#4CA3AD',
 			fontWeight: 'bold',
 			lineHeight: [1.39],
 			letterSpacing: ['-.7px', '-1.5px'],
@@ -203,12 +195,12 @@ const styles = {
 	slide: {
 		display: 'flex',
 		flexDirection: 'column',
-	//	alignItems: 'center',
+		//	alignItems: 'center',
 		//marginTop: '100px',
 	},
 	slider: {
-	//	backgroundColor :"gold",
-		display : 'in-line block',
+		//	backgroundColor :"gold",
+	//	display: 'in-line block',
 		height: '600px',
 	},
 };

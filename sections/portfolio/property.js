@@ -3,7 +3,7 @@ import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
 import { Link } from '../../components/link';
 import Image from '../../components/image';
 
-import img1 from '../../assets/banner_b.jpg';
+import img1 from '../../assets/sekhametsi.jpeg';
 import BlockTitle from '../../components/block-title';
 
 

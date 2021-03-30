@@ -3,7 +3,7 @@ import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
 import { Link } from '../../components/link';
 import Image from '../../components/image';
 
-import img1 from '../../assets/agric.jpg';
+import img1 from '../../assets/sekhametsi.jpeg';
 
 const Story = () => {
 	return (
@@ -17,19 +17,7 @@ const Story = () => {
                 <hr  color ="gold"></hr>
 
 								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
+								In 2021 SMIC celebrates a 20 year journey of investment success, delivering value to shareholders, empowering vulnerable communities and contributing to the economic development of Lesotho. The milestone is also a moment for SMIC to reset and refocus to improve SMIC performance and retain its competitive edge. Therefore, it is important to rethink the way the company is organized to deliver on the core business of the organization.  In 2016, Sekhametsi adopted a mission statement for it to become a globally sought after and ethical wealth creation vehicle for the Basotho nation, which shall embrace innovation, accountability and due prudence in all its dealings. By 2026, the market capitalization shall have grown from the existing 1.2 billion to 5 billion.
 								</Text>
 							</Box>
               </Box>

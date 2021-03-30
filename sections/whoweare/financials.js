@@ -35,7 +35,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 downloads',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
     starCount: 5,
   },
 ];

@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const favoriteCourseData = [
   {
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'A fruitful marriage of equals',
     image: fevCardImageOne,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 reads',

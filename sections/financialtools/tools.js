@@ -1,89 +1,164 @@
-import react from 'react';
-import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
-import { Link } from '../../components/link';
-import Image from '../../components/image';
+import { Box, Grid, Container } from 'theme-ui';
+import React from 'react';
+import BlockTitle from '../../components/block-title';
+import FavoriteCard from '../../components/cards/favorite-card';
+import fevCardImageOne from '../../assets/stanlib.png';
+import fevCardImageTwo from '../../assets/lra.png';
+import fevCardImageThree from '../../assets/liberty.jpeg';
 
-import img1 from '../../assets/agric.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import FinancialToolsCard from '../../components/cards/financial-tools';
 
-const Story = () => {
-	return (
-		<Box as='section' sx={styles.wrapper}>
-			<Container>
-				<Box sx={styles.row}>
-					<Flex sx={styles.col}>
-							<Box sx={styles.content}>
-              <Box sx ={styles.titleBox}>
-								<Heading as='h3'>The Sekhametsi story</Heading>
-                <hr  color ="gold"></hr>
-								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
-								</Text>
-							</Box>
-              </Box>
-	
-					</Flex>
-					<Flex sx={styles.col}>
-						<Image src={img1} alt='' />
-					</Flex>
-				</Box>
-			</Container>
-		</Box>
-	);
+
+
+const favoriteCourseData = [
+  {
+    title: 'Stanlib tools',
+    image: fevCardImageOne,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '2,538 views',
+    videoLink: 'https://stanlib.com/transact-adviser/#tools',
+    starCount: 5,
+  },
+  {
+    title:
+    'PAYE Calculator',
+    image: fevCardImageTwo,
+    reviewCount: '4.5 (524 reviews)',
+    watchCount: '3,532 downloads',
+    videoLink: 'http://lra.org.ls/paye-tax-calculator',
+    starCount: 4,
+  },
+  {
+    title:
+    'Year 2018',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+];
+
+const FavoriteCourse = () => {
+  const FavoriteCarousel = {
+    spaceBetween: 50,
+    slidesPerView: 3,
+    breakpoints: {
+      0: {
+        spaceBetween: 0,
+        slidesPerView: 1,
+      },
+      376: {
+        spaceBetween: 0,
+        slidesPerView: 1,
+      },
+      576: {
+        spaceBetween: 0,
+        slidesPerView: 1,
+      },
+      768: {
+        spaceBetween: 30,
+        slidesPerView: 2,
+      },
+      992: {
+        spaceBetween: 30,
+        slidesPerView: 2,
+      },
+      1200: {
+        spaceBetween: 30,
+        slidesPerView: 3,
+      },
+    },
+  };
+  return (
+    <Box as="section" sx={styles.whoweare}>
+   
+      <BlockTitle
+					title='Financial Tools and calculators'
+					text='Links'
+				/>
+     
+   
+  
+
+      <Container sx = {styles.swiperContainer}>
+        <Swiper {...FavoriteCarousel} 
+       >
+          {favoriteCourseData.map((course, index) => (
+          
+            <SwiperSlide key={index} 
+          
+            >
+         
+ 
+              <FinancialToolsCard
+                starCount={course.starCount}
+                title={course.title}
+                image={course.image}
+                reviewCount={course.reviewCount}
+                watchCount={course.watchCount}
+                videoLink={course.videoLink}
+              />
+          
+            </SwiperSlide>
+         
+          ))}
+        </Swiper>
+        </Container>
+       
+      </Box>
+  
+  );
 };
 
-export default Story;
+export default FavoriteCourse;
 
 const styles = {
-	wrapper: {
-		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'bacground',
-	},
-  row: {
-		mixBlendMode: 'softlight',
-		backgroundColor: 'black',
-		display: 'flex',
-		flexWrap: 'wrap',
-		flexDirection: ['column', null, null, 'row'],
-	},
-	col: {
-		backgroundColor: 'background',
-		flex: ['0 0 100%', null, null, '0 0 50%'],
-	},
-  content: {
-		width: '100%',
-		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
-	},
-  titleBox: {
-		textAlign: ['center', null, null, 'left'],
-		h3: {
-			color: 'primary',
-			fontSize: [5, null, null, '21px', '36px', '32px', 8],
-			lineHeight: [1.6, null, null, '1.5'],
-			fontWeight: 'bold',
-			letterSpacing: ['-0.5px', null, null, null, null, null, '-1.5px'],
-		},
-		p: {
-			fontSize: [0, null, 2, null, '17px'],
-			color: 'text',
-			opacity: '.6',
-			lineHeight: ['26px', null, null, 1.8, null, 2.06],
-			padding: ['0 20px', null, null, '0'],
-			mt: ['15px'],
-		},
-	},
+  whoweare : {
+    pt: ['70px', null, null, '80px', '120px', null, '150px'],
+    backgroundColor : 'background'
+
+    },
+fevCourse: {
+    paddingTop: ['60px', null, null, '80px', '110px'],
+    pb: [null, null, null, '30px', '50px', '0'],
+    container: {
+      maxWidth: 1440,
+      '@media(max-width:1440px)': {
+        maxWidth: 1240,
+      },
+      '.swiper-container': {
+        pb: '30px',
+        overflow: [null, null, null, null, null, 'visible'],
+      },
+    },
+    blockTitle: {
+      textAlign: 'center',
+      marginBottom: '30px',
+    },
+    row: {
+      display: 'grid',
+      gridTemplateColumns: '1fr 1fr 1fr',
+      gridGap: 30,
+      '@media(max-width: 991px)': {
+        gridTemplateColumns: '1fr 1fr',
+      },
+      '@media(max-width: 575px)': {
+        gridTemplateColumns: '1fr',
+      },
+    },
+    col: {
+      display: 'flex',
+    },
+  },
+
+  swiperContainer :{
+    width: '100%',
+    height: '100%'
+  }
+ ,
+  swiperSlide :{
+
+  }
 };

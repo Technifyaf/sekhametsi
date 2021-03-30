@@ -4,7 +4,7 @@ import { Link } from '../../components/link';
 
 import Image from '../../components/image';
 
-import img1 from '../../assets/agric.jpg';
+import img1 from '../../assets/vodacomp.jpg';
 
 const Telecomms = () => {
 	return (
