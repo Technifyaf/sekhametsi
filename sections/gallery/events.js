@@ -5,7 +5,32 @@ import { Link } from '../../components/link';
 import Image from '../../components/image';
 
 
-import img1 from '../../assets/agric.jpg';
+import img1 from '../../assets/event.jpg';
+
+
+
+const slides = [{
+	title: 'Events',
+    list: [
+        {
+            content: img1,
+          },
+          {
+            content: img1,
+          },
+          {
+            content: img1,
+          },
+          {
+            content: img1,
+          },
+    ],
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '2,538 reads',
+    videoLink: 'g9avOpUOREM',
+    starCount: 5,
+
+}]
 
 
 const Events = () => {

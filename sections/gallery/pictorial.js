@@ -4,20 +4,111 @@ import { Link } from '../../components/link';
 import Image from '../../components/image';
 import BlockTitle from '../../components/block-title';
 
+import Gallery from "react-photo-gallery";
 
 
-import {
-	CarouselProvider,
-	Slider,
-	Slide,
-	ButtonBack,
-	ButtonNext,
-	DotGroup
-} from 'pure-react-carousel';
+
+
+
+
+
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 
 import bannerImg from '../../assets/banner_b.jpg';
+
+
+
+export const photos = [
+	{
+	  src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+	  width: 1,
+	  height: 1
+	},
+	{
+	  src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
+	  width: 4927,
+	  height: 1000
+	},
+	{
+	  src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+	  width: 4,
+	  height: 3
+	}
+  ];
+  
+
+
 
 const Pictorial = () => {
 	return (
@@ -27,26 +118,8 @@ const Pictorial = () => {
           title="If you want to fast go alone, if you want to far go together"
           text="The story of sekahmetsi"
         />
-			<CarouselProvider
-						naturalSlideWidth={100}
-						naturalSlideHeight={50}
-						totalSlides={3}
-						isPlaying
-					>
-						<Slider>
-							<Slide index={0}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-							<Slide index={1}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-							<Slide index={2}>
-								<Image src={bannerImg} alt='' />
-							</Slide>
-						</Slider>
-						<DotGroup/>
-					</CarouselProvider>
-			</Container>
+		<Gallery photos={photos} />;
+		</Container>
 		</Box>
 	);
 };

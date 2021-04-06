@@ -13,28 +13,127 @@ import FinancialCard from '../../components/cards/financial-card';
 
 const favoriteCourseData = [
   {
-    title: 'Year 2016',
+    title: 'AFS 2007',
     image: fevCardImageOne,
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '2,538 downloads',
+    watchCount: '0 downloads',
     videoLink: 'https://drive.google.com/file/d/13Mdv7-fA0ZBNv-kO3H-VSgsr9bplR8yf/view',
     starCount: 5,
   },
   {
     title:
-    'Year 2017',
+    'AFS 2008',
     image: fevCardImageTwo,
     reviewCount: '4.5 (524 reviews)',
-    watchCount: '3,532 downloads',
+    watchCount: '0 downloads',
     videoLink: 'L9jU-IIN0ng',
     starCount: 4,
   },
   {
     title:
-    'Year 2018',
+    'AFS 2009',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 downloads',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2010',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2011',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2012',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2013',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2014',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2015',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2016',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2017',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2018',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2019',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
+    'AFS 2020',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '0 downloads',
     videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
     starCount: 5,
   },
@@ -75,8 +174,8 @@ const FavoriteCourse = () => {
     <Box as="section" sx={styles.whoweare}>
    
       <BlockTitle
-					title='Financial'
-					text='reports'
+					title='Financials'
+					text='Swipe left to see more'
 				/>
      
    

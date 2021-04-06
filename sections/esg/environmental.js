@@ -27,14 +27,7 @@ const Story = () => {
 									sed cursus suscipit. Proin sem velit, blandit at maximus at,
 									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
 									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
+									vulputate sit amet. Sed ornare blandit odio commodo mattis. 
 								</Text>
 							</Box>
               </Box>
@@ -70,7 +63,7 @@ const styles = {
   content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
+		pt: [null, null, null, null, null, '0px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 	},

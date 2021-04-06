@@ -22,6 +22,10 @@ export default function IndexPage() {
     <StickyProvider>
     <Layout>
        <Banner/>
+      
+     
+       <Pictorial/>
+       
   
       
 

@@ -7,11 +7,11 @@ const popularCourseData = [
   {
     title:
       'The sekhametsi development trust',
-    reviewCount: '5.0 (392 reviews)',
+   // reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 plays',
     videoLink: 'd1igVwUD6ug',
     starCount: 5,
-    expanded: true,
+    expanded: false,
     list: [
       {
         content: 'How sekhametsi started',
@@ -28,11 +28,11 @@ const popularCourseData = [
     ],
   },
   {
-    title: 'Tips for young cooperatives',
-    reviewCount: '4.5 (524 reviews)',
+    title: 'National Association Of The Deaf Lesotho',
+  //  reviewCount: '4.5 (524 reviews)',
     watchCount: '3,532 plays',
-    videoLink: '435702827855641',
-    starCount: 4,
+    videoLink: 'mP7Z-oOcZ0Q',
+   // starCount: 4,
     expanded: false,
     list: [
         {
@@ -49,50 +49,8 @@ const popularCourseData = [
           },
     ],
   },
-  {
-    title: 'After effects animation tutorial with photoshop documents',
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 plays',
-    videoLink: 'L9jU-IIN0ng',
-    starCount: 5,
-    expanded: false,
-    list: [
-        {
-            content: 'How sekhametsi started',
-          },
-          {
-            content: 'Challenges along the way',
-          },
-          {
-            content: 'Investment philosophy',
-          },
-          {
-            content: 'The Sekhametsi of the future.',
-          },
-    ],
-  },
-  {
-    title: 'Adobe illustrator vector art design mockup',
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 plays',
-    videoLink: 'L9jU-IIN0ng',
-    starCount: 5,
-    expanded: false,
-    list: [
-        {
-            content: 'How sekhametsi started',
-          },
-          {
-            content: 'Challenges along the way',
-          },
-          {
-            content: 'Investment philosophy',
-          },
-          {
-            content: 'The Sekhametsi of the future.',
-          },
-    ],
-  },
+  
+  
 ];
 
 const PopularCourse = () => {

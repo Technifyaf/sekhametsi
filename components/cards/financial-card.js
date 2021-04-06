@@ -9,10 +9,7 @@ import eyeIcon from '../../assets/icons/eye-2.svg';
 const FinancialCard = (props) => {
   return (
     <Box sx={styles.fevCard}>
-      <Box sx={styles.fevCard.image}>
-        <Image src={props.image} alt="content image" />
-        
-      </Box>
+    
       <Box sx={styles.fevCard.content}>
         <Box
           sx={styles.fevCard.stars}

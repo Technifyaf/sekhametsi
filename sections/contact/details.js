@@ -18,9 +18,9 @@ const Philosophy = () => {
                              <hr  width ='500' color ="gold"></hr>
 
                              <ul sx={Styles.listitem}>
-								 Phone : +266 53094658 <br/>
-								  Email : + info@gmail.com <br/>
-								 Address : Industrial Area
+								 Phone : +266 58882645<br/>
+								 Email : + info@gmail.com <br/>
+								 Address :P.O box 373 Maseru 100, Sekhametsi Place, Kingsway rd
 							 </ul>
 							 
                           </Box>

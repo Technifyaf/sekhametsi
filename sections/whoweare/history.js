@@ -67,7 +67,7 @@ const Styles = {
 	content: {
 		width: '100%',
 		textAlign: ['left', null, null, null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
+		pt: [null, null, null, null, null, '50px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],

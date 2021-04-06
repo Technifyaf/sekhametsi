@@ -104,13 +104,15 @@ const styles = {
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
   content: {
+	backgroundColor: 'blue',
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
-		pb: [null, null, null, null, null, '60px', '140px'],
+		pt: [null, null, null, null, null, '0px'],
+		pb: [null, null, null, null, null, '60px', '10px'],
    		pr: [null, null, null, null, null, '60px', '140px'],
 	},
 	slider :{
+		backgroundColor: 'red',
 
 		pr: [null, null, null, null, null, '0px', '10px'],
 		pl: [null, null, null, null, null, '0px', '10px'],

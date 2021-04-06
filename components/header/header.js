@@ -11,7 +11,19 @@ import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
 import menuItems from './header.data';
 
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
+
+
 export default function Header({ className }) {
+
+
+
+const options = [
+  'one', 'two', 'three'
+];
+const defaultOption = options[0];
+
 	return (
 		<DrawerProvider>
 			<header sx={styles.header} className={className}>

@@ -8,7 +8,7 @@ import {useSpring, animated} from 'react-spring'
 
 import { Box, Button, jsx, Link } from 'theme-ui';
 
-import bannerImg from '../../assets/slide.jpg';
+import bannerImg from '../../assets/vodacom.jpeg';
 import bannerImg2 from '../../assets/whoweare.jpg';
 
 import 'react-animated-slider/build/horizontal.css';
@@ -70,7 +70,7 @@ const Banner = () => {
 							key={index}
 							style={{
 								//	background:
-								background: `url('${item.image}') no-repeat `,
+								background: `url('${item.image}') repeat`,
 								//	backgroundSize : '50%'
 							}}
 						>

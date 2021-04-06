@@ -70,7 +70,7 @@ const styles = {
   content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
+		pt: [null, null, null, null, null, '0px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
     pr: [null, null, null, null, null, '60px', '140px'],
 	},

@@ -33,9 +33,7 @@ const Telecomms = () => {
 									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
 									odio, eget rutrum ipsum odio id tortor.
 								</Text>
-								<Link path='/' sx={Styles.link}>
-									Learn more
-								</Link>
+								
 							</Box>
 						</Box>
 					</Flex>

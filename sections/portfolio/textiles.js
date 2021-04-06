@@ -66,9 +66,9 @@ const styles = {
   content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
-		pb: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
+		pt: [null, null, null, null, null, '50px'],
+		pb: [null, null, null, null, null, '60px', '15px'],
+    	pr: [null, null, null, null, null, '60px', '140px'],
 	},
   titleBox: {
 		textAlign: ['center', null, null, 'left'],
