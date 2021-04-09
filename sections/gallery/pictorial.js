@@ -21,87 +21,87 @@ import bannerImg from '../../assets/banner_b.jpg';
 
 export const photos = [
 	{
-	  src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg",
 	  width: 1,
 	  height: 1
 	},
 	{
-	  src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
 	  width: 3,
 	  height: 4
 	},
 	{
-	  src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg",
 	  width: 3,
 	  height: 4
 	},
 	{
-	  src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg",
 	  width: 3,
 	  height: 4
 	},
 	{
-	  src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788739/_NIK5339_xf3dhj.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg",
 	  width: 3,
 	  height: 4
 	},
 	{
-	  src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788700/_NIK5336_efojzv.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788558/_NIK5318_enxdoo.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg",
 	  width: 3,
 	  height: 4
 	},
 	{
-	  src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788780/_NIK5341_qahgkg.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg",
 	  width: 4927,
 	  height: 1000
 	},
 	{
-	  src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788532/_NIK5306_kixgdf.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788931/_NIK5351_ksxaxl.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/_NIK5365_nwzbnq.jpg",
 	  width: 4,
 	  height: 3
 	}

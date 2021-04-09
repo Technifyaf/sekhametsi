@@ -8,40 +8,50 @@ import img1 from '../../assets/agric.jpg';
 
 const Whatwedo = () => {
 	return (
-	
-			<Container>
-				<Box sx={Styles.row}>
-					<Flex sx={Styles.col}>
-						<Box sx={Styles.content}>
-							<Box sx={Styles.titleBox}>
-								<Heading as='h3'>Historical Anecdotes</Heading>
-                <hr  color ="gold"></hr>
+		<Container>
+			<Box sx={Styles.row}>
+				<Flex sx={Styles.col}>
+					<Box sx={Styles.content}>
+						<Box sx={Styles.titleBox}>
+							<Heading as='h3'>Historical Anecdotes</Heading>
+							<hr color='gold'></hr>
 
-								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
-								</Text>
-								
-							</Box>
+							<Text as='p'>
+								<ul>
+									<li> Sekhametsi was founded in 1999</li>
+									<li> It began with 12 members</li>
+									<li>
+										{' '}
+										The first investment was a 12% stake in Vodacom Lesotho
+									</li>
+									<li> Sekhametsi had 500 shareholders in 1999</li>
+									<li> SMIC shares were valued at M34 when we began</li>
+									<li>
+										{' '}
+										Shareholder base is comprised of farmers, informal traders,
+										pensioners, corporate managers, students, religious
+										organisations, investment clubs, burial societies, women and
+										youth groups.
+									</li>
+									<li>
+										{' '}
+										The first Chairman of the Sekhametsi Board was Matjato
+										Moteane.
+									</li>
+									<li>
+										There have been 6 Sekhametsi boards to date with elections
+										occurring every 3 years.
+									</li>
+								</ul>
+							</Text>
 						</Box>
-					</Flex>
-					<Flex sx={Styles.col}>
-						<Image src={img1} alt='' />
-					</Flex>
-				</Box>
-			</Container>
-		
+					</Box>
+				</Flex>
+				<Flex sx={Styles.col}>
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg' />
+				</Flex>
+			</Box>
+		</Container>
 	);
 };
 
@@ -70,8 +80,7 @@ const Styles = {
 		pt: [null, null, null, null, null, '50px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
-
+		pr: [null, null, null, null, null, '60px', '140px'],
 	},
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],

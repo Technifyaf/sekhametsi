@@ -16,7 +16,7 @@ export default function IndexPage() {
     <StickyProvider>
     <VideoProvider>
     <Layout>
-    <Banner/>
+  
     <Podcasts/>
     <Articles/>
     </Layout>

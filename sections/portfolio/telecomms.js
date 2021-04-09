@@ -8,41 +8,43 @@ import img1 from '../../assets/vodacomp.jpg';
 
 const Telecomms = () => {
 	return (
-	
-			<Container>
-				<Box sx={Styles.row}>
-					<Flex sx={Styles.col}>
-						<Box sx={Styles.content}>
-							<Box sx={Styles.titleBox}>
-								<Heading as='h3'>Telecommunication</Heading>
-								<hr  align = "left" width ="300px "color ="gold"></hr>
+		<Container>
+			<Box sx={Styles.row}>
+				<Flex sx={Styles.col}>
+					<Box sx={Styles.content}>
+						<Box sx={Styles.titleBox}>
+							<Heading as='h3'>Telecommunication</Heading>
+							<hr align='left' width='300px ' color='gold'></hr>
 
-
-								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
-								</Text>
-								
-							</Box>
+							<Text as='p'>
+								With only two network operators in Lesotho, Sekhametsi is proud
+								to be a major shareholder in the largest mobile operator in
+								Lesotho. Vodacom is Lesotho’s first Mobile network operator with
+								a subscriber base of 1,35 million Basotho. It also owns Mpesa
+								which is the most used mobile money platform in the country with
+								M1million subscribers. It is through stake in Vodacom that
+								Sekhametsi found its feet and the relationship continues to grow
+								into the improvement and betterment of countless Basotho lives.
+								Vodacom has invested Billions of Maloti in infrastructal
+								developments in Lesotho through its 300 bay stations, its rental
+								of Vodacom Park and the hundreds of Basotho it continues to
+								employ across the country. Having always been a trendsetter in
+								social investment and development, Vodacom represents an
+								investment that Sekhametsi is proud of and that affords us the
+								global appeal and reach that we seek and aspire to. Sekhametsi
+								will continue to find avenues to invest and develop the
+								telecommunications industry in Lesotho to enhance connectivity
+								and accessibility for Basotho that will transcend geographical
+								limitations.
+							</Text>
 						</Box>
-					</Flex>
-					<Flex sx={Styles.col}>
-						<Image src={img1} alt='' />
-					</Flex>
-				</Box>
-			</Container>
-		
+					</Box>
+				</Flex>
+				<Flex sx={Styles.col}>
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952615/_NIK9774_ebbv6w.jpg ' />
+				</Flex>
+			</Box>
+		</Container>
 	);
 };
 
@@ -70,8 +72,7 @@ const Styles = {
 		textAlign: ['left', null, null, null, 'left'],
 		pt: [null, null, null, null, null, '100px'],
 		pl: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
-
+		pr: [null, null, null, null, null, '60px', '140px'],
 	},
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],

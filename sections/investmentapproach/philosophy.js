@@ -21,7 +21,7 @@ const Philosophy = () => {
                              <hr  color ="gold"></hr>
 
                               <Text as="p">
-                              Sekhametsi primarily acquires significant minority equity interests in established and start-up businesses that meet one or more of the following criteria:
+                              Sekhametsi currently enlists a buy-and-hold portfolio strategy, with a long term-investment horizon. We acquire significant minority equity interests in established and start-up businesses that meet one or more of the following criteria:
 Sustainability and solid growth prospects
 Experienced, qualified and capable management
 Strong cash flow generated ethically
@@ -32,6 +32,7 @@ Opportunities for consolidation of businesses in the portfolio
 Value proposition: We create value to stakeholders, and primarily our shareholders by using our strong balance sheet to acquire interest in different entities meeting the success criteria. Over a period of time, we offered assistance at a strategic level to investee companies to ensure unlocking of the value.
 
 The mandate for the board is underpinned by the investment objectives of our broad based shareholders which can be categorised into two; investing for dividend income and for capital appreciation (growth of share price).
+
                               </Text>
                           </Box>
 

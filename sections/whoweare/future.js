@@ -17,7 +17,7 @@ const Story = () => {
                 <hr  color ="gold"></hr>
 
 								<Text as='p'>
-								In 2021 SMIC celebrates a 20 year journey of investment success, delivering value to shareholders, empowering vulnerable communities and contributing to the economic development of Lesotho. The milestone is also a moment for SMIC to reset and refocus to improve SMIC performance and retain its competitive edge. Therefore, it is important to rethink the way the company is organized to deliver on the core business of the organization.  In 2016, Sekhametsi adopted a mission statement for it to become a globally sought after and ethical wealth creation vehicle for the Basotho nation, which shall embrace innovation, accountability and due prudence in all its dealings. By 2026, the market capitalization shall have grown from the existing 1.2 billion to 5 billion.
+								2021 marks 20 years of investment success, delivering value to shareholders, empowering vulnerable communities and contributing to the economic development of Lesotho for SMIC. This milestone affords us the opportunity to reset and refocus to improve our performance and accentuate our competitive edge. We are rigorously restructuring and streamlines our operation evolve us into the organisation we purposed to be in 2016, Sekhametsi. This is embodied in our mission statement: To become a globally sought after, ethical wealth creation vehicle for the Basotho nation, which embraces innovation, accountability & due prudence in all its dealings. We forecast the market capitalization shall grow from the existing M1.2 billion to M5 billion by 2026. The future is bright for us all.   
 								</Text>
 							</Box>
               </Box>

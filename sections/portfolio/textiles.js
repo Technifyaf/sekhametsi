@@ -7,41 +7,44 @@ import img1 from '../../assets/agric.jpg';
 
 const Story = () => {
 	return (
-		
-			<Container>
-				<Box sx={styles.row}>
-					<Flex sx={styles.col}>
-							<Box sx={styles.content}>
-              <Box sx ={styles.titleBox}>
-								<Heading as='h3'>Textiles</Heading>
-								<hr  align = "left" width ="150px "color ="gold"></hr>
+		<Container>
+			<Box sx={styles.row}>
+				<Flex sx={styles.col}>
+					<Box sx={styles.content}>
+						<Box sx={styles.titleBox}>
+							<Heading as='h3'>Textiles</Heading>
+							<hr align='left' width='150px ' color='gold'></hr>
 
-
-								<Text as='p'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-									dapibus felis sed urna ultrices ornare. Cras elementum risus
-									sed cursus suscipit. Proin sem velit, blandit at maximus at,
-									consectetur vel tellus. Vestibulum sed iaculis nulla, finibus
-									molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl
-									vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut
-									rhoncus consequat arcu id pharetra. Phasellus vitae odio nec
-									neque laoreet lobortis et non lectus. Duis varius est eu arcu
-									interdum commodo. Quisque pulvinar orci leo, laoreet mattis
-									leo dignissim fringilla. Suspendisse potenti. In eget dapibus
-									mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan
-									est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia
-									odio, eget rutrum ipsum odio id tortor.
-								</Text>
-							</Box>
-              </Box>
-	
-					</Flex>
-					<Flex sx={styles.col}>
-						<Image src={img1} alt='' />
-					</Flex>
-				</Box>
-			</Container>
-		
+							<Text as='p'>
+								The textile industry is one of the oldest industrial trades in
+								Lesotho. The world over, Lesotho is famed for its textile
+								exports which historically were spearheaded by the export of
+								wool and mohair and their by-products, and in more recent times
+								the large-scale production of white label clothing exported all
+								over the world. The textile industry in Lesotho is the largest
+								formal employer with number having peaked at 54,000 employed,
+								comprising of 92% of manufacturing jobs and producing 43% of
+								Lesotho’s exports. The industry is massive and pivotal to the
+								growth of Lesotho. Only two of the 40 textile factories in
+								Lesotho are owned by Basotho. This presents an incredible growth
+								opportunity. Sekhametsi purchased 30% of locally owned textile
+								producer Afri-Expo for M10million has intends to further
+								increase its stake in the textile industry to create more jobs
+								for Basotho and expand our export base. We continue to run the
+								rule over developments in the textile industry and look to
+								seeing more of the global value chain migrate within Lesotho
+								borders, offering more opportunities to the thousands of young
+								Basotho who have acquired skills in cutting and sowing and are
+								even branching out into creating their own labels and brands.
+							</Text>
+						</Box>
+					</Box>
+				</Flex>
+				<Flex sx={styles.col}>
+					<Image src={img1} alt='' />
+				</Flex>
+			</Box>
+		</Container>
 	);
 };
 
@@ -52,7 +55,7 @@ const styles = {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
 		backgroundColor: 'background',
 	},
-  row: {
+	row: {
 		mixBlendMode: 'softlight',
 		backgroundColor: 'black',
 		display: 'flex',
@@ -63,14 +66,14 @@ const styles = {
 		backgroundColor: 'background',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
-  content: {
+	content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '50px'],
 		pb: [null, null, null, null, null, '60px', '15px'],
-    	pr: [null, null, null, null, null, '60px', '140px'],
+		pr: [null, null, null, null, null, '60px', '140px'],
 	},
-  titleBox: {
+	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
 			color: 'primary',

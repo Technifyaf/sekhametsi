@@ -11,7 +11,6 @@ import { Box, Button, jsx, Link } from 'theme-ui';
 import bannerImg from '../../assets/vodacom.jpeg';
 import bannerImg2 from '../../assets/whoweare.jpg';
 
-import 'react-animated-slider/build/horizontal.css';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
@@ -21,9 +20,9 @@ const slides = [
 	{
 		title: 'Who we are',
 		description:
-			'Sekhametsi Investment Consortium (SMIC) is a 100% Basotho owned (non partisan) broad based public investment company established in 1999. The company has a diversified investment portfolio in telecommunications, financial sector, real estate and textile industry. ',
+			'Sekhametsi Investment Consortium (SMIC) is a 100% Basotho owned (non partisan) broad based public investment company established in 1999. The company has a diversified investment portfolio in telecommunications, financial services, real estate & textiles. ',
 		button: 'Read More',
-		image: bannerImg,
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617952554/_NIK9747_bcs9m1.jpg',
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
 		link: '/whoweare',
@@ -31,9 +30,9 @@ const slides = [
 	{
 		title: 'What we do',
 		description:
-			'Create value for its shareholders and to empower Basotho nationals to engage in viable and sustainable investment for generation of decent jobs, inclusive growth and creating generational wealth.',
+			'We empower Basotho nationals to engage in viable and sustainable investment for the generation of employment, inclusive growth & creating generational wealth. We pride ourselves on creating exceptional shareholder value.  ',
 		button: 'Read more',
-		image: bannerImg2,
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg',
 		user: 'Samantha',
 		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
 		link: '/whoweare',
@@ -41,9 +40,9 @@ const slides = [
 	{
 		title: 'Financial tools',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.',
+			'To help you manage your invesments and plans for the future , try these free financial tools',
 		button: 'Read more',
-		image: bannerImg,
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788827/_NIK5345_chcfui.jpg',
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
 		link: '/financialtools',
@@ -63,15 +62,20 @@ const Banner = () => {
 					sx={styles.slider}
 					play={true}
 					cancelOnInteraction={false} // should stop playing on user interaction
-					interval={2000}
+					interval={5000}
 				>
 					{slides.map((item, index) => (
 						<Box
 							key={index}
 							style={{
 								//	background:
-								background: `url('${item.image}') repeat`,
-								//	backgroundSize : '50%'
+								//background: `url('${item.image}') no-repeat center`,
+						background:` linear-gradient( rgba(255,0,0, 0.3), rgba(22,22,50, 0.9)), url(${item.image}) no-repeat center`,
+								//background: `linear-gradient( rgba(73,93,109,1)0.3 ) rgba(49,55,82,1) 0.7% ),  url(${item.image}) no-repeat center`,
+								height: '650px', /* You must set a specified height */
+							//	backgroundPosition: 'center', /* Center the image */
+							//	backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+								backgroundSize: 'cover' /** */
 							}}
 						>
 							<Box sx={styles.slide}>
@@ -129,7 +133,7 @@ const styles = {
 			fontSize: [1, null, null, 2, null, 3],
 			lineHeight: ['26px', null, null, null, 2.33],
 			color: 'text',
-			opacity: '.7',
+			//opacity: '',
 			mb: ['20px', null, null, null, null, '30px'],
 			width: ['100%'],
 			maxWidth: ['100%', null, null, null, null, '410px'],
@@ -193,14 +197,15 @@ const styles = {
 	},
 
 	slide: {
-		display: 'flex',
+		display: 'block',
 		flexDirection: 'column',
+
 		//	alignItems: 'center',
 		//marginTop: '100px',
 	},
 	slider: {
 		//	backgroundColor :"gold",
 	//	display: 'in-line block',
-		height: '600px',
+		height: '650px',
 	},
 };

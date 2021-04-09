@@ -22,7 +22,7 @@ export default function IndexPage() {
   <ThemeProvider theme ={theme}>
     <StickyProvider>
     <Layout>
-    <Banner/>
+    
     <Property/>
     <FinancialServices/>
     <Textiles/>

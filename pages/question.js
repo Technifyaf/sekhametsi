@@ -21,7 +21,7 @@ export default function IndexPage() {
   <ThemeProvider theme ={theme}>
     <StickyProvider>
     <Layout>
-     <Banner/>   
+     
      <QuestionForm/>
     
 

@@ -24,7 +24,7 @@ export default function IndexPage() {
   <ThemeProvider theme ={theme}>
     <StickyProvider>
     <Layout>
-      <Banner/>
+     
       <Story/>
       <History/>
       <Future/>
