@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const favoriteCourseData = [
   {
     title: 'The Genesis of Sekhametsi',
-    image: fevCardImageOne,
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997825/WhatsApp_Image_2021-04-09_at_9.49.21_PM_f8rquw.jpg',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 reads',
     videoLink: 'https://www.thepost.co.ls/news/the-genesis-of-sekhametsi/',
@@ -22,7 +22,7 @@ const favoriteCourseData = [
   {
     title:
       'Mustard seed',
-    image: fevCardImageTwo,
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997925/WhatsApp_Image_2021-04-09_at_9.51.24_PM_qxvpul.jpg',
     reviewCount: '4.5 (524 reviews)',
     watchCount: '3,532 reads',
     videoLink: 'https://www.thepost.co.ls/news/sekhametsi-the-mustard-seed/',
@@ -30,59 +30,23 @@ const favoriteCourseData = [
   },
   {
     title:
-      'Leading with humility',
-    image: fevCardImageThree,
+      'Great Leap of faith',
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997996/WhatsApp_Image_2021-04-09_at_9.52.43_PM_dsmwu2.jpg',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 reads',
-    videoLink: 'https://www.thepost.co.ls/news/leading-with-humility/',
+    videoLink: 'https://www.thepost.co.ls/news/a-great-leap-of-faith/',
     starCount: 5,
   },
   {
     title:
       'Mashinini : The Future of Sekhametsi',
-    image: fevCardImageThree,
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617998138/WhatsApp_Image_2021-04-09_at_9.53.59_PM_u5ro3d.jpg',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 reads',
     videoLink: 'https://www.thepost.co.ls/news/mashinini-the-future-of-sekhametsi/',
     starCount: 5,
   },
-  {
-    title:
-      'Sekhametsi braces for brusing legal battle',
-    image: fevCardImageThree,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 reads',
-    videoLink: 'https://www.thepost.co.ls/local-news/sekhametsi-braces-for-bruising-legal-battle/',
-    starCount: 5,
-  },
-  {
-    title:
-      'From Caddy to chairman',
-    image: fevCardImageThree,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 reads',
-    videoLink: 'https://www.thepost.co.ls/news/from-a-caddy-to-board-chairman/',
-    starCount: 5,
-  },
-  {
-    title:
-      'Education for all',
-    image: fevCardImageThree,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 reads',
-    videoLink: 'https://www.thepost.co.ls/news/education-for-all/',
-    starCount: 5,
-  },
-  {
-    title:
-      'Against all odds',
-    image: fevCardImageThree,
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '1,037 reads',
-    videoLink: 'https://www.thepost.co.ls/news/leading-with-humility/',
-    starCount: 5,
-  },
-
+  
 ];
 
 const FavoriteCourse = () => {
