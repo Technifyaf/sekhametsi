@@ -52,7 +52,7 @@ const slides = [
 		description:
 			'To help you manage your invesments and plans for the future , try these free financial tools',
 		button: 'Read more',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788827/_NIK5345_chcfui.jpg',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1618000025/WhatsApp_Image_2021-04-09_at_10.25.44_PM_xmdhk4.jpg',
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
 		link: '/financialtools',
