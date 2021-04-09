@@ -50,7 +50,7 @@ const Financialservices = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.col}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952571/_NIK9790_wdwray.jpg' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991382/_NIK9869_lf3euy.jpg' />
 				</Flex>
 			</Box>
 		</Container>

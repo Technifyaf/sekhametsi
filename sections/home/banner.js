@@ -18,6 +18,16 @@ import 'react-awesome-slider/dist/captioned.css';
 
 const slides = [
 	{
+		title: 'AGM on the 23rd of May',
+		description:
+			'',
+		button: 'Read More',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
+		user: 'Daniel',
+		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		link: '/whoweare',
+	},
+	{
 		title: 'Who we are',
 		description:
 			'Sekhametsi Investment Consortium (SMIC) is a 100% Basotho owned (non partisan) broad based public investment company established in 1999. The company has a diversified investment portfolio in telecommunications, financial services, real estate & textiles. ',
@@ -32,10 +42,10 @@ const slides = [
 		description:
 			'We empower Basotho nationals to engage in viable and sustainable investment for the generation of employment, inclusive growth & creating generational wealth. We pride ourselves on creating exceptional shareholder value.  ',
 		button: 'Read more',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg',
 		user: 'Samantha',
 		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
-		link: '/whoweare',
+		link: '/portfolio',
 	},
 	{
 		title: 'Financial tools',

@@ -12,31 +12,77 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const favoriteCourseData = [
   {
-    title: 'A fruitful marriage of equals',
+    title: 'The Genesis of Sekhametsi',
     image: fevCardImageOne,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 reads',
-    videoLink: 'g9avOpUOREM',
+    videoLink: 'https://www.thepost.co.ls/news/the-genesis-of-sekhametsi/',
     starCount: 5,
   },
   {
     title:
-      'Create multiple artboard by using figma prototyping tools development',
+      'Mustard seed',
     image: fevCardImageTwo,
     reviewCount: '4.5 (524 reviews)',
     watchCount: '3,532 reads',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: 'https://www.thepost.co.ls/news/sekhametsi-the-mustard-seed/',
     starCount: 4,
   },
   {
     title:
-      'Convert your web layout theming easily with sketch zeplin extension',
+      'Leading with humility',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 reads',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: 'https://www.thepost.co.ls/news/leading-with-humility/',
     starCount: 5,
   },
+  {
+    title:
+      'Mashinini : The Future of Sekhametsi',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 reads',
+    videoLink: 'https://www.thepost.co.ls/news/mashinini-the-future-of-sekhametsi/',
+    starCount: 5,
+  },
+  {
+    title:
+      'Sekhametsi braces for brusing legal battle',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 reads',
+    videoLink: 'https://www.thepost.co.ls/local-news/sekhametsi-braces-for-bruising-legal-battle/',
+    starCount: 5,
+  },
+  {
+    title:
+      'From Caddy to chairman',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 reads',
+    videoLink: 'https://www.thepost.co.ls/news/from-a-caddy-to-board-chairman/',
+    starCount: 5,
+  },
+  {
+    title:
+      'Education for all',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 reads',
+    videoLink: 'https://www.thepost.co.ls/news/education-for-all/',
+    starCount: 5,
+  },
+  {
+    title:
+      'Against all odds',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+    watchCount: '1,037 reads',
+    videoLink: 'https://www.thepost.co.ls/news/leading-with-humility/',
+    starCount: 5,
+  },
+
 ];
 
 const FavoriteCourse = () => {

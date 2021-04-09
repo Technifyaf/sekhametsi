@@ -31,7 +31,7 @@ export const photos = [
 	  height: 1
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg",
 	  width: 3,
 	  height: 4
 	},
@@ -46,7 +46,7 @@ export const photos = [
 	  height: 4
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788739/_NIK5339_xf3dhj.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg",
 	  width: 4,
 	  height: 3
 	},
@@ -56,12 +56,12 @@ export const photos = [
 	  height: 4
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788700/_NIK5336_efojzv.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788558/_NIK5318_enxdoo.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991279/_NIK9843_m1mrnz.jpg",
 	  width: 4,
 	  height: 3
 	},
@@ -77,11 +77,11 @@ export const photos = [
 	},
 	{
 	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg",
-	  width: 4927,
-	  height: 1000
+	  width: 4,
+	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788532/_NIK5306_kixgdf.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991324/_NIK9848_s9ocib.jpg",
 	  width: 4,
 	  height: 3
 	},
@@ -91,7 +91,7 @@ export const photos = [
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991349/_NIK9862_nbtuki.jpg",
 	  width: 4,
 	  height: 3
 	},

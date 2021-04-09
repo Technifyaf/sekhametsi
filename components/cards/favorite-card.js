@@ -20,10 +20,12 @@ const FavoriteCard = (props) => {
           
         </Box>
         <Heading as="h3">
+          <a href = {props.videoLink}>
           <Link path="https://www.thepost.co.ls/news/a-fruitful-marriage-of-equals/" label={props.title} />
+          </a>
         </Heading>
         <Text as="p">
-          <Image src={eyeIcon} alt="" /> {props.watchCount}
+         
         </Text>
       </Box>
     </Box>
