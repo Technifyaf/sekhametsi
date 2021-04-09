@@ -43,25 +43,25 @@ const Property = () => {
 									possess high expansion potential.<br/><br/> Our current portfolio of
 									property is comprised of prime and iconic properties in the
 									Maseru CBD. <br/><br/> 
-									<li>Vodacom Park Known as the biggest green building
+									<li>Vodacom Park </li> Known as the biggest green building
 									in Lesotho Vodacom park was built and handed over to Vodacom
 									Lesotho in 2017. The building was to minimise its impact on
 									climate change by reducing greenhouse gas emissions generated
 									by its operation. The three-storey 3 631 m² building includes
 									a call centre, open plan offices, closed offices, boardrooms,
 									canteens, ablutions, a kitchen and a freezer room, is a
-									M80million marvel in the heart Maseru CBD.</li> 
-									<li>Sekhametsi Place A
+									M80million marvel in the heart Maseru CBD. <br/><br/> 
+									<li>Sekhametsi Place</li> A
 									piece of architectural history in story of Lesotho, the former
 									Agric Bank was acquired by Sekhametsi in 2017. Now known as
 									Sekhametsi Place, plans are in place to complete the iconic
 									building and make it one of the key fixtures in Maseru’s
-									skyline.</li> <li>Moruo Develpoments (Pioneer Mall) The advent of
+									skyline.<br/><br/>  <li>Moruo Develpoments (Pioneer Mall)</li> The advent of
 									Pioneer Mall transformed the purchase experience of Basotho
 									and opened up untapped revenue streams in the commercial
 									property space. As a Major shareholder in Moruo Developments,
 									Sekhametsi cemented its position as a developmental investor
-									with Pioneer Mall employing over 300 Basotho.</li>
+									with Pioneer Mall employing over 300 Basotho.
 								</Text>
 							</Box>
 						</Box>
