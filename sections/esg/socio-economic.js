@@ -28,7 +28,7 @@ const Whatwedo = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.col}>
-					<Image src={img1} alt='' />
+				<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617995209/Maseru_from_Parliament_Hill_pkfmgq.jpg' />
 				</Flex>
 			</Box>
 		</Container>

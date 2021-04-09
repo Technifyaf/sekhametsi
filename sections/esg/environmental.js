@@ -37,7 +37,7 @@ const Story = () => {
 						</Box>
 					</Flex>
 					<Flex sx={styles.col}>
-						<Image src={img1} alt='' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617995231/environment_e9tptc.jpg' />
 					</Flex>
 				</Box>
 			</Container>
