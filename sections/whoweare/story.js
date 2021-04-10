@@ -42,7 +42,7 @@ const Story = () => {
 						</Box>
 					</Flex>
 					<Flex sx={styles.col}>
-						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952586/_NIK9759_wsqve7.jpg ' />
+						<Image  sx ={styles.image}src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952586/_NIK9759_wsqve7.jpg ' />
 					</Flex>
 				</Box>
 			</Container>
@@ -93,4 +93,10 @@ const styles = {
 			mt: ['15px'],
 		},
 	},
+
+	image : {
+		backgroundPosition : 'center',
+		backgroundSize :'contain'
+
+	}
 };
