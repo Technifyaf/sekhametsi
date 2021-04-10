@@ -66,7 +66,7 @@ const FAQ = () => {
 			<Container>
 				<BlockTitle
 					title='Frequently asked questions'
-					text='Ask your question and get a response a'
+					text='Ask your question and get a response '
 				/>
 				<Flex sx={styles.flex}>
 					<Box sx={styles.faqWrapper}>

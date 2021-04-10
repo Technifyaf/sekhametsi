@@ -20,10 +20,10 @@ const Property = () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
-				<BlockTitle
-					title='If you want to fast go alone, if you want to far go together'
-					text='The story of sekahmetsi'
-				/>
+			<BlockTitle
+          title="If you want to fast go alone, if you want to far, go together"
+          text="The story of Sekhametsi"
+        />
 
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
