@@ -184,7 +184,7 @@ const Board = () => {
     <Container sx = {styles.wrapper}>
            <SectionHeader
           slogan="The Board"
-          title="The most qualified and talented individuals"
+          title="service, dedication, transparency and a willingness to win"
           
         />
 
