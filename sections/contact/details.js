@@ -1,6 +1,7 @@
 import react from 'react'
 import {Box,Container,Flex,Heading,Text} from 'theme-ui'
 import BlockTitle from '../../components/block-title';
+import SimpleMap from '../../components/map';
 
 
 
@@ -25,6 +26,7 @@ const Philosophy = () => {
 							 
                           </Box>
             </Box>
+            <SimpleMap/>
         </Container>
     </Box>   
  )
