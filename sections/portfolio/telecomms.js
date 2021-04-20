@@ -10,7 +10,7 @@ const Telecomms = () => {
 	return (
 		<Container>
 			<Box sx={Styles.row}>
-				<Flex sx={Styles.col}>
+				<Flex sx={Styles.row}>
 					<Box sx={Styles.content}>
 						<Box sx={Styles.titleBox}>
 							<Heading as='h3'>Telecommunication</Heading>
@@ -18,29 +18,26 @@ const Telecomms = () => {
 
 							<Text as='p'>
 								With only two network operators in Lesotho, Sekhametsi is proud
-								to be a major shareholder in the largest mobile operator in
-								Lesotho. Vodacom is Lesotho’s first Mobile network operator with
-								a subscriber base of 1,35 million Basotho. It also owns Mpesa
-								which is the most used mobile money platform in the country with
-								M1million subscribers. It is through stake in Vodacom that
-								Sekhametsi found its feet and the relationship continues to grow
-								into the improvement and betterment of countless Basotho lives.
-								Vodacom has invested Billions of Maloti in infrastructal
-								developments in Lesotho through its 300 bay stations, its rental
-								of Vodacom Park and the hundreds of Basotho it continues to
-								employ across the country. Having always been a trendsetter in
-								social investment and development, Vodacom represents an
-								investment that Sekhametsi is proud of and that affords us the
-								global appeal and reach that we seek and aspire to. Sekhametsi
-								will continue to find avenues to invest and develop the
-								telecommunications industry in Lesotho to enhance connectivity
-								and accessibility for Basotho that will transcend geographical
-								limitations.
+								to be shareholder in the largest mobile operator in Lesotho.
+								Vodacom Lesotho (VCL) commands a market share of 1,35 million
+								subscribers. VCL also owns Mpesa, which is the preferred mobile
+								money platform in the country with M1million subscribers. The
+								interest in Vodacom has been a game changer and kept SMIC ahead
+								of the investment curve. Vodacom has made transformational
+								investments worth Billions of Maloti in infrastructure
+								developments through its 300 bay stations, leasing of Vodacom
+								Park, SMEs vending business opportunities and the hundreds of
+								Basotho in its employ in outlets across the country. As the
+								leader in social investment and development, Vodacom represents
+								an investment that Sekhametsi is proud of and that affords us
+								the global appeal and reach that SMIC seek and aspire to.
+								<a href =" https://www.vodacom.co.ls"> https://www.vodacom.co.ls </a>for Basotho that will transcend
+								geographical limitations.
 							</Text>
 						</Box>
 					</Box>
 				</Flex>
-				<Flex sx={Styles.col}>
+				<Flex sx={Styles.row}>
 					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952615/_NIK9774_ebbv6w.jpg ' />
 				</Flex>
 			</Box>
@@ -51,17 +48,16 @@ const Telecomms = () => {
 export default Telecomms;
 
 const Styles = {
-	whoweare: {
+	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
 		backgroundColor: 'background',
 	},
-
 	row: {
 		mixBlendMode: 'softlight',
-		backgroundColor: 'black',
+		backgroundColor: 'background',
 		display: 'flex',
 		flexWrap: 'wrap',
-		flexDirection: ['column', null, null, 'row-reverse'],
+		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
 		backgroundColor: 'background',
@@ -69,15 +65,15 @@ const Styles = {
 	},
 	content: {
 		width: '100%',
-		textAlign: ['left', null, null, null, 'left'],
-		pt: [null, null, null, null, null, '100px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
+		textAlign: ['left', null, 'justify', null, 'left'],
+		pt: [null, null, null, null, null, '50px'],
+		pb: [null, null, null, null, null, '60px', '15px'],
 		pr: [null, null, null, null, null, '60px', '140px'],
 	},
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
-			color: 'Primary',
+			color: 'primary',
 			fontSize: [5, null, null, '21px', '36px', '32px', 8],
 			lineHeight: [1.6, null, null, '1.5'],
 			fontWeight: 'bold',

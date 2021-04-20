@@ -10,7 +10,7 @@ const popularCourseData = [
    // reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 plays',
     videoLink: 'd1igVwUD6ug',
-    starCount: 5,
+   // starCount: 5,
     expanded: false,
     list: [
       {

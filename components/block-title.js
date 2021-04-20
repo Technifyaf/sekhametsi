@@ -17,6 +17,7 @@ const styles = {
     
     textAlign: 'center',
     mb: ['60px', null, null, null, '60px', null, '80px'],
+    mt: ['60px', null, null, null, '60px', null, '80px'],
     h3: {
       color: 'Primary',
       fontSize: ['23px', null, null, '30px'],

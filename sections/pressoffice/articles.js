@@ -85,7 +85,7 @@ const FavoriteCourse = () => {
    
       <BlockTitle
 					title='News'
-					text='Articles'
+					text='Swipe left to find more articles'
 				/>
      
    

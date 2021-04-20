@@ -25,20 +25,8 @@ const PopularCard = (props) => {
         <Box sx={styles.popularCard.top}>
           <Box sx={styles.popularCard.content}>
             <Box sx={styles.popularCard.meta}>
-              <Box
-                sx={styles.popularCard.stars}
-                className={`starCount-${props.starCount}`}
-              >
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <Text as="span">{props.reviewCount}</Text>
-              </Box>
-              <Box sx={styles.popularCard.watch}>
-                <Image width="24px"src={playbutton} alt="" /> {props.watchCount}
-              </Box>
+             
+            
             </Box>
             <Heading as="h3">
               <Link path="/" label={props.title} />
@@ -47,25 +35,7 @@ const PopularCard = (props) => {
              An in-depth coversation on the story of sekhametsi's journey.
             </Text>
           </Box>
-          <Box sx={styles.popularCard.buttonBox}>
-            <Button
-              sx={styles.popularCard.courseBtn}
-              onClick={handleClick}
-              varient="buttons.primary"
-            >
-              7 Episodes
-              <Text as="span">4 hrs</Text>
-            </Button>
-            {status === true ? (
-              <>
-                <FaAngleUp onClick={handleClick} width={16} />
-              </>
-            ) : (
-              <>
-                <FaAngleDown onClick={handleClick} width={16} />
-              </>
-            )}
-          </Box>
+       
         </Box>
         {status === true ? (
           <Box sx={styles.popularCard.list}>

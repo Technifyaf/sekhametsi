@@ -17,7 +17,6 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/captioned.css';
-import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
 	{
 		title: 'AGM on the 23rd of May',
@@ -27,7 +26,7 @@ const slides = [
 		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: 'https://drive.google.com/file/d/1CzA8Y88kSbRHNWajunWBJeZ5b2nzKzca/view',
+		link: '/whoweare',
 	},
 	{
 		title: 'Who we are',
@@ -65,18 +64,16 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 
 
-const Banner = () => {
+const Sliderbox = () => {
 	
 	return (
 		<Box sx={styles.banner}>
 			<Box sx={styles.content}>
-				
 				<AutoplaySlider
 					sx={styles.slider}
 					play={true}
 					cancelOnInteraction={false} // should stop playing on user interaction
 					interval={5000}
-					cssModule ={AwesomeSliderStyles}
 				>
 					{slides.map((item, index) => (
 						<Box
@@ -87,11 +84,9 @@ const Banner = () => {
 						background:` linear-gradient( rgba(255,0,0, 0.3), rgba(22,22,50, 0.9)), url(${item.image}) no-repeat center`,
 								//background: `linear-gradient( rgba(73,93,109,1)0.3 ) rgba(49,55,82,1) 0.7% ),  url(${item.image}) no-repeat center`,
 								height: '650px', /* You must set a specified height */
-							//	backgroundPosition: 'center', /* Center the image */
+								backgroundPosition: 'center', /* Center the image */
 							//	backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-								backgroundSize: 'cover' /** */,
-								objectFit: 'contain'
-
+								backgroundSize: 'cover' /** */
 
 							}}
 						>
@@ -106,13 +101,12 @@ const Banner = () => {
 						</Box>
 					))}
 				</AutoplaySlider>
-				</Box>
 			</Box>
-		
+		</Box>
 	);
 };
 
-export default Banner;
+export default Sliderbox;
 
 const styles = {
 	banner: {
@@ -226,6 +220,4 @@ const styles = {
 	//	display: 'in-line block',
 		height: '650px',
 	},
-	
-	
 };

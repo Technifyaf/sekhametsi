@@ -20,36 +20,38 @@ const Financialservices = () => {
 	return (
 		<Container>
 			<Box sx={Styles.row}>
-				<Flex sx={Styles.col}>
+				<Flex sx={Styles.row}>
 					<Box sx={Styles.content}>
 						<Box sx={Styles.titleBox}>
 							<Heading as='h3'>Financial Services</Heading>
 							<hr align='left' width='300px ' color='gold'></hr>
 
 							<Text as='p'>
-								Financial literacy and access and inclusion to financial
-								services is pivotal to the growth and prosperity of the Basotho
-								Nation. The majority of Basotho remain outside the financial
-								inclusion circle and Sekhametsi is dedicated to ensuring that
-								this changes across the board. Local participation in the
-								financial services sector ensures that the economic interests of
-								Basotho are prioritised and an imperative for money to circulate
-								within our borders as opposed to it flowing out is given greater
-								impetus. Sekhametsi is proud to be a significant shareholder in
-								Stanlib Lesotho which currently manages over M4Billion worth of
-								assets and is the largest asset management service in Lesotho.
-								Sekhametsi hold stake in Letshego Financial Services and is
-								keenly assessing the micro financing landscape in Lesotho and
-								how it is developing. It is our aspiration to become a larger
-								player in the financial services ownership sphere as we believe
-								it empowers us to make more meaningful contributions and
-								interventions towards the enhancement and improvement of
-								Lesotho’s economy and the standard of living of our people.
+								Financial inclusion is pivotal to the growth and prosperity of
+								the Basotho Nation. The majority of Basotho and entrepreneurs
+								remain underbanked and in underserved segments of the sector.
+								Sekhametsi investment in the sector contribute to promoting
+								investment and bridging the financing gaps for individuals and
+								enterprises in need of credit, start - up and growth capital.
+								<br />
+								<br />
+								Sekhametsi is proud shareholder in Stanlib Lesotho the largest
+								asset management service in the country with over M4 Billion
+								worth of assets under its management.
+								<a href='https://stanlib.com/lesotho/'>  https://www.letshego.com/lesotho/ </a>
+								<br />
+								<br />
+								The company also holds a stake in Letshego Financial Services, a
+								micro financing institution that provides appropriate and
+								accessible consumer, microfinance and savings solutions to the
+								financially under-served, thus delivering on the inclusive
+								finance agenda.
+								<a href = "https://www.letshego.com/lesotho/ ">  https://www.letshego.com/lesotho/ </a>
 							</Text>
 						</Box>
 					</Box>
 				</Flex>
-				<Flex sx={Styles.col}>
+				<Flex sx={Styles.row}>
 					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991382/_NIK9869_lf3euy.jpg' />
 				</Flex>
 			</Box>
@@ -60,17 +62,16 @@ const Financialservices = () => {
 export default Financialservices;
 
 const Styles = {
-	whoweare: {
+	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'bacground',
+		backgroundColor: 'background',
 	},
-
 	row: {
 		mixBlendMode: 'softlight',
-		backgroundColor: 'black',
+		backgroundColor: 'background',
 		display: 'flex',
 		flexWrap: 'wrap',
-		flexDirection: ['column', null, null, 'row-reverse'],
+		flexDirection: ['column', null, null, 'row'],
 	},
 	col: {
 		backgroundColor: 'background',
@@ -78,26 +79,15 @@ const Styles = {
 	},
 	content: {
 		width: '100%',
-		textAlign: ['left', null, null, null, 'left'],
+		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '50px'],
-		pl: [null, null, null, null, null, '60px', '140px'],
+		pb: [null, null, null, null, null, '60px', '15px'],
 		pr: [null, null, null, null, null, '60px', '140px'],
 	},
-	slider: {
-		pl: [null, null, null, null, null, '0px', '10px'],
-		pr: [null, null, null, null, null, '0px', '10px'],
-		width: '100%',
-	},
-
-	slide: {
-		pl: [null, null, null, null, null, '0px', '10px'],
-		pr: [null, null, null, null, null, '0px', '10px'],
-	},
-
 	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
-			color: 'Primary',
+			color: 'primary',
 			fontSize: [5, null, null, '21px', '36px', '32px', 8],
 			lineHeight: [1.6, null, null, '1.5'],
 			fontWeight: 'bold',

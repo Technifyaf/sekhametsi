@@ -22,7 +22,7 @@ const FinancialCard = (props) => {
           <Text > {props.title}</Text>
         </Heading>
         <Text as="p">
-          <Image src={eyeIcon} alt="" /> {props.watchCount}
+        
         </Text>
         </Box>
         <Box>

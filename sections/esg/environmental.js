@@ -10,10 +10,10 @@ const Story = () => {
 	return (
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
-			<BlockTitle
-          title="If you want to fast go alone, if you want to far, go together"
-          text="The story of Sekhametsi"
-        />
+				<BlockTitle
+					title='If you want to fast go alone, if you want to far, go together'
+					text='The story of Sekhametsi'
+				/>
 				<Box sx={styles.row}>
 					<Flex sx={styles.col}>
 						<Box sx={styles.content}>
@@ -21,23 +21,21 @@ const Story = () => {
 								<Heading as='h3'>Environmental</Heading>
 								<hr color='gold'></hr>
 								<Text as='p'>
-									It is critical that we all safeguard the future of our
-									beautiful country by conducting our business and affairs in a
-									responsible and sustainable manner and this begins and ends
-									with the way we deal and interact with our environment. The
-									majority of Lesotho is untouched landscape that requires
-									protection and consideration in our endeavours to grow the
-									economy of Lesotho. Sekhametsi is therefore dedicated to
-									assisting and championing environmentally sustainable projects
-									throughout Lesotho. We have responsibility to ensure that
-									future generations are able to enjoy their birth rite just as
-									we and generations before us have.
+									Sekhametsi subscribes to the principle of environmental,
+									social and governance (ESG). It has adopted the principles
+									into its business ethics and compliance frameworks to create
+									business value for the shareholders and the public. SMIC
+									implores its investee companies and affiliates to apply the
+									principles at all times to maintain high levels of business
+									integrity. This is important to ensure that SMIC plays a part
+									through its investments to build a better Lesotho for current
+									and future generations.
 								</Text>
 							</Box>
 						</Box>
 					</Flex>
 					<Flex sx={styles.col}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617995231/environment_e9tptc.jpg' />
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617995231/environment_e9tptc.jpg' />
 					</Flex>
 				</Box>
 			</Container>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Header from '../components/header/header'
 
 
-import { ThemeProvider } from 'theme-ui'
+import { Slider, ThemeProvider } from 'theme-ui'
 import theme from '../theme'
 import Layout from '../components/layout'
 import Banner from '../sections/home/banner'
@@ -18,6 +18,7 @@ import Board from '../sections/whoweare/board'
 import History from '../sections/whoweare/history'
 import Governance from '../sections/whoweare/governance'
 import Financials from '../sections/whoweare/financials'
+import Sliderbox from '../sections/whoweare/slider'
 
 export default function IndexPage() {
   return (

@@ -14,6 +14,7 @@ import Wherewecomefrom from '../sections/home/wherewecomefrom'
 import Bottombanner from '../sections/home/bottombanner'
 import Details from '../sections/contact/details'
 import Map from '../sections/contact/Map'
+import Property from '../sections/portfolio/property'
 
 export default function IndexPage() {
   return (
@@ -22,6 +23,7 @@ export default function IndexPage() {
     <Layout>
    
      <Details/>
+   
    
     </Layout>
     </StickyProvider>

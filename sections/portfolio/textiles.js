@@ -9,39 +9,31 @@ const Story = () => {
 	return (
 		<Container>
 			<Box sx={styles.row}>
-				<Flex sx={styles.col}>
+				<Flex sx={styles.row}>
 					<Box sx={styles.content}>
 						<Box sx={styles.titleBox}>
 							<Heading as='h3'>Textiles</Heading>
 							<hr align='left' width='150px ' color='gold'></hr>
 
 							<Text as='p'>
-								The textile industry is one of the oldest industrial trades in
-								Lesotho. The world over, Lesotho is famed for its textile
-								exports which historically were spearheaded by the export of
-								wool and mohair and their by-products, and in more recent times
-								the large-scale production of white label clothing exported all
-								over the world. The textile industry in Lesotho is the largest
-								formal employer with number having peaked at 54,000 employed,
-								comprising of 92% of manufacturing jobs and producing 43% of
-								Lesotho’s exports. The industry is massive and pivotal to the
-								growth of Lesotho. Only two of the 40 textile factories in
-								Lesotho are owned by Basotho. This presents an incredible growth
-								opportunity. Sekhametsi purchased 30% of locally owned textile
-								producer Afri-Expo for M10million has intends to further
-								increase its stake in the textile industry to create more jobs
-								for Basotho and expand our export base. We continue to run the
-								rule over developments in the textile industry and look to
-								seeing more of the global value chain migrate within Lesotho
-								borders, offering more opportunities to the thousands of young
-								Basotho who have acquired skills in cutting and sowing and are
-								even branching out into creating their own labels and brands.
+								The textile and apparel industry, manufacturing are the leading
+								industries globally and remain the engine of growth in GDP and
+								job creation in Lesotho. Basotho owns only two of the 40 textile
+								factories in Lesotho. This presents an incredible investment and
+								indigenization opportunity. Sekhametsi purchased 30% of locally
+								owned textile producer Afri-Expo for M10million. The sector is
+								laden with further economic opportutntites that can be harnessed
+								from development of a more sustainable and circular textile
+								value chain to support the related creative sub-sectors. SMIC
+								intends to further increase its footprint in the textile
+								industry to spur additional jobs for Basotho, expand the
+								country’s export base and contribute to economic growth
 							</Text>
 						</Box>
 					</Box>
 				</Flex>
-				<Flex sx={styles.col}>
-				<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991348/_NIK9856_slbd15.jpg' />
+				<Flex sx={styles.row}>
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991348/_NIK9856_slbd15.jpg' />
 				</Flex>
 			</Box>
 		</Container>
@@ -57,7 +49,7 @@ const styles = {
 	},
 	row: {
 		mixBlendMode: 'softlight',
-		backgroundColor: 'black',
+		backgroundColor: 'background',
 		display: 'flex',
 		flexWrap: 'wrap',
 		flexDirection: ['column', null, null, 'row'],

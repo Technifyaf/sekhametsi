@@ -1,113 +1,162 @@
-import react from 'react'
-import {Box, Container, Flex, Heading, Text} from 'theme-ui'
+import react from 'react';
+import { Box, Container, Flex, Heading, Text } from 'theme-ui';
 import { Link } from '../../components/link';
 
 import Image from '../../components/image';
 
-
 import img1 from '../../assets/event.jpg';
+import Gallery from "react-photo-gallery";
+import BlockTitle from '../../components/block-title';
 
 
 
-const slides = [{
-	title: 'Events',
-    list: [
-        {
-            content: img1,
-          },
-          {
-            content: img1,
-          },
-          {
-            content: img1,
-          },
-          {
-            content: img1,
-          },
-    ],
-    reviewCount: '5.0 (392 reviews)',
-    watchCount: '2,538 reads',
-    videoLink: 'g9avOpUOREM',
-    starCount: 5,
-
-}]
-
-
-const Events = () => {
- return (
-     <Box sx = {Styles.whoweare}>
-         <Container>
-             <Box sx ={Styles.row}>
-                 <Flex sx = {Styles.col}>
-                     <Box sx ={Styles.content}>
-                         <Box sx = {Styles.titleBox} >
-                             <Heading as="h3">
-                            Events
-                             </Heading>
-                              <Text as="p">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus felis sed urna ultrices ornare. Cras elementum risus sed cursus suscipit. Proin sem velit, blandit at maximus at, consectetur vel tellus. Vestibulum sed iaculis nulla, finibus molestie lorem. Morbi egestas mattis dolor, id rhoncus nisl vulputate sit amet. Sed ornare blandit odio commodo mattis. Ut rhoncus consequat arcu id pharetra. Phasellus vitae odio nec neque laoreet lobortis et non lectus. Duis varius est eu arcu interdum commodo. Quisque pulvinar orci leo, laoreet mattis leo dignissim fringilla. Suspendisse potenti. In eget dapibus mi. Sed nunc felis, efficitur nec posuere et, cursus accumsan est. Sed rhoncus, eros nec sagittis feugiat, nunc mi lacinia odio, eget rutrum ipsum odio id tortor.
-                              </Text>
-                              <Link path="/" sx={Styles.link}>
-                                 Learn more
-                              </Link>
-                          </Box>
-                     </Box>
-                 </Flex>
-                 <Flex sx = {Styles.col}>
-                      <Image src={img1} width="600" alt="" />
-                 </Flex>
-            </Box>
-        </Container>
-
-    </Box>   
- )
-}
+export const photos = [
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg",
+	  width: 1,
+	  height: 1
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991279/_NIK9843_m1mrnz.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg",
+	  width: 3,
+	  height: 4
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788780/_NIK5341_qahgkg.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991324/_NIK9848_s9ocib.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788931/_NIK5351_ksxaxl.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991349/_NIK9862_nbtuki.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/_NIK5365_nwzbnq.jpg",
+	  width: 4,
+	  height: 3
+	}
+  ];
   
 
+const Events = () => {
+	return (
+		<Box as='section' sx={styles.wrapper}>
+			<Container>
+      <BlockTitle sx ={styles.blocktitle}
+          title="Events"
+          text="The story of Sekhametsi"
+        />
+			
+				<Gallery photos={photos} />
+			</Container>
+		</Box>
+	);
+};
 
 export default Events;
 
-const Styles = {
-
-    whoweare : {
-        pt: ['70px', null, null, '80px', '120px', null, '130px'],
-        backgroundColor : 'blue'
-
-        },
-
-        row: {
-            mixBlendMode : 'softlight',
-            backgroundColor : 'black',
-            display: 'flex',
-            flexWrap: 'wrap',
-            flexDirection: ['column', null, null, 'row-reverse'],
-          },
-          col: {
-            backgroundColor : 'teal',
-            flex: ['0 0 100%', null, null, '0 0 50%'],
-          },
-          content: {
-            width: '100%',
-            textAlign: ['left', null, null, null, 'left'],
-            pt: [null, null, null, null, null, '100px'],
-            pl: [null, null, null, null, null, '60px', '140px'],
-          },
-          titleBox: {
-            textAlign: ['center', null, null, 'left'],
-            h3: {
-              color: 'black',
-              fontSize: [5, null, null, '21px', '36px', '32px', 8],
-              lineHeight: [1.6, null, null, '1.5'],
-              fontWeight: 'bold',
-              letterSpacing: ['-0.5px', null, null, null, null, null, '-1.5px'],
-            },
-            p: {
-              fontSize: [0, null, 2, null, '17px'],
-              color: 'text_secondary',
-              opacity: '.6',
-              lineHeight: ['26px', null, null, 1.8, null, 2.06],
-              padding: ['0 20px', null, null, '0'],
-              mt: ['15px'],
-            },
-          },
-}
+const styles = {
+	whoweare: {
+		pt: ['70px', null, null, '80px', '120px', null, '130px'],
+		backgroundColor: 'blue',
+	},
+  blocktitle: {
+		pt: [null, null, null, null, null, '100px'],
+	},
+	row: {
+		mixBlendMode: 'softlight',
+		backgroundColor: 'black',
+		display: 'flex',
+		flexWrap: 'wrap',
+		flexDirection: ['column', null, null, 'row-reverse'],
+	},
+	col: {
+		backgroundColor: 'teal',
+		flex: ['0 0 100%', null, null, '0 0 50%'],
+	},
+	content: {
+		width: '100%',
+		textAlign: ['left', null, null, null, 'left'],
+		pt: [null, null, null, null, null, '100px'],
+		pl: [null, null, null, null, null, '60px', '140px'],
+	},
+	titleBox: {
+		textAlign: ['center', null, null, 'left'],
+		h3: {
+			color: 'black',
+			fontSize: [5, null, null, '21px', '36px', '32px', 8],
+			lineHeight: [1.6, null, null, '1.5'],
+			fontWeight: 'bold',
+			letterSpacing: ['-0.5px', null, null, null, null, null, '-1.5px'],
+		},
+		p: {
+			fontSize: [0, null, 2, null, '17px'],
+			color: 'text_secondary',
+			opacity: '.6',
+			lineHeight: ['26px', null, null, 1.8, null, 2.06],
+			padding: ['0 20px', null, null, '0'],
+			mt: ['15px'],
+		},
+	},
+};

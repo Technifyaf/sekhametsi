@@ -6,20 +6,25 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 import SectionHeader from '../../components/sectionheading';
 
 
-import Member1 from '../../assets/team/member-1.png';
-import Member2 from '../../assets/team/member-2.png';
-import Member3 from '../../assets/team/member-3.png';
-import Member4 from '../../assets/team/member-4.png';
-import Member5 from '../../assets/team/member-5.png';
-import Member6 from '../../assets/team/member-6.png';
+import Member1 from '../../assets/team/Lebete.jpg';
+import Member2 from '../../assets/team/Moteane_2.jpg';
+import Member3 from '../../assets/team/Kotelo_2.jpg';
+import Member4 from '../../assets/team/Relebohile.jpg';
+import Member5 from '../../assets/team/Khomari.jpg';
+import Member6 from '../../assets/team/limpho.jpg';
+import Member7 from '../../assets/team/limpho.jpg';
+import Member8 from '../../assets/team/lintle.jpeg';
+
+import Member9  from '../../assets/team/limpho.jpg';
+
 
 const data = [
     {
       id: 1,
       imgSrc: Member1,
-      altText: 'Saimon Harmer',
-      title: 'Saimon Harmer',
-      designation: 'CEO and Founder',
+      altText: 'Leboela Lebete',
+      title: 'Leboela Lebete',
+      designation: 'Chairman',
       socialProfile: [
         {
           id: 1,
@@ -44,9 +49,9 @@ const data = [
     {
       id: 2,
       imgSrc: Member2,
-      altText: 'Aaron Nunez',
-      title: 'Aaron Nunez',
-      designation: 'Founder',
+      altText: 'Matjato Moteane',
+      title: 'Matjato Moteane',
+      designation: 'Member',
       socialProfile: [
         {
           id: 1,
@@ -71,9 +76,9 @@ const data = [
     {
       id: 3,
       imgSrc: Member3,
-      altText: 'Aaron Nunez',
-      title: 'Aaron Nunez',
-      designation: 'Web Designer',
+      altText: 'Palo Kotelo',
+      title: 'Palo Kotelo',
+      designation: 'Member',
       socialProfile: [
         {
           id: 1,
@@ -98,9 +103,9 @@ const data = [
     {
       id: 4,
       imgSrc: Member4,
-      altText: 'Lina Jutila',
-      title: 'Lina Jutila',
-      designation: 'Web Developer',
+      altText: 'Relebohile Sefako',
+      title: 'Relebohile Sefako',
+      designation: 'Member',
       socialProfile: [
         {
           id: 1,
@@ -125,9 +130,9 @@ const data = [
     {
       id: 5,
       imgSrc: Member5,
-      altText: 'Saimon Harmer',
-      title: 'Saimon Harmer',
-      designation: 'CEO and Founder',
+      altText: 'Lebohang Khomari',
+      title: 'Lebohang Khomari',
+      designation: 'Member',
       socialProfile: [
         {
           id: 1,
@@ -152,9 +157,90 @@ const data = [
     {
       id: 6,
       imgSrc: Member6,
-      altText: 'Aaron Nunez',
-      title: 'Aaron Nunez',
-      designation: 'Web Designer',
+      altText: 'Limpho Maema',
+      title: 'Limpho Maema',
+      designation: 'Member',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+   
+    {
+      id: 7,
+      imgSrc: Member7,
+      altText: 'Lesrotholi Seeiso',
+      title: 'Lerotholi Seeiso',
+      designation: 'Member',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    },
+    {
+      id: 8,
+      imgSrc: Member8,
+      altText: 'Lintle Thamae',
+      title: 'Lintle Thamae',
+      designation: 'Member',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
+      ],
+    }, {
+      id: 9,
+      imgSrc: Member9,
+      altText: 'Naledi Maphathe',
+      title: 'Naldi Maphathe',
+      designation: 'Member',
       socialProfile: [
         {
           id: 1,

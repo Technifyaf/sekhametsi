@@ -13,10 +13,9 @@ const Ipo = () => {
 								<hr color='gold'></hr>
 
 								<Text as='p'>
-									It is the intention of Sekhametsi to fully list in the Maseru
-									Securities Market. We intend to be done with all compliance
-									and due diligence processes to be fully list in the 3rd
-									quarter of 2021.{' '}
+									It is the intention of Sekhametsi to list on the Maseru
+									Securities Market to widen investment opportunities for more
+									Basotho to deepen our impact.{' '}
 								</Text>
 							</Box>
 						</Box>

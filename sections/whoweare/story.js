@@ -1,6 +1,6 @@
 import react from 'react';
-import { Box, Container, Grid, Heading, Text, Flex } from 'theme-ui';
-import { Link } from '../../components/link';
+import { Box, Container, Grid, Heading, Text, Flex, Link } from 'theme-ui';
+//import { Link } from '../../components/link';
 import Image from '../../components/image';
 
 import img1 from '../../assets/vodacomp.jpg';
@@ -11,38 +11,42 @@ const Story = () => {
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
 				<Box sx={styles.row}>
-					<Flex sx={styles.col}>
+					<Flex sx={styles.row}>
 						<Box sx={styles.content}>
 							<Box sx={styles.titleBox}>
 								<Heading as='h3'>Our Story</Heading>
 								<hr color='gold'></hr>
 								<Text as='p'>
-									In the late 1990s, when the Government of Lesotho embarked on
-									a Privatisation Programme that saw the state selling off its
-									stakes in various companies. The government’s 12 percent stake
-									(with a option to buy further 8%) in Vodacom Lesotho was one
-									of the assets on sale. At that time Vodacom Lesotho was a
-									small mobile network operator with just about 19 000
-									subscribers. One moment of inspired thinking by a few dozen
-									Basotho who dared to dream big and toiled over the years to
-									make that dream a reality resulted in a journey of Huge
-									hurdles surmounted, gratification delayed, through hard work
-									and Commitment to playing by the rule book. Through
-									solicitation and lobbying, Sekhemetsi grew to 200 individuals
-									and investment clubs. They then submitted a formal offer to
-									the government’s Privatisation Unit, who selected it as the
-									preferred bidder ahead of two other competitors and so
-									Sekhametsi gained its first stake in Telecoms giant Vodacom.
-									20 years on, the consortium boasts interests in Property,
-									Financial services, and Textile manufacturing. Sekhametsi is
-									the largest locally owned company in Lesotho and exceeded the
-									M1Billion valuation mark in 2020.
+									This is embodied in our mission statement: To become a
+									globally sought after, ethical wealth creation vehicle for the
+									Basotho nation, which embraces innovation, accountability &
+									due prudence in all its dealings. We forecast the market
+									capitalization shall grow from the existing M1.2 billion to M5
+									billion by 2026. In the late 1990s, the Government of Lesotho
+									embarked on a Privatisation Programme that saw the state
+									selling off its stakes in various companies. The government’s
+									12 percent stake (with an option to buy further 8%) in Vodacom
+									Lesotho was one of the assets on offer. At the time Vodacom
+									Lesotho was a small mobile network operator with approximately
+									19 000 subscribers. The offer led to a moment of inspired
+									thinking by a few dozen Basotho who dared to dream big and
+									toiled over the years to make that dream a reality. The
+									commitment resulted in a journey of overcoming seemingly
+									insurmountable challenges, discipline, delayed gratification
+									and playing by the book.
+									<br /> <Link href='/'> Read more </Link> <br />
+									Through solicitation and lobbying, Sekhametsi grew to 200
+									individuals and 6 investment clubs. Sekhametsi made a formal
+									purchase offer to the government’s Privatisation Unit, and was
+									selected as the preferred bidder; and so Sekhametsi gained its
+									first stake in Telecoms giant Vodacom. 20 years on, the
+									consortium expanded its investment portfolio and boasts
+									interests in property, financial services, and textile
+									manufacturing. Sekhametsi is the largest locally owned company
+									in Lesotho and achieved the M1Billion valuation mark in 2020.
 								</Text>
 							</Box>
 						</Box>
-					</Flex>
-					<Flex sx={styles.col}>
-						<Image  sx ={styles.image}src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952586/_NIK9759_wsqve7.jpg ' />
 					</Flex>
 				</Box>
 			</Container>
@@ -55,11 +59,11 @@ export default Story;
 const styles = {
 	wrapper: {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
-		backgroundColor: 'bacground',
+		backgroundColor: 'background',
 	},
 	row: {
 		mixBlendMode: 'softlight',
-		backgroundColor: 'black',
+		backgroundColor: 'background',
 		display: 'flex',
 		flexWrap: 'wrap',
 		flexDirection: ['column', null, null, 'row'],
@@ -71,7 +75,7 @@ const styles = {
 	content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
-		pt: [null, null, null, null, null, '0px'],
+		pt: [null, null, null, null, null, '20px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
 		pr: [null, null, null, null, null, '60px', '140px'],
 	},
@@ -94,9 +98,8 @@ const styles = {
 		},
 	},
 
-	image : {
-		backgroundPosition : 'center',
-		backgroundSize :'contain'
-
-	}
+	image: {
+		backgroundPosition: 'center',
+		backgroundSize: 'contain',
+	},
 };

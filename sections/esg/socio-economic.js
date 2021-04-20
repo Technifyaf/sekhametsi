@@ -17,18 +17,19 @@ const Whatwedo = () => {
 							<hr color='gold'></hr>
 
 							<Text as='p'>
-								Sekhametsi Development Trust (SDT) is a Trust established
-								through a Deed of Trust in accordance to the Deed Registry Act
-								of 1967 on behalf of SEKHAMETSI INVESTMENT CONSORTIUM LIMITED
-								hereinafter referred to as “SMIC”. The objective of the SDT is
-								to carry out a Corporate Social Investment (CSI) Programme on
-								behalf of SMIC.
+								Sekhametsi Development Trust (SDT) was duly established in 2014
+								to implement the Corporate Social Investment (CSI) Programme on
+								behalf of SMIC. The Trust key focus areas are the community,
+								health, education and the environment. The support is delivered
+								through direct or collaborative impact initiatives targeted at
+								communities, social enterprises, marginalized and vulnerable
+								groups and the less privileged.
 							</Text>
 						</Box>
 					</Box>
 				</Flex>
 				<Flex sx={Styles.col}>
-				<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617998425/sdt_okwlto.jpg' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617998425/sdt_okwlto.jpg' />
 				</Flex>
 			</Box>
 		</Container>

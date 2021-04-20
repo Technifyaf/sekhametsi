@@ -7,28 +7,32 @@ import img1 from '../../assets/sekhametsi.jpeg';
 
 const Story = () => {
 	return (
-		
-			<Container>
-				<Box sx={styles.row}>
-					<Flex sx={styles.col}>
-							<Box sx={styles.content}>
-              <Box sx ={styles.titleBox}>
-								<Heading as='h3'>The Sekhametsi of the future</Heading>
-                <hr  color ="gold"></hr>
+		<Container>
+			<Box sx={styles.row}>
+				<Flex sx={styles.col}>
+					<Box sx={styles.content}>
+						<Box sx={styles.titleBox}>
+							<Heading as='h3'>The Sekhametsi of the future</Heading>
+							<hr color='gold'></hr>
 
-								<Text as='p'>
-								2021 marks 20 years of investment success, delivering value to shareholders, empowering vulnerable communities and contributing to the economic development of Lesotho for SMIC. This milestone affords us the opportunity to reset and refocus to improve our performance and accentuate our competitive edge. We are rigorously restructuring and streamlines our operation evolve us into the organisation we purposed to be in 2016, Sekhametsi. This is embodied in our mission statement: To become a globally sought after, ethical wealth creation vehicle for the Basotho nation, which embraces innovation, accountability & due prudence in all its dealings. We forecast the market capitalization shall grow from the existing M1.2 billion to M5 billion by 2026. The future is bright for us all.   
-								</Text>
-							</Box>
-              </Box>
-	
-					</Flex>
-					<Flex sx={styles.col}>
+							<Text as='p'>
+								The year 2021 marks two decades of investment success,
+								delivering value to shareholders, empowering vulnerable
+								communities and contributing to the economic development of
+								Lesotho for SMIC. This milestone is an opportunity to reset and
+								refocus to make the next leap. SMIC has evolved and is
+								restructuring, streamlining operations, realign business
+								practices in order to reposition for opportunity capitalization
+								and resilience.{' '}
+							</Text>
+						</Box>
+					</Box>
+				</Flex>
+				<Flex sx={styles.col}>
 					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg' />
-					</Flex>
-				</Box>
-			</Container>
-
+				</Flex>
+			</Box>
+		</Container>
 	);
 };
 
@@ -39,7 +43,7 @@ const styles = {
 		pt: ['70px', null, null, '80px', '120px', null, '130px'],
 		backgroundColor: 'background',
 	},
-  row: {
+	row: {
 		mixBlendMode: 'softlight',
 		backgroundColor: 'black',
 		display: 'flex',
@@ -50,14 +54,14 @@ const styles = {
 		backgroundColor: 'background',
 		flex: ['0 0 100%', null, null, '0 0 50%'],
 	},
-  content: {
+	content: {
 		width: '100%',
 		textAlign: ['left', null, 'justify', null, 'left'],
 		pt: [null, null, null, null, null, '50px'],
 		pb: [null, null, null, null, null, '60px', '140px'],
-    pr: [null, null, null, null, null, '60px', '140px'],
+		pr: [null, null, null, null, null, '60px', '140px'],
 	},
-  titleBox: {
+	titleBox: {
 		textAlign: ['center', null, null, 'left'],
 		h3: {
 			color: 'Primary',
