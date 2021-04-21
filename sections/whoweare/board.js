@@ -11,9 +11,9 @@ import Member2 from '../../assets/team/Moteane_2.jpg';
 import Member3 from '../../assets/team/Kotelo_2.jpg';
 import Member4 from '../../assets/team/Relebohile.jpg';
 import Member5 from '../../assets/team/khoms.jpg';
-import Member6 from '../../assets/team/lintle.jpg';
+import Member6 from '../../assets/team/lintle.jpeg';
 import Member7 from '../../assets/team/limpho.jpg';
-import Member8 from '../../assets/team/lintle.jpeg';
+import Member8 from '../../assets/team/lintle.jpg';
 
 import Member9  from '../../assets/team/naledi.jpeg';
 
@@ -239,7 +239,7 @@ const data = [
       id: 9,
       imgSrc: Member9,
       altText: 'Naledi Maphathe',
-      title: 'Naldi Maphathe',
+      title: 'Naledi Maphathe',
       designation: 'Member',
       socialProfile: [
         {

@@ -45,7 +45,7 @@ const Property = () => {
 									property is comprised of prime and iconic properties in the
 									Maseru CBD. <br />
 									<br />
-									<li>Vodacom Park </li> Vodacom Park is a M80 million
+									<h1>Vodacom Park </h1> Vodacom Park is a M80 million
 									investment and a green building that features more than 25%
 									electricity generation, solar screening and passive cooling
 									system. The building minimise its impact on climate change by
@@ -53,20 +53,8 @@ const Property = () => {
 									It was constructed and handed over to Vodacom Lesotho in 2017.
 									The three-storey 3 631 m2 has an adaptable design customized
 									to offer a suitable modern working environment for the client.{' '}
-									<br />
-									<br />
-									<li>Sekhametsi Place</li> Sekhametsi Place, former Agric Bank,
-									was acquired in 2017 refurbished and rebranded. The property
-									is a thirteen storey high-rise building, strategically located
-									on Kingsway. The building will be fully constructed in the
-									future to be a prominent feature of the city’s urban skyline.
-									<br />
-									<br /> <li>Moruo Develpoments (Pioneer Mall)</li> The advent
-									of Pioneer Mall transformed the purchase experience of Basotho
-									and opened up untapped revenue streams in the commercial
-									property space. As a Major shareholder in Moruo Developments,
-									Sekhametsi cemented its position as a developmental investor
-									with Pioneer Mall employing over 300 Basotho.
+									
+									
 								</Text>
 							</Box>
 						</Box>
@@ -74,7 +62,59 @@ const Property = () => {
 					<Flex sx={styles.row}>
 						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952603/_NIK9769_nx9nc6.jpg ' />
 					</Flex>
+					
 				</Box>
+				<Box sx={styles.row}>
+					<Flex sx={styles.row}>
+						<Box sx={styles.content}>
+							<Box sx={styles.titleBox}>
+								
+
+								<Text as='p'>
+									
+									<br />
+									<h1>Sekhametsi Place</h1> Sekhametsi Place, former Agric Bank,
+									was acquired in 2017 refurbished and rebranded. The property
+									is a thirteen storey high-rise building, strategically located
+									on Kingsway. The building will be fully constructed in the
+									future to be a prominent feature of the city’s urban skyline.
+									<br />
+									
+									
+								</Text>
+							</Box>
+						</Box>
+					</Flex>
+					<Flex sx={styles.row}>
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952554/_NIK9747_bcs9m1.jpg' />
+					</Flex>
+					
+				</Box>
+				<Box sx={styles.row}>
+					<Flex sx={styles.row}>
+						<Box sx={styles.content}>
+							<Box sx={styles.titleBox}>
+						
+								<Text as='p'>
+								
+									<br />
+									<br /> <h1>Moruo Develpoments (Pioneer Mall)</h1> The advent
+									of Pioneer Mall transformed the purchase experience of Basotho
+									and opened up untapped revenue streams in the commercial
+									property space. As a Major shareholder in Moruo Developments,
+									Sekhametsi cemented its position as a developmental investor
+									with Pioneer Mall employing over 300 Basotho. <a href = "http://www.pioneer.co.ls">  http://www.pioneer.co.ls</a>
+									
+								</Text>
+							</Box>
+						</Box>
+					</Flex>
+					<Flex sx={styles.row}>
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg ' />
+					</Flex>
+					
+				</Box>
+			
 			</Container>
 		</Box>
 	);
@@ -93,6 +133,7 @@ const styles = {
 		display: 'flex',
 		flexWrap: 'wrap',
 		flexDirection: ['column', null, null, 'row'],
+		marginBottom : '10px'
 	},
 	col: {
 		backgroundColor: 'background',

@@ -38,7 +38,7 @@ const Financialservices = () => {
 								Sekhametsi is proud shareholder in Stanlib Lesotho the largest
 								asset management service in the country with over M4 Billion
 								worth of assets under its management.
-								<a href='https://stanlib.com/lesotho/'>  https://www.letshego.com/lesotho/ </a>
+								<a href='https://stanlib.com/lesotho/'> https://stanlib.com/lesotho/</a>
 								<br />
 								<br />
 								The company also holds a stake in Letshego Financial Services, a

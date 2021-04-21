@@ -121,7 +121,7 @@ const Pictorial = () => {
 			<Container>
 				<BlockTitle
 					sx={styles.blocktitle}
-					title='If you want to fast go alone, if you want to far, go together'
+					title='Corporate meetings'
 					text='The story of Sekhametsi'
 				/>
 				<Gallery photos={photos} />
