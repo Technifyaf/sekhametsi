@@ -24,9 +24,7 @@ const FinancialToolsCard = (props) => {
         <Heading as="h3">
           <Text > {props.title}</Text>
         </Heading>
-        <Text as="p">
-          <Image src={eyeIcon} alt="" /> {props.watchCount}
-        </Text>
+      
         </Box>
         <Box>
          <a href ={props.videoLink}>

@@ -10,90 +10,81 @@ import BlockTitle from '../../components/block-title';
 
 export const photos = [
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991400/_NIK9865_qlep3n.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg",
-	  width: 1,
-	  height: 1
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991396/_NIK9871_nh0dug.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991401/_NIK9863_dbgspw.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991279/_NIK9843_m1mrnz.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952624/_NIK9779_erqqdg.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788780/_NIK5341_qahgkg.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952620/_NIK9775_a8x66s.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952622/_NIK9778_bxih0a.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991324/_NIK9848_s9ocib.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952620/_NIK9771_qlp2q4.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788931/_NIK5351_ksxaxl.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952611/_NIK9773_xfaahh.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991349/_NIK9862_nbtuki.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952601/_NIK9761_ruaqfa.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952562/_NIK9750_lodcea.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/_NIK5365_nwzbnq.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952558/_NIK9746_e82t9d.jpg",
 	  width: 4,
 	  height: 3
-	}
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952575/_NIK9749_r3v3x5.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/_NIK9787_f61o5i.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952572/_NIK9788_k0hxoz.jpg",
+	  width: 4,
+	  height: 3
+	},
+	{
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952547/_NIK9786_m3mryn.jpg",
+	  width: 4,
+	  height: 3
+	},
+	
   ];
   
 
@@ -102,7 +93,7 @@ const Marketing = () => {
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
       <BlockTitle sx={styles.blocktitle}
-          title="Portfolio"
+          title="Property Portfolio"
           text="The story of Sekhametsi"
         />
 			

@@ -35,12 +35,27 @@ const Financialservices = () => {
 								enterprises in need of credit, start - up and growth capital.
 								<br />
 								<br />
+								<h1>Stanlib </h1>
 								Sekhametsi is proud shareholder in Stanlib Lesotho the largest
 								asset management service in the country with over M4 Billion
 								worth of assets under its management.
 								<a href='https://stanlib.com/lesotho/'> https://stanlib.com/lesotho/</a>
-								<br />
-								<br />
+								
+							</Text>
+						</Box>
+					</Box>
+				</Flex>
+				<Flex sx={Styles.row}>
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/_NIK9787_f61o5i.jpg' />
+				</Flex>
+			</Box>
+			<Box sx={Styles.row}>
+				<Flex sx={Styles.row}>
+					<Box sx={Styles.content}>
+						<Box sx={Styles.titleBox}>
+							<Text as='p'>
+								
+								<h1>Letshego </h1>
 								The company also holds a stake in Letshego Financial Services, a
 								micro financing institution that provides appropriate and
 								accessible consumer, microfinance and savings solutions to the

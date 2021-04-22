@@ -13,63 +13,63 @@ import bannerImg from '../../assets/banner_b.jpg';
 export const photos = [
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788551/_NIK5317_lytqjs.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg',
-		width: 1,
-		height: 1,
+			width: 4,
+		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg',
-		width: 3,
-		height: 4,
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788611/_NIK5325_gl6pe3.jpg',
+			width: 4,
+		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg',
-		width: 3,
-		height: 4,
+			width: 4,
+		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg',
-		width: 3,
-		height: 4,
+			width: 4,
+			height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077306/_NIK9938_vjb0rp.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg',
-		width: 3,
-		height: 4,
+			width: 4,
+		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077292/_NIK9932_hzjado.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617991279/_NIK9843_m1mrnz.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077324/_NIK9954_qokxpt.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg',
-		width: 3,
-		height: 4,
+			width: 4,
+		height: 3,
 	},
 	{
 		src:
@@ -85,7 +85,7 @@ export const photos = [
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617991324/_NIK9848_s9ocib.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078290/WhatsApp_Image_2021-04-16_at_10.13.02_PM_l31nsc.jpg',
 		width: 4,
 		height: 3,
 	},
@@ -97,7 +97,7 @@ export const photos = [
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617991349/_NIK9862_nbtuki.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078453/WhatsApp_Image_2021-04-16_at_10.13.04_PM_1_a2pagx.jpg',
 		width: 4,
 		height: 3,
 	},

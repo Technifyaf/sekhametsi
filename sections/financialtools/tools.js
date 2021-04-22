@@ -31,11 +31,11 @@ const favoriteCourseData = [
   },
   {
     title:
-    'Year 2018',
+    'Investment calculator',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://www.liberty.co.za/calculators/investment-calculator',
     starCount: 5,
   },
 ];

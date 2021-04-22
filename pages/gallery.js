@@ -26,7 +26,7 @@ export default function IndexPage() {
      
        <Pictorial/>
        <Marketing/>
-       <Events/>
+     
        
   
       
