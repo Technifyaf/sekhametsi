@@ -58,7 +58,7 @@ const PopularCourse = () => {
     <Box sx = {styles.whoweare}>
       <Container>
       <BlockTitle
-          title="If you want to fast go alone, if you want to far, go together"
+          title="Podcasts"
           text="The story of Sekhametsi"
         />
         {popularCourseData.map((course, index) => (
