@@ -15,6 +15,7 @@ import Bottombanner from '../sections/home/bottombanner'
 import Events from '../sections/gallery/events'
 import Pictorial from '../sections/gallery/pictorial'
 import Marketing from '../sections/gallery/marketing'
+import Gallery from 'react-photo-gallery'
 
 export default function IndexPage() {
   return (
@@ -26,6 +27,7 @@ export default function IndexPage() {
      
        <Pictorial/>
        <Marketing/>
+       <Events/>
      
        
   

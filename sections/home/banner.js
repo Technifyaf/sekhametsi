@@ -19,16 +19,7 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/captioned.css';
 import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
-	{
-		title: 'AGM on the 23rd of May',
-		description:
-			'',
-		button: 'Read More',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
-		user: 'Daniel',
-		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: 'https://drive.google.com/file/d/1CzA8Y88kSbRHNWajunWBJeZ5b2nzKzca/view',
-	},
+	
 	{
 		title: 'Who we are',
 		description:
@@ -58,6 +49,16 @@ const slides = [
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
 		link: '/financialtools',
+	},
+	{
+		title: 'AGM',
+		description:
+			'Annual General Meeting to be held on the 6th June, 2021 at 10.00am.',
+		button: 'Read More',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
+		user: 'Daniel',
+		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		link: 'https://drive.google.com/file/d/1CzA8Y88kSbRHNWajunWBJeZ5b2nzKzca/view',
 	},
 ];
 

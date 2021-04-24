@@ -12,90 +12,23 @@ import BlockTitle from '../../components/block-title';
 
 export const photos = [
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789037/_NIK5372_fwbfph.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251556/Gallery_3_fq76sy.png",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg",
-	  width: 1,
-	  height: 1
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251550/Gallery_1_phyedg.png",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617990267/health_elel0t.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251553/Gallery_2_hdnihi.png",
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991279/_NIK9843_m1mrnz.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg",
-	  width: 3,
-	  height: 4
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788780/_NIK5341_qahgkg.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991324/_NIK9848_s9ocib.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788931/_NIK5351_ksxaxl.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991349/_NIK9862_nbtuki.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/_NIK5365_nwzbnq.jpg",
-	  width: 4,
-	  height: 3
-	}
+	
+	
+	
   ];
   
 

@@ -38,7 +38,7 @@ const Property = () => {
 									strategic commercial, industrial and mixed-use property
 									acquisitions with attractive future growth potential and
 									rental income. The company seeks blue-chip tenants and extents
-									services to growth oriented MSMEs. Current portfolio of
+									services to growth oriented SMEs. Current portfolio of
 									property is comprised of prime and iconic properties in the
 									Maseru CBD. <br />
 									<br />

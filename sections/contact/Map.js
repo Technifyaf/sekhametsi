@@ -1,3 +1,4 @@
+import { GoogleApiWrapper } from 'google-maps-react';
 import react from 'react';
 import { Box, Container, Heading, Flex, Text } from 'theme-ui';
 
@@ -33,7 +34,7 @@ const Map = () => {
             
 			
 			</Container>
-            <SimpleMap/>
+           <GoogleApiWrapper/>
 		</Box>
 
         

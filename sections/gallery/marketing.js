@@ -85,6 +85,12 @@ export const photos = [
 	  height: 3
 	},
 	
+	{
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251815/Screenshot_2021-04-24_at_10.10.00_AM_gcbki4.png",
+		width: 4,
+		height: 3
+	  },
+	  
   ];
   
 
@@ -93,7 +99,7 @@ const Marketing = () => {
 		<Box as='section' sx={styles.wrapper}>
 			<Container>
       <BlockTitle sx={styles.blocktitle}
-          title="Property Portfolio"
+          title="Portfolio"
           text="The story of Sekhametsi"
         />
 			

@@ -20,7 +20,7 @@ const Story = () => {
 									This is embodied in our mission statement: To become a
 									globally sought after, ethical wealth creation vehicle for the
 									Basotho nation, which embraces innovation, accountability &
-									due prudence in all its dealings. We forecast the market
+									due prudence in all its dealings. We forecast that the market
 									capitalization shall grow from the existing M1.2 billion to M5
 									billion by 2026. In the late 1990s, the Government of Lesotho
 									embarked on a Privatisation Programme that saw the state
