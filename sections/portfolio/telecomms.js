@@ -21,11 +21,11 @@ const Telecomms = () => {
 								to be shareholder in the largest mobile operator in Lesotho.
 								Vodacom Lesotho (VCL) commands a market share of 1,35 million
 								subscribers. VCL also owns Mpesa, which is the preferred mobile
-								money platform in the country with M1million subscribers. The
+								money platform in the country with 830,000 active customers. The
 								interest in Vodacom has been a game changer and kept SMIC ahead
 								of the investment curve. Vodacom has made transformational
 								investments worth Billions of Maloti in infrastructure
-								developments through its 300 bay stations, leasing of Vodacom
+								developments through its 300 base stations, leasing of Vodacom
 								Park, SMEs vending business opportunities and the hundreds of
 								Basotho in its employ in outlets across the country. As the
 								leader in social investment and development, Vodacom represents

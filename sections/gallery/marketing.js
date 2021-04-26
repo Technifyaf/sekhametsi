@@ -19,11 +19,7 @@ export const photos = [
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991401/_NIK9863_dbgspw.jpg",
-	  width: 4,
-	  height: 3
-	},
+	
 	{
 	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952624/_NIK9779_erqqdg.jpg",
 	  width: 4,
@@ -34,11 +30,7 @@ export const photos = [
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952622/_NIK9778_bxih0a.jpg",
-	  width: 4,
-	  height: 3
-	},
+
 	{
 	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952620/_NIK9771_qlp2q4.jpg",
 	  width: 4,
@@ -49,41 +41,20 @@ export const photos = [
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952601/_NIK9761_ruaqfa.jpg",
-	  width: 4,
-	  height: 3
-	},
+	
 	{
 	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952562/_NIK9750_lodcea.jpg",
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952558/_NIK9746_e82t9d.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952575/_NIK9749_r3v3x5.jpg",
-	  width: 4,
-	  height: 3
-	},
+
+	
 	{
 	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/_NIK9787_f61o5i.jpg",
 	  width: 4,
 	  height: 3
 	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952572/_NIK9788_k0hxoz.jpg",
-	  width: 4,
-	  height: 3
-	},
-	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952547/_NIK9786_m3mryn.jpg",
-	  width: 4,
-	  height: 3
-	},
+	
 	
 	{
 		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251815/Screenshot_2021-04-24_at_10.10.00_AM_gcbki4.png",

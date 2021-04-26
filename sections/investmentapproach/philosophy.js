@@ -27,9 +27,15 @@ const Philosophy = () => {
 									criteria: sustainability; past business performance and growth
 									prospects, competent management, good governance; alignment
 									with Sekhametsi strategic goals and national development
-									objectives. Sekhametsi also provides technical assistance at a
-									strategic level to investee companies to increase the chances
-									of success and to unlock the full value of the investment.
+									objectives.<br/><br/> <h3>Value proposition: </h3>We create value to stakeholders,
+									and primarily our shareholders by using our strong balance
+									sheet to acquire interest in different entities meeting the
+									success criteria. Over a period of time, we offered assistance
+									at a strategic level to investee companies to ensure unlocking
+									of the value. The mandate for the board is underpinned by the
+									investment objectives of our broad based shareholders which
+									can be categorised into two; investing for dividend income and
+									for capital appreciation (growth of share price).
 								</Text>
 							</Box>
 						</Box>

@@ -22,7 +22,7 @@ const Story = () => {
 									Basotho nation, which embraces innovation, accountability &
 									due prudence in all its dealings. We forecast that the market
 									capitalization shall grow from the existing M1.2 billion to M5
-									billion by 2026. In the late 1990s, the Government of Lesotho
+									billion by 2026. <br /> <br />In the late 1990s, the Government of Lesotho
 									embarked on a Privatisation Programme that saw the state
 									selling off its stakes in various companies. The government’s
 									12 percent stake (with an option to buy further 8%) in Vodacom

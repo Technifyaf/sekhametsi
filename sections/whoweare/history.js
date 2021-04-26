@@ -19,12 +19,12 @@ const Whatwedo = () => {
 							<Text as='p'>
 								<ul>
 									<li> Sekhametsi was founded in 1999</li>
-									<li> It began with 12 members</li>
+									<li> It began with 30 members</li>
 									<li>
 										{' '}
 										The first investment was a 12% stake in Vodacom Lesotho
 									</li>
-									<li> Sekhametsi had 500 shareholders in 1999</li>
+									<li> Sekhametsi has 500 shareholders to date</li>
 									<li> SMIC shares were valued at M34 when we began</li>
 									<li>
 										{' '}

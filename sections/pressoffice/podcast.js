@@ -51,6 +51,7 @@ const popularCourseData = [
   },
   
   
+  
 ];
 
 const PopularCourse = () => {

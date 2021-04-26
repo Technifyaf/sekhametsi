@@ -59,60 +59,7 @@ export const photos = [
 		width: 4,
 		height: 3,
 	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077324/_NIK9954_qokxpt.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788533/_NIK5311_xdtroy.jpg',
-			width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788780/_NIK5341_qahgkg.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788967/_NIK5367_hurgz0.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078290/WhatsApp_Image_2021-04-16_at_10.13.02_PM_l31nsc.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788931/_NIK5351_ksxaxl.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078453/WhatsApp_Image_2021-04-16_at_10.13.04_PM_1_a2pagx.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/_NIK5368_oy6s0y.jpg',
-		width: 4,
-		height: 3,
-	},
-	{
-		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/_NIK5365_nwzbnq.jpg',
-		width: 4,
-		height: 3,
-	},
+	
 ];
 
 const Pictorial = () => {

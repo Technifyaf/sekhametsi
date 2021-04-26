@@ -95,7 +95,7 @@ const Property = () => {
 								<Text as='p'>
 								
 									<br />
-									<br /> <h1>Moruo Develpoments (Pioneer Mall)</h1> The advent
+									<br /> <h1>Moruo Developments (Pioneer Mall)</h1> The advent
 									of Pioneer Mall transformed the purchase experience of Basotho
 									and opened up untapped revenue streams in the commercial
 									property space. As a Major shareholder in Moruo Developments,
