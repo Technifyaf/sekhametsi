@@ -13,7 +13,7 @@ const Telecomms = () => {
 				<Flex sx={Styles.row}>
 					<Box sx={Styles.content}>
 						<Box sx={Styles.titleBox}>
-							<Heading as='h3'>TelecommunicationsZ</Heading>
+							<Heading as='h3'>Telecommunications</Heading>
 							<hr align='left' width='300px ' color='gold'></hr>
 
 							<Text as='p'>
