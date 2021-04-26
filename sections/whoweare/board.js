@@ -12,7 +12,7 @@ import Member3 from '../../assets/team/Kotelo_2.jpg';
 import Member4 from '../../assets/team/Relebohile.jpg';
 import Member5 from '../../assets/team/khoms.jpg';
 import Member6 from '../../assets/team/lintle.jpeg';
-import Member7 from '../../assets/team/lerotholi.png';
+import Member7 from '../../assets/team/Lerotholi.png';
 import Member8 from '../../assets/team/lintle.jpg';
 
 import Member9  from '../../assets/team/naledi.jpeg';
