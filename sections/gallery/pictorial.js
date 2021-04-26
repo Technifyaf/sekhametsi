@@ -25,19 +25,19 @@ export const photos = [
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788611/_NIK5325_gl6pe3.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078519/WhatsApp_Image_2021-04-16_at_10.13.04_PM_yviljj.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788942/_NIK5364_lxeuje.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077858/WhatsApp_Image_2021-04-16_at_10.12.58_PM_bujuwl.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788936/_NIK5363_x7rbke.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078092/WhatsApp_Image_2021-04-16_at_10.13.00_PM_rlznhs.jpg',
 			width: 4,
 			height: 3,
 	},
@@ -49,13 +49,19 @@ export const photos = [
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788536/_NIK5312_cgdmjw.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078992/_NIK9934_1_vaxqag.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
 			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077292/_NIK9932_hzjado.jpg',
+		width: 4,
+		height: 3,
+	},
+	{
+		src:
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619079619/_NIK9940_zike1t.jpg',
 		width: 4,
 		height: 3,
 	},
