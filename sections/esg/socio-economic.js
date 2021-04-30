@@ -1,10 +1,11 @@
 import react from 'react';
-import { Box, Container, Flex, Heading, Text } from 'theme-ui';
+import { Box, Container, Flex, Heading, Text, Button } from 'theme-ui';
 import { Link } from '../../components/link';
 
 import Image from '../../components/image';
 
 import img1 from '../../assets/agric.jpg';
+
 
 const Whatwedo = () => {
 	return (
@@ -25,6 +26,9 @@ const Whatwedo = () => {
 								communities, social enterprises, marginalized and vulnerable
 								groups and the less privileged.
 							</Text>
+							<a href ="https://sekhametsi.org/">
+							<Button> Visit website</Button>
+							</a>
 						</Box>
 					</Box>
 				</Flex>
