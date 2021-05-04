@@ -58,7 +58,7 @@ const slides = [
 		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: 'https://drive.google.com/file/d/1CzA8Y88kSbRHNWajunWBJeZ5b2nzKzca/view',
+		link: 'https://docs.google.com/spreadsheets/d/1uKlMSJKQ5n2lsyB90whEJdLElffTrYxIeXm7tn8ZrWU/edit?usp=sharing',
 	},
 ];
 
