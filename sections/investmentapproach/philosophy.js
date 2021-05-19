@@ -7,7 +7,7 @@ const Philosophy = () => {
 		<Box sx={Styles.whoweare}>
 			<Container>
 				<BlockTitle
-					title='If you want to go fast go alone, if you want to far, go together'
+					title='If you want to go fast go alone, if you want go to far, go together'
 					text='The story of Sekhametsi'
 				/>
 				<Box sx={Styles.row}>
