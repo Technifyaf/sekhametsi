@@ -53,7 +53,7 @@ const slides = [
 	{
 		title: 'AGM',
 		description:
-			'Annual General Meeting to be held on the 6th June, 2021 at 10.00am.',
+			'AGM has been Postponed to the 13th June 2021 at 10H00.',
 		button: 'Read More',
 		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
 		user: 'Daniel',
