@@ -19,7 +19,16 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/captioned.css';
 import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
-	
+	{
+		title: 'AGM',
+		description:
+			'AGM has been Postponed to the 13th June 2021 at 10H00.',
+		button: 'Read More',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
+		user: 'Daniel',
+		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		link: 'https://docs.google.com/spreadsheets/d/1uKlMSJKQ5n2lsyB90whEJdLElffTrYxIeXm7tn8ZrWU/edit?usp=sharing',
+	},
 	{
 		title: 'Who we are',
 		description:
@@ -50,16 +59,7 @@ const slides = [
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
 		link: '/financialtools',
 	},
-	{
-		title: 'AGM',
-		description:
-			'AGM has been Postponed to the 13th June 2021 at 10H00.',
-		button: 'Read More',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
-		user: 'Daniel',
-		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: 'https://docs.google.com/spreadsheets/d/1uKlMSJKQ5n2lsyB90whEJdLElffTrYxIeXm7tn8ZrWU/edit?usp=sharing',
-	},
+	
 ];
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
