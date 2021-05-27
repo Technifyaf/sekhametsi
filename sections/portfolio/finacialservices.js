@@ -1,5 +1,5 @@
 import react from 'react';
-import { Box, Container, Flex, Heading, Text } from 'theme-ui';
+import { Box, Container, Flex, Heading, Text, Button } from 'theme-ui';
 import { Link } from '../../components/link';
 
 import Image from '../../components/image';
@@ -38,8 +38,8 @@ const Financialservices = () => {
 								<h1>Stanlib </h1>
 								Sekhametsi is proud shareholder in Stanlib Lesotho the largest
 								asset management service in the country with over M4 Billion
-								worth of assets under its management.
-								<a href='https://stanlib.com/lesotho/'> <h4>https://stanlib.com/lesotho/</h4></a>
+								worth of assets under its management.<br/>
+								<a href='https://stanlib.com/lesotho/'> <Button> visit website</Button></a>
 								
 							</Text>
 						</Box>
@@ -60,8 +60,8 @@ const Financialservices = () => {
 								micro financing institution that provides appropriate and
 								accessible consumer, microfinance and savings solutions to the
 								financially under-served, thus delivering on the inclusive
-								finance agenda.
-								<a href = "https://www.letshego.com/lesotho/ "> <h4> https://www.letshego.com/lesotho/ </h4> </a>
+								finance agenda. <br/>
+								<a href = "https://www.letshego.com/lesotho/ "> <Button> visit website</Button> </a>
 							</Text>
 						</Box>
 					</Box>
