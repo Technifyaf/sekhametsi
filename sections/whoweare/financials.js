@@ -13,13 +13,14 @@ import FinancialCard from '../../components/cards/financial-card';
 
 const favoriteCourseData = [
 
+  
   {
     title:
     'AFS 2020',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
    // watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/15-WEQ819t0fGWGmnJPjlKM9r6Ui9_aTk/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -28,7 +29,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
    // watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1jLMyZa8k3tWhpGH-MW5aORDhe86eCsFB/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -46,7 +47,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
   //  watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1HD3uIYRvN3IPVeJlmYQwkM5wvjapQucy/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -55,7 +56,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
   //  watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1HD3uIYRvN3IPVeJlmYQwkM5wvjapQucy/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -64,7 +65,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
    // watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1SHpuNYEjeAsP9-IINtcL6iSUys7-93tA/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -73,7 +74,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
    // watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1SHpuNYEjeAsP9-IINtcL6iSUys7-93tA/view?usp=sharing',
     starCount: 5,
   },
   
@@ -83,7 +84,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     //watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1SHpuNYEjeAsP9-IINtcL6iSUys7-93tA/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -92,7 +93,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     //watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1SHpuNYEjeAsP9-IINtcL6iSUys7-93tA/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -101,7 +102,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
    // watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1AYMrqEaI4KjOr1oW_bGuOtRtcXlR7yix/view?usp=sharing',
     starCount: 5,
   },
   
@@ -111,7 +112,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     watchCount: '0 downloads',
-   // videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1AYMrqEaI4KjOr1oW_bGuOtRtcXlR7yix/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -120,7 +121,7 @@ const favoriteCourseData = [
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
     //watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/12OC1kzW-x_m_qCjbusaFdy2Bm119c7-z/view?usp=sharing',
+    videoLink: 'https://drive.google.com/file/d/1D7ZrisNvbJJIg4iz1eZR4POTPM6hJ0OS/view?usp=sharing',
     starCount: 5,
   },
   {
@@ -129,7 +130,7 @@ const favoriteCourseData = [
     image: fevCardImageTwo,
     reviewCount: '4.5 (524 reviews)',
     //watchCount: '0 downloads',
-    videoLink: 'L9jU-IIN0ng',
+    videoLink: 'https://drive.google.com/file/d/1D7ZrisNvbJJIg4iz1eZR4POTPM6hJ0OS/view?usp=sharing',
     starCount: 4,
   },
   {
@@ -137,7 +138,7 @@ const favoriteCourseData = [
     image: fevCardImageOne,
     reviewCount: '5.0 (392 reviews)',
     //watchCount: '0 downloads',
-    videoLink: 'https://drive.google.com/file/d/13Mdv7-fA0ZBNv-kO3H-VSgsr9bplR8yf/view',
+    videoLink: 'https://drive.google.com/file/d/1w7SnV12O6AaZa3hbjgfFlOpKz6S_K0Zi/view?usp=sharing',
     starCount: 5,
   },
 ];
