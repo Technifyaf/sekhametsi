@@ -22,7 +22,7 @@ const slides = [
 	{
 		title: 'AGM',
 		description:
-			'AGM has been Postponed to unti further notice.  However, please note that there is an Extraordinary General Meeting on Sunday the 11th July 2021 to be held at Sekhametsi Place on Kingsway at 10H00, scheduled for discussion of online platform',
+			'AGM has been postponed until further notice.  However, please note that there is an Extraordinary General Meeting on Sunday the 11th July 2021 to be held at Sekhametsi Place on Kingsway at 10H00, scheduled for discussion of online platform',
 		button: 'Read More',
 		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
 		user: 'Daniel',
