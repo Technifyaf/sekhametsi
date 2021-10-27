@@ -13,55 +13,55 @@ import bannerImg from '../../assets/banner_b.jpg';
 export const photos = [
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788551/_NIK5317_lytqjs.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078942/_NIK9933_a8m4np.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1617789009/_NIK5370_h5xnsq.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619079465/_NIK9938_fk0fmt.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078519/WhatsApp_Image_2021-04-16_at_10.13.04_PM_yviljj.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078156/WhatsApp_Image_2021-04-16_at_10.13.01_PM_k8ni8e.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077858/WhatsApp_Image_2021-04-16_at_10.12.58_PM_bujuwl.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788933/Sekhametsi/_NIK5356_diwhke.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078092/WhatsApp_Image_2021-04-16_at_10.13.00_PM_rlznhs.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788949/Sekhametsi/_NIK5365_nwzbnq.jpg',
 			width: 4,
 			height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077306/_NIK9938_vjb0rp.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788981/Sekhametsi/_NIK5368_oy6s0y.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619078992/_NIK9934_1_vaxqag.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/Sekhametsi/_NIK5330_j5tknu.jpg',
 			width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077292/_NIK9932_hzjado.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1617789052/Sekhametsi/_NIK5376_rd5ryu.jpg',
 		width: 4,
 		height: 3,
 	},
 	{
 		src:
-			'https://res.cloudinary.com/did2sewpc/image/upload/v1619079619/_NIK9940_zike1t.jpg',
+			'https://res.cloudinary.com/did2sewpc/image/upload/v1619077292/Sekhametsi/_NIK9932_hzjado.jpg',
 		width: 4,
 		height: 3,
 	},

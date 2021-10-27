@@ -37,7 +37,7 @@ const Financialservices = () => {
 								<br />
 								<h1>Stanlib </h1>
 								Sekhametsi is proud shareholder in Stanlib Lesotho the largest
-								asset management service in the country with over M4 Billion
+								asset management service in the country with over M5 Billion
 								worth of assets under its management.<br/>
 								<a href='https://stanlib.com/lesotho/'> <Button> visit website</Button></a>
 								

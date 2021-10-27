@@ -18,7 +18,7 @@ const Story = () => {
 							<Text as='p'>
 								The textile and apparel industry, manufacturing are the leading
 								industries globally and remain the engine of growth in GDP and
-								job creation in Lesotho. Basotho owns only two of the 40 textile
+								job creation in Lesotho. Basotho own only two of the 40 textile
 								factories in Lesotho. This presents an incredible investment and
 								indigenization opportunity. Sekhametsi purchased 30% of locally
 								owned textile producer Afri-Expo for M10million. The sector is
@@ -27,7 +27,7 @@ const Story = () => {
 								value chain to support the related creative sub-sectors. SMIC
 								intends to further increase its footprint in the textile
 								industry to spur additional jobs for Basotho, expand the
-								country’s export base and contribute to economic growth
+								country’s export base and contribute to economic growth.
 							</Text>
 						</Box>
 					</Box>

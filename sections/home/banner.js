@@ -19,22 +19,13 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/captioned.css';
 import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
-	{
-		title: 'AGM',
-		description:
-			'AGM has been postponed until further notice.  However, please note that there is an Extraordinary General Meeting on Sunday the 11th July 2021 to be held at Sekhametsi Place on Kingsway at 10H00, scheduled for discussion of online platform',
-		button: 'Read More',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617788661/_NIK5330_j5tknu.jpg',
-		user: 'Daniel',
-		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: '/agm',
-	},
+	
 	{
 		title: 'Who we are',
 		description:
 			'Sekhametsi Investment Consortium (SMIC) is a 100% Basotho owned (non partisan) broad based public investment company established in 1999. The company has a diversified investment portfolio in telecommunications, financial services, real estate & textiles. ',
 		button: 'Read More',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617952554/_NIK9747_bcs9m1.jpg',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617789079/Sekhametsi/_NIK5378_bruc7u.jpg',
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
 		link: '/whoweare',
@@ -44,7 +35,7 @@ const slides = [
 		description:
 			'We empower Basotho nationals to engage in viable and sustainable investment for the generation of employment, inclusive growth & creating generational wealth. We pride ourselves on creating exceptional shareholder value.  ',
 		button: 'Read more',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617991316/_NIK9854_uwki0v.jpg',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617952586/Sekhametsi/_NIK9759_wsqve7.jpg',
 		user: 'Samantha',
 		userProfile: 'https://s7.postimg.cc/ujy8zz7vv/5_3x.png',
 		link: '/portfolio',
@@ -54,7 +45,7 @@ const slides = [
 		description:
 			'To help you manage your invesments and plans for the future , try these free financial tools',
 		button: 'Read more',
-		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1618000025/WhatsApp_Image_2021-04-09_at_10.25.44_PM_xmdhk4.jpg',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1618000025/Sekhametsi/WhatsApp_Image_2021-04-09_at_10.25.44_PM_xmdhk4.jpg',
 		user: 'Michael',
 		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
 		link: '/financialtools',

@@ -10,57 +10,81 @@ import BlockTitle from '../../components/block-title';
 
 export const photos = [
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991400/_NIK9865_qlep3n.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991396/Sekhametsi/_NIK9871_nh0dug.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991396/_NIK9871_nh0dug.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991390/Sekhametsi/_NIK9864_opuejd.jpg",
 	  width: 4,
 	  height: 3
 	},
 	
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952624/_NIK9779_erqqdg.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991382/Sekhametsi/_NIK9869_lf3euy.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952620/_NIK9775_a8x66s.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991269/Sekhametsi/_NIK9849_ncf66w.jpg",
 	  width: 4,
 	  height: 3
 	},
 
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952620/_NIK9771_qlp2q4.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991205/Sekhametsi/_NIK9835_l6obrd.jpg",
 	  width: 4,
 	  height: 3
 	},
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952611/_NIK9773_xfaahh.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617991223/Sekhametsi/_NIK9841_jyknoh.jpg",
 	  width: 4,
 	  height: 3
 	},
 	
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952562/_NIK9750_lodcea.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/Sekhametsi/_NIK9780_xlkco8.jpg",
 	  width: 4,
 	  height: 3
 	},
 
 	
 	{
-	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/_NIK9787_f61o5i.jpg",
+	  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952622/Sekhametsi/_NIK9778_bxih0a.jpg",
 	  width: 4,
 	  height: 3
 	},
 	
 	
 	{
-		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251815/Screenshot_2021-04-24_at_10.10.00_AM_gcbki4.png",
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952622/Sekhametsi/_NIK9778_bxih0a.jpg",
 		width: 4,
 		height: 3
 	  },
+	 
+	  {
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952612/Sekhametsi/_NIK9770_zyb6x0.jpg",
+		width: 4,
+		height: 3
+	  },
+  
+	  
+	  {
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952609/Sekhametsi/_NIK9772_b7hsp8.jpg",
+		width: 4,
+		height: 3
+	  },
+	  
+	  
+	  {
+		  src: "https://res.cloudinary.com/did2sewpc/image/upload/v1617952594/Sekhametsi/_NIK9765_odacxn.jpg",
+		  width: 4,
+		  height: 3
+		},
+	   
+	  
+	  
+		
 	  
   ];
   

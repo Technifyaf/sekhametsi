@@ -21,7 +21,7 @@ const Story = () => {
 								communities and contributing to the economic development of
 								Lesotho for SMIC. This milestone is an opportunity to reset and
 								refocus to make the next leap. SMIC has evolved and is
-								restructuring, streamlining operations, realign business
+								restructuring, streamlining operations, realigning business
 								practices in order to reposition for opportunity capitalization
 								and resilience.{' '}
 							</Text>
