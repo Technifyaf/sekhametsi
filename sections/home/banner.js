@@ -20,6 +20,7 @@ import 'react-awesome-slider/dist/captioned.css';
 import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
 	
+	
 	{
 		title: 'Who we are',
 		description:

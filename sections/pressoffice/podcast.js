@@ -49,6 +49,28 @@ const popularCourseData = [
           },
     ],
   },
+  {
+    title: '2020 Dubai EXPO ',
+  //  reviewCount: '4.5 (524 reviews)',
+    watchCount: '3,532 plays',
+    videoLink: 'LGrYJQC7AUA',
+   // starCount: 4,
+    expanded: false,
+    list: [
+        {
+            content: 'How sekhametsi started',
+          },
+          {
+            content: 'Challenges along the way',
+          },
+          {
+            content: 'Investment philosophy',
+          },
+          {
+            content: 'The Sekhametsi of the future.',
+          },
+    ],
+  },
   
   
   

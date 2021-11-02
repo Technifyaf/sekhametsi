@@ -21,12 +21,13 @@ const Philosophy = () => {
                              <ul sx={Styles.listitem}>
 								 Phone : +266 58882645<br/>
 								 Email : + info@sekhametsi.co.ls <br/>
-								 Address :P.O box 373 Maseru 100, Sekhametsi Place, Kingsway rd
+								 Address :P.O box 373 Maseru 100, Sekhametsi Place, Kingsway rd <br/>
+                                 Registration Number :  I2000/173.
 							 </ul>
 							 
                           </Box>
             </Box>
-            <SimpleMap/>
+           
         </Container>
     </Box>   
  )
