@@ -20,6 +20,16 @@ import 'react-awesome-slider/dist/captioned.css';
 import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
 	
+	{
+		title: 'Dubai Expo 2020',
+		description:
+			' ',
+		button: 'Download presentation',
+		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1635929006/Dubai%20Expo/A06I8651_rxv42o.jpg',
+		user: 'Daniel',
+		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
+		link: 'https://drive.google.com/file/d/1_XbrmnC6IxTv1S4_CVUJaaRtqZ4bJllG/view?usp=sharing',
+	},
 	
 	{
 		title: 'Who we are',

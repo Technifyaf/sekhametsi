@@ -32,7 +32,7 @@ const PopularCard = (props) => {
               <Link path="/" label={props.title} />
             </Heading>
             <Text as="p">
-             An in-depth coversation on the story of sekhametsi's journey.
+              <br/>
             </Text>
           </Box>
        

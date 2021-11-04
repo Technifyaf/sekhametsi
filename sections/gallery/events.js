@@ -27,7 +27,21 @@ export const photos = [
 	  height: 3
 	},
 	
-	
+	{
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1635928955/Dubai%20Expo/A06I8571_npkym1.jpg",
+		width: 4,
+		height: 3
+	  },
+	  {
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251550/Gallery_1_phyedg.png",
+		width: 4,
+		height: 3
+	  },
+	  {
+		src: "https://res.cloudinary.com/did2sewpc/image/upload/v1619251553/Gallery_2_hdnihi.png",
+		width: 4,
+		height: 3
+	  },
 	
   ];
   

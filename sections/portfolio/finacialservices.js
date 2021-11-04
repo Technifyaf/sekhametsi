@@ -46,7 +46,7 @@ const Financialservices = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.row}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/_NIK9787_f61o5i.jpg' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952574/Sekhametsi/_NIK9787_f61o5i.jpg' />
 				</Flex>
 			</Box>
 			<Box sx={Styles.row}>
@@ -67,7 +67,7 @@ const Financialservices = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.row}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991382/_NIK9869_lf3euy.jpg' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617991382/Sekhametsi/_NIK9869_lf3euy.jpg' />
 				</Flex>
 			</Box>
 		</Container>

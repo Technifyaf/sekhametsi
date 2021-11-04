@@ -33,7 +33,7 @@ const Whatwedo = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.col}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617998425/sdt_okwlto.jpg' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617998425/Sekhametsi/sdt_okwlto.jpg' />
 				</Flex>
 			</Box>
 		</Container>

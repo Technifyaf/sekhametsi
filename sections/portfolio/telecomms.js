@@ -38,7 +38,7 @@ const Telecomms = () => {
 					</Box>
 				</Flex>
 				<Flex sx={Styles.row}>
-					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952615/_NIK9774_ebbv6w.jpg ' />
+					<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952609/Sekhametsi/_NIK9772_b7hsp8.jpg' />
 				</Flex>
 			</Box>
 		</Container>

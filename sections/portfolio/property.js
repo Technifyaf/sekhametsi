@@ -57,7 +57,7 @@ const Property = () => {
 						</Box>
 					</Flex>
 					<Flex sx={styles.row}>
-						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952603/_NIK9769_nx9nc6.jpg ' />
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952594/Sekhametsi/_NIK9765_odacxn.jpg' />
 					</Flex>
 					
 				</Box>
@@ -83,7 +83,7 @@ const Property = () => {
 						</Box>
 					</Flex>
 					<Flex sx={styles.row}>
-						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952554/_NIK9747_bcs9m1.jpg' />
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952554/Sekhametsi/_NIK9747_bcs9m1.jpg' />
 					</Flex>
 					
 				</Box>
@@ -107,7 +107,7 @@ const Property = () => {
 						</Box>
 					</Flex>
 					<Flex sx={styles.row}>
-						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/_NIK9780_xlkco8.jpg ' />
+						<Image src='https://res.cloudinary.com/did2sewpc/image/upload/v1617952625/Sekhametsi/_NIK9780_xlkco8.jpg' />
 					</Flex>
 					
 				</Box>

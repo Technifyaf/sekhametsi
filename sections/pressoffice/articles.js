@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const favoriteCourseData = [
   {
     title: 'The Genesis of Sekhametsi',
-    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997825/WhatsApp_Image_2021-04-09_at_9.49.21_PM_f8rquw.jpg',
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997825/Sekhametsi/WhatsApp_Image_2021-04-09_at_9.49.21_PM_f8rquw.jpg',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '2,538 reads',
     videoLink: 'https://www.thepost.co.ls/news/the-genesis-of-sekhametsi/',
@@ -22,7 +22,7 @@ const favoriteCourseData = [
   {
     title:
       'Mustard seed',
-    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997925/WhatsApp_Image_2021-04-09_at_9.51.24_PM_qxvpul.jpg',
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1636013605/Sekhametsi/_NIK9898_vcsj27.jpg',
     reviewCount: '4.5 (524 reviews)',
     watchCount: '3,532 reads',
     videoLink: 'https://www.thepost.co.ls/news/sekhametsi-the-mustard-seed/',
@@ -31,7 +31,7 @@ const favoriteCourseData = [
   {
     title:
       'Great Leap of faith',
-    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1617997996/WhatsApp_Image_2021-04-09_at_9.52.43_PM_dsmwu2.jpg',
+    image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1619077759/WhatsApp_Image_2021-04-16_at_10.12.38_PM_b3uusu.jpg',
     reviewCount: '5.0 (392 reviews)',
     watchCount: '1,037 reads',
     videoLink: 'https://www.thepost.co.ls/news/a-great-leap-of-faith/',
