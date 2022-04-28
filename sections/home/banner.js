@@ -21,14 +21,14 @@ import AwesomeSliderStyles from '../../styles/styles.module.css';
 const slides = [
 	
 	{
-		title: 'Dubai Expo 2020',
+		title: 'ANNUAL GENERAL MEETING',
 		description:
-			'Sekhametsi Consortium was part of the Lesotho private sector delegation in Dubai Expo 2020',
-		button: 'Download presentation',
+			'All shareholders of Sekhametsi Investment Consortium Ltd are invited to the Annual General Meeting .',
+		button: 'Download notice',
 		image: 'https://res.cloudinary.com/did2sewpc/image/upload/v1636019237/Sekhametsi/dubai_ysa7pu.jpg',
 		user: 'Daniel',
 		userProfile: 'https://s7.postimg.cc/abavelo3v/1_3x.png',
-		link: 'https://drive.google.com/file/d/1_XbrmnC6IxTv1S4_CVUJaaRtqZ4bJllG/view?usp=sharing',
+		link: 'https://drive.google.com/file/d/1FZFY-RrLnz_xjxatV2G0BJb_60fwOyO3/view?usp=sharing',
 	},
 	
 	{
