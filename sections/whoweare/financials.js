@@ -16,6 +16,15 @@ const favoriteCourseData = [
   
   {
     title:
+    'AFS 2021',
+    image: fevCardImageThree,
+    reviewCount: '5.0 (392 reviews)',
+   // watchCount: '0 downloads',
+    videoLink: 'https://drive.google.com/file/d/15-WEQ819t0fGWGmnJPjlKM9r6Ui9_aTk/view?usp=sharing',
+    starCount: 5,
+  },
+  {
+    title:
     'AFS 2020',
     image: fevCardImageThree,
     reviewCount: '5.0 (392 reviews)',
