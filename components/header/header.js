@@ -17,7 +17,19 @@ import 'react-dropdown/style.css';
 
 export default function Header({ className }) {
 
-
+// download pdf file
+const downloadPdf = () => {
+    fetch("sekhametsi.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // new pdf object
+        const fileURL = window.URL.createObjectURL(blob);
+        const alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "sekhametsi.pdf";
+        alink.click();
+      });
+    });
+  };
 
 const options = [
   'one', 'two', 'three'
@@ -31,21 +43,17 @@ const defaultOption = options[0];
 					<Logo />
 
 					<Flex as='nav' sx={styles.nav}>
-						{menuItems.map(({ path, label }, i) => (
-						<ul sx ={styles.nav.navLink}
-						>	
-							<Link
-								activeClass='active'
-								//sx = {styles.nav.navLink}
-								href={path}
-								key={i}
-							
-							>
-								{label}
-							</Link>
-							</ul>
-						))}
-					</Flex>
+					{menuItems.map(({ path, label }, i) => (
+                     <ul sx={styles.nav.navLink} key={i}>
+                       {path === '/' ? (
+                         <a onClick={downloadPdf}> {label}</a>
+                          ) : (
+                         <Link activeClass='active' href={path}>{label}</Link>
+                      )   }
+                    </ul>
+                ))}
+
+</Flex>
 
 					<a
 						href='/faq'

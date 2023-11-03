@@ -13,6 +13,10 @@ export default [
       label: 'Portfolio',
     },
     {
+      path: '/',
+      label: 'Tenders',
+    },
+    {
       path: '/gallery',
       label: 'Gallery',
     },
@@ -27,6 +31,6 @@ export default [
     {
       path: '/contact',
       label: 'Contact',
-    },
+    }, 
  ];
   
