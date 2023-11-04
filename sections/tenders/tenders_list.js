@@ -15,6 +15,8 @@ const favoriteCourseData = [
   },
 ];
 
+
+
 const FavoriteCourse = () => {
   const FavoriteCarousel = {
     spaceBetween: 50,
