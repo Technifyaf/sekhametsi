@@ -10,7 +10,7 @@ import TenderCard from '../../components/cards/tender-card';
 const favoriteCourseData = [
   {
     title:
-    'Investment Consortium_ ver 261023',
+    'EoI for Foresic Audic',
     tenderLink: 'sekhametsi.pdf',
   },
 ];
