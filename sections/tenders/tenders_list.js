@@ -10,7 +10,7 @@ import TenderCard from '../../components/cards/tender-card';
 const favoriteCourseData = [
   {
     title:
-    'EoI for Foresic Audic',
+    'EoI for Foresic Audit',
     tenderLink: 'sekhametsi.pdf',
   },
 ];
