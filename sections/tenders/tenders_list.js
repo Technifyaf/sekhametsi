@@ -11,7 +11,7 @@ const favoriteCourseData = [
   {
     title:
     'EoI for Foresic Audit',
-    tenderLink: 'sekhametsi.pdf',
+    tenderLink: 'EoI_for_Foresic_Audit.pdf',
   },
 ];
 
