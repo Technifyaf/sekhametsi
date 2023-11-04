@@ -10,7 +10,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import FinancialCard from '../../components/cards/financial-card';
 
 
-
 const favoriteCourseData = [
 
   

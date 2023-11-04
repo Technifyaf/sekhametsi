@@ -1,7 +1,7 @@
 export default [
 
 
-  
+
   {
     path: '/whoweare',
     label: 'Our story',
@@ -15,7 +15,7 @@ export default [
     label: 'Portfolio',
   },
   {
-    path: '/',
+    path: '/tenders',
     label: 'Tenders',
   },
   {

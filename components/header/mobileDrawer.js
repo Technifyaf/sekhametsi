@@ -33,20 +33,6 @@ const social = [
 const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
 
-  // download pdf file
-  const downloadPdf = () => {
-  fetch("sekhametsi.pdf").then((response) => {
-    response.blob().then((blob) => {
-      // new pdf object
-      const fileURL = window.URL.createObjectURL(blob);
-      const alink = document.createElement("a");
-      alink.href = fileURL;
-      alink.download = "sekhametsi.pdf";
-      alink.click();
-    });
-  });
-};
-
   // Toggle drawer
   const toggleHandler = React.useCallback(() => {
     dispatch({
@@ -74,11 +60,15 @@ const MobileDrawer = () => {
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
              <ul sx={styles.nav.navLink}>	
-             {path === '/' ? (
-                  <a onClick={downloadPdf}>{label}</a>
-                ) : (
-                  <Link activeClass='active' href={path}>{label}</Link>
-                )}
+             <Link
+               activeClass='active'
+               //sx = {styles.nav.navLink}
+               href={path}
+             
+               key={i}
+             >
+               {label}
+             </Link>
              </ul>
             ))}
           </Box>
