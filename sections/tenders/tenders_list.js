@@ -10,12 +10,10 @@ import TenderCard from '../../components/cards/tender-card';
 const favoriteCourseData = [
   {
     title:
-    'EoI for Foresic Audit',
+    'EoI for Forensic Audit',
     tenderLink: 'EoI for Forensic Audit.pdf',
   },
 ];
-
-
 
 const FavoriteCourse = () => {
   const FavoriteCarousel = {
